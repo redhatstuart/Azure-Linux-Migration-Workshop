@@ -14,28 +14,28 @@ Planned Locations:
   </tr>
   <tr>
     <td>Dallas, TX</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">Microsoft Office - Las Colinas</a></td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">MTC - Las Colinas</a></td>
     <td>Tuesday 11/28/2017</td>
     <td>Microsoft-led</td>
     <td>Partner Workshop Readiness Session</td>
   </tr>
   <tr>
     <td>Irvine, CA</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/irvine.aspx" target="_blank">Microsoft Office - Irvine</a></td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/irvine.aspx" target="_blank">MTC - Irvine</a></td>
     <td>Monday 12/4/2017</td>
     <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
     <td>Available for Registration!</td>
   </tr>
   <tr>
     <td>New York City, NY</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/new-york.aspx" target="_blank">Microsoft Office - New York City</a></td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/new-york.aspx" target="_blank">MTC - New York City</a></td>
     <td>Tuesday 12/5/2017</td>
     <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
     <td>Available for Registration!</td>
   </tr>
   <tr>
     <td>Dallas, TX</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">Microsoft Office - Las Colinas</a></td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">MTC - Las Colinas</a></td>
     <td>Monday 12/18/2017</td>
     <td><a href="https://www.concurrency.com/" target="_blank">Concurrency</a></td>
     <td>Available for Registration!</td>
