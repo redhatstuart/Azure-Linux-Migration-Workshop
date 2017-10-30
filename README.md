@@ -6,11 +6,11 @@ Planned Locations:
 
 <table border="3" cellpadding="3" cellspacing="3">
   <tr>
-    <td>City</td>
-    <td>Location</td>
-    <td>Date</td>
-    <td>Contributing Partner</td>
-    <td>Notes</td>
+    <td><strong>City</strong></td>
+    <td><strong>Location</strong></td>
+    <td><strong>Date</strong></td>
+    <td><strong>Contributing Partner</strong></td>
+    <td><strong>Notes</strong></td>
   </tr>
   <tr>
     <td>Dallas, TX</td>
@@ -42,7 +42,7 @@ Planned Locations:
   </tr>
 </table>
 
-Other Cities to be added:
+Cities to be added:
 
 <ul>
 <li>Atlanta</li>
