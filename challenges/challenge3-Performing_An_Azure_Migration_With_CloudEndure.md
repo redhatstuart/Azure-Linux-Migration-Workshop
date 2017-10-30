@@ -1,4 +1,4 @@
-# Performing a Linux host migration to Azure with CloudEndure
+# Performing a Linux migration to Azure with CloudEndure
 
 ## Expected Outcome
 

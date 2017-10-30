@@ -1,4 +1,4 @@
-# Analyzing the value of a migration to Azure including dependency mapping and financial analysis
+# Analyzing the value of a migration to Azure<br>Review dependency mappings & financial analyses
 
 ## Expected Outcome
 
