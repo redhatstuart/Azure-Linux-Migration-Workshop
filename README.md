@@ -1,8 +1,8 @@
 # Azure Linux Migration Workshop<hr>Analyzing, Migrating, Deploying and Modernizing Linux workloads in Microsoft Azure
 
-This repository contains the challenge exercises for the Azure Linux Migration Workshop program. You will find a copy of the event schedule, challenge exercises, solutions, and presentations.
+This repository contains practical exercises for the Azure Linux Migration Workshop program. Here you will find a copy of the event schedule, challenge exercises, solutions, and presentations.
 
-Planned Locations:
+Confirmed Locations:
 
 <table border="3" cellpadding="3" cellspacing="3">
   <tr>
