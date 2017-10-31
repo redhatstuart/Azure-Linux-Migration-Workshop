@@ -59,36 +59,36 @@
  </tr>
 <tr>
    <td>1:15 PM</td>
-   <td>1:30 PM</td>
+   <td>1:45 PM</td>
    <td>Overview of Cloud Analysis Tools</td>
    <td>Powerpoint</td>
  </tr>
 <tr>
-   <td>1:30 PM</td>
-   <td>2:45 PM</td>
+   <td>1:45 PM</td>
+   <td>3:00 PM</td>
    <td>Challenge 4</td>
    <td>Hands-On / Hackathon</td>
  </tr>
 <tr>
-   <td>2:45 PM</td>
    <td>3:00 PM</td>
+   <td>3:15 PM</td>
    <td>Break</td>
    <td>&nbsp;</td>
  </tr>
 <tr>
-   <td>3:00 PM</td>
-   <td>3:30 PM</td>
+   <td>3:15 PM</td>
+   <td>3:45 PM</td>
    <td>Overview of Modernization Opportunities / Next Steps</td>
    <td>Powerpoint</td>
  </tr>
 <tr>
-   <td>3:30 PM</td>
-   <td>4:30 PM</td>
+   <td>3:45 PM</td>
+   <td>4:45 PM</td>
    <td>Challenge 5</td>
    <td>Hands-On / Hackathon</td>
  </tr>
 <tr>
-   <td>4:30 PM</td>
+   <td>4:45 PM</td>
    <td>5:00 PM</td>
    <td>Overflow / Q&A</td>
    <td>&nbsp;</td>
