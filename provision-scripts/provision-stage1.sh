@@ -49,7 +49,7 @@ echo "**************************************************************************
 echo "********************************************************************************************"
 	echo "Installing noVNC environment"
 	yum -y install novnc python-websockify numpy tigervnc-server
-	wget --quiet --no-check-certificate -P /etc/systemd/system https://wolverine.itscloudy.af/liftshift/websockify.service
+        wget --quiet -P /var/lib/libvirt/images https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/websockify.service
 	wget --quiet --no-check-certificate -P /etc/systemd/system "https://wolverine.itscloudy.af/liftshift/vncserver@:4.service"
 	openssl req -x509 -nodes -newkey rsa:2048 -keyout /etc/pki/tls/certs/novnc.pem -out /etc/pki/tls/certs/novnc.pem -days 365 -subj "/C=US/ST=Michigan/L=Ann Arbor/O=Lift And Shift/OU=Lift And Shift/CN=stkirk.cloud"
 	su -c "mkdir .vnc" - student
@@ -66,7 +66,7 @@ echo "**************************************************************************
 echo "********************************************************************************************"
 	echo "Downloading CentOS ISO from wolverine server"
 	wget --quiet --no-check-certificate -P /var/lib/libvirt/images https://wolverine.itscloudy.af/liftshift/CentOS-7-x86_64-Minimal-1708.iso
-	wget --quiet --no-check-certificate -P /var/lib/libvirt/images https://wolverine.itscloudy.af/liftshift/migrate-host-ks.cfg
+        wget --quiet -P /var/lib/libvirt/images https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/migrate-host-ks.cfg
         chown qemu:qemu /var/lib/libvirt/images/*
         restorecon -rv /var/lib/libvirt/images/*
 
