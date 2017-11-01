@@ -10,6 +10,7 @@ echo "**************************************************************************
              echo -n "." >> /root/lsprovision.log
              sleep 10
            else
+             echo " " >> /root/lsprovision.log
              break
            fi
         done
