@@ -37,7 +37,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Washington, DC (Reston)</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/reston.aspx" target="_blank">MTC - Reston</a></td>
     <td>Tuesday 12/13/2017</td>
-    <td>TBD</td>
+    <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
     <td>Available for Registration!</td>
   </tr>
   <tr>
