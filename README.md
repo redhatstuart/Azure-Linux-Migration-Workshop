@@ -6,11 +6,11 @@ This repository contains practical exercises for the Azure Linux Migration Works
 
 <table border="3" cellpadding="3" cellspacing="3">
   <tr>
-    <td><strong><h2>City</h2></strong></td>
-    <td><strong><h2>Location</h2></strong></td>
-    <td><strong><h2>Date</strong></h2></td>
-    <td><strong><h2>Contributing Partner</h2></strong></td>
-    <td><strong><h2>Notes</h2></strong></td>
+    <td><strong><font size="+1">City</font></strong></td>
+    <td><strong><font size="+1">Location</font></strong></td>
+    <td><strong><font size="+1">Date</strong></font></td>
+    <td><strong><font size="+1">Contributing Partner</font></strong></td>
+    <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
     <td>Dallas, TX</td>
