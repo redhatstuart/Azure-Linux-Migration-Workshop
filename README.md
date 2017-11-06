@@ -6,11 +6,11 @@ This repository contains practical exercises for the Azure Linux Migration Works
 
 <table border="3" cellpadding="3" cellspacing="3">
   <tr>
-    <td><strong>City</strong></td>
-    <td><strong>Location</strong></td>
-    <td><strong>Date</strong></td>
-    <td><strong>Contributing Partner</strong></td>
-    <td><strong>Notes</strong></td>
+    <td><strong><h2>City</h2></strong></td>
+    <td><strong><h2>Location</h2></strong></td>
+    <td><strong><h2>Date</strong></h2></td>
+    <td><strong><h2>Contributing Partner</h2></strong></td>
+    <td><strong><h2>Notes</h2></strong></td>
   </tr>
   <tr>
     <td>Dallas, TX</td>
@@ -47,28 +47,37 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><a href="https://www.concurrency.com/" target="_blank">Concurrency</a></td>
     <td>Available for Registration!</td>
   </tr>
+  <tr>
+    <td>Boston, MA</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/boston.aspx" target="_blank">MTC - Boston</a></td>
+    <td>Tuesday 12/19/2017</td>
+    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
+    <td>Available for Registration!</td>
+  </tr>
 </table>
 
-Cities to be added:
+Cities to be added and unconfirmed target dates:
 
 <ul>
-<li>Atlanta - Target 3/7/2018</li>
-<li>Chicago - Target 1/24/2018</li>
-<li>Cincinnati - Target 1/25/2018</li>
-<li>Denver - Target 3/1/2018</li>
-<li>Detroit - Target 2/22/2018</li>
-<li>Houston - Target 2/15/2018</li>
-<li>Miami - Target 2/28/2018</li>
-<li>Nashville - Target 3/22/2018</li>
-<li>Newark - Target 4/5/2018</li>
-<li>Philadelphia - Target 1/18/2018</li>
-<li>Phoenix - Target 2/20/2018</li>
-<li>Raleigh - Target 2/14/2018</li>
-<li>San Francisco (Downtown) - Target 1/15/2018</li>
-<li>San Francisco (Mountain View) - Target 1/17/2018</li>
-<li>Seattle - Target 1/19/2018</li>
-<li>St. Louis - Target 2/13/2018</li>
-<li>Tampa - Target 2/26/2018</li>
+<li>Atlanta - 3/13/2018</li>
+<li>Buffalo - 3/5/2018</li>
+<li>Charlotte - 3/29/2018</li>
+<li>Chicago - 1/24/2018</li>
+<li>Cincinnati - 3/27/2018</li>
+<li>Denver - 3/1/2018</li>
+<li>Detroit - 2/22/2018</li>
+<li>Ft. Lauderdale - 2/28/2018</li>
+<li>Houston - 2/15/2018</li>
+<li>Minneapolis - 2/7/2018</li>
+<li>Nashville - 3/22/2018</li>
+<li>Philadelphia - 1/18/2018</li>
+<li>Phoenix - 2/20/2018</li>
+<li>San Francisco Downtown - 1/15/2018</li>
+<li>San Francisco Mountain View - 1/17/2018</li>
+<li>Seattle - 1/19/2018</li>
+<li>St. Louis - 3/15/2018</li>
+<li>Tampa - 2/26/2018</li>
+<li>Toronto - 1/8/2018</li>
 </ul>
 
 <strong>Updated 11/6/2017</strong>
