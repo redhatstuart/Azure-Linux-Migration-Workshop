@@ -24,35 +24,35 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/irvine.aspx" target="_blank">MTC - Irvine</a></td>
     <td>Monday 12/4/2017</td>
     <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
-    <td>Available for Registration!</td>
+    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x2874891a7b6" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
     <td>New York City, NY</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/new-york.aspx" target="_blank">MTC - New York City</a></td>
     <td>Tuesday 12/5/2017</td>
     <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
-    <td>Available for Registration!</td>
+    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28749861391" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
     <td>Washington, DC (Reston)</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/reston.aspx" target="_blank">MTC - Reston</a></td>
     <td>Wednesday 12/13/2017</td>
     <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
-    <td>Available for Registration!</td>
+    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28756702757" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
     <td>Dallas, TX</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">MTC - Las Colinas</a></td>
     <td>Monday 12/18/2017</td>
     <td><a href="https://www.concurrency.com/" target="_blank">Concurrency</a></td>
-    <td>Available for Registration!</td>
+    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x2875746f50c" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
     <td>Boston, MA</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/boston.aspx" target="_blank">MTC - Boston</a></td>
     <td>Tuesday 12/19/2017</td>
     <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
-    <td>Available for Registration!</td>
+    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28540487027" target="_blank">Available for Registration!</a></td>
   </tr>
 </table>
 
