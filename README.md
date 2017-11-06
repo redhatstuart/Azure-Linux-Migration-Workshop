@@ -2,7 +2,7 @@
 
 This repository contains practical exercises for the Azure Linux Migration Workshop program. Here you will find a copy of the event schedule, challenge exercises, solutions, and presentations.
 
-Confirmed Locations:
+<strong>Confirmed Locations:</strong>
 
 <table border="3" cellpadding="3" cellspacing="3">
   <tr>
@@ -34,6 +34,13 @@ Confirmed Locations:
     <td>Available for Registration!</td>
   </tr>
   <tr>
+    <td>Washington, DC (Reston)</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/reston.aspx" target="_blank">MTC - Reston</a></td>
+    <td>Tuesday 12/13/2017</td>
+    <td>TBD</td>
+    <td>Available for Registration!</td>
+  </tr>
+  <tr>
     <td>Dallas, TX</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">MTC - Las Colinas</a></td>
     <td>Monday 12/18/2017</td>
@@ -45,22 +52,24 @@ Confirmed Locations:
 Cities to be added:
 
 <ul>
-<li>Atlanta - Target TBD</li>
+<li>Atlanta - Target 3/7/2018</li>
 <li>Chicago - Target 1/24/2018</li>
-<li>Cincinnati - Target TBD</li>
-<li>Denver - Target TBD</li>
-<li>Detroit - Target TBD</li>
-<li>Houston - Target TBD</li>
+<li>Cincinnati - Target 1/25/2018</li>
+<li>Denver - Target 3/1/2018</li>
+<li>Detroit - Target 2/22/2018</li>
+<li>Houston - Target 2/15/2018</li>
 <li>Miami - Target 2/28/2018</li>
-<li>Nashville - Target TBD</li>
+<li>Nashville - Target 3/22/2018</li>
 <li>Newark - Target 4/5/2018</li>
 <li>Philadelphia - Target 1/18/2018</li>
-<li>Phoenix - Target TBD</li>
-<li>Raleigh - Target TBD</li>
-<li>San Francisco - Target TBD</li>
-<li>Seattle - Target TBD</li>
-<li>St. Louis - Target TBD</li>
+<li>Phoenix - Target 2/20/2018</li>
+<li>Raleigh - Target 2/14/2018</li>
+<li>San Francisco (Downtown) - Target 1/15/2018</li>
+<li>San Francisco (Mountain View) - Target 1/17/2018</li>
+<li>Seattle - Target 1/19/2018</li>
+<li>St. Louis - Target 2/13/2018</li>
 <li>Tampa - Target 2/26/2018</li>
-<li>Washington, DC - Target TBD</li>
 </ul>
+
+<strong>Updated 11/6/2017</strong>
 
