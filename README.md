@@ -77,8 +77,8 @@ Cities to be added and unconfirmed target dates:
 <li>Seattle - 1/19/2018</li>
 <li>St. Louis - 3/15/2018</li>
 <li>Tampa - 2/26/2018</li>
-<li>Toronto - 1/8/2018</li>
+<li>Toronto - 1/16/2018</li>
 </ul>
 
-<strong>Updated 11/6/2017</strong>
+<strong>Updated 11/7/2017</strong>
 
