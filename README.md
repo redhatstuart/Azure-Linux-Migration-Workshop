@@ -13,9 +13,9 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Dallas, TX</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">MTC - Las Colinas</a></td>
-    <td>Tuesday 11/28/2017</td>
+    <td>Virtual</td>
+    <td>Virtual</a></td>
+    <td>Thursday 11/30/2017</td>
     <td>Microsoft-led</td>
     <td>Partner Workshop Readiness Session</td>
   </tr>
