@@ -37,21 +37,21 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Washington, DC (Reston)</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/reston.aspx" target="_blank">MTC - Reston</a></td>
     <td>Wednesday 12/13/2017</td>
-    <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
+    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a>/td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28756702757" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
     <td>Dallas, TX</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">MTC - Las Colinas</a></td>
     <td>Monday 12/18/2017</td>
-    <td><a href="https://www.concurrency.com/" target="_blank">Concurrency</a></td>
+    <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x2875746f50c" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
     <td>Boston, MA</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/boston.aspx" target="_blank">MTC - Boston</a></td>
     <td>Tuesday 12/19/2017</td>
-    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
+    <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28540487027" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
@@ -86,5 +86,5 @@ Cities to be added and unconfirmed target dates:
 <li>Tampa - 2/26/2018</li>
 </ul>
 
-<strong>Updated 11/7/2017</strong>
+<strong>Updated 11/8/2017</strong>
 
