@@ -37,7 +37,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Washington, DC (Reston)</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/reston.aspx" target="_blank">MTC - Reston</a></td>
     <td>Wednesday 12/13/2017</td>
-    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a>/td>
+    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28756702757" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
