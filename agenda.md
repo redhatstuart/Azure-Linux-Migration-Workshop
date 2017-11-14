@@ -84,7 +84,7 @@
 <tr>
    <td>3:45 PM</td>
    <td>4:45 PM</td>
-   <td>Challenge 5</td>
+   <td>Optional Challenges</td>
    <td>Hands-On / Hackathon</td>
  </tr>
 <tr>
