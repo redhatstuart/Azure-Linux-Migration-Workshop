@@ -67,7 +67,6 @@ Cities to be added and unconfirmed target dates:
 
 <ul>
 <li>Atlanta - 3/13/2018</li>
-<li>Buffalo - 3/5/2018</li>
 <li>Charlotte - 3/29/2018</li>
 <li>Chicago - 1/24/2018</li>
 <li>Cincinnati - 3/27/2018</li>
@@ -79,6 +78,7 @@ Cities to be added and unconfirmed target dates:
 <li>Nashville - 3/22/2018</li>
 <li>Philadelphia - 1/18/2018</li>
 <li>Phoenix - 2/20/2018</li>
+<li>Rochester - 3/5/2018</li>
 <li>San Francisco Downtown - 1/15/2018</li>
 <li>San Francisco Mountain View - 1/17/2018</li>
 <li>Seattle - 1/19/2018</li>
@@ -86,5 +86,5 @@ Cities to be added and unconfirmed target dates:
 <li>Tampa - 2/26/2018</li>
 </ul>
 
-<strong>Updated 11/15/2017</strong>
+<strong>Updated 11/16/2017</strong>
 
