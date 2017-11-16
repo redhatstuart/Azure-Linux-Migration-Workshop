@@ -51,7 +51,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Boston, MA</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/boston.aspx" target="_blank">MTC - Boston</a></td>
     <td>Tuesday 12/19/2017</td>
-    <td>-</td>
+    <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28540487027" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
@@ -86,5 +86,5 @@ Cities to be added and unconfirmed target dates:
 <li>Tampa - 2/26/2018</li>
 </ul>
 
-<strong>Updated 11/14/2017</strong>
+<strong>Updated 11/15/2017</strong>
 
