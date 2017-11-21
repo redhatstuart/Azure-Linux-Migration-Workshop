@@ -58,6 +58,23 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Populated Replication Settings](./images/cerepsettings-2.jpg)
 
-    * After the information is saved, you are now ready to configure your host for migration. 
+    * After the information is saved, you are now ready to configure your host for migration. Click on "Show Me How"
 
       ![Completed Replication Settings](./images/cerepsettings-3.jpg)
+
+6. <strong>Verify SSH access to the migrate-host virtual machine and prepare it for migration to Microsoft Azure</strong>
+
+    * Determine the IP address of the migrate-host virtual machine. This should be contained in a text file on your CentOS desktop
+    * SSH to the migrate-host virtual machine using the IP address and credentials provided
+    * Determine if the required Hyper-V drivers are already installed on the migrate-host virtual machine
+    * Edit the /etc/dracut.conf file and force-add the Hyper-V drivers
+    * Re-make the initramfs of the migrate-host
+    * Verify that the Hyper-V drivers are now installed on the migrate-host virtual machine
+
+7. <strong>Deploy the CloudEndure Migration Agent onto the migrate-host virtual machine</strong>
+
+    * Navigate to the "Machines" tab. The required commands to execute are present on this screen; You will be downloading and installing the CloudEndure migration agent.
+
+      ![Install CE Agent](./images/ceagentinstall-1.jpg) 
+
+    * 
