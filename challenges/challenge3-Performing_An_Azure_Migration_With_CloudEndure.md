@@ -66,10 +66,24 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
     * Determine the IP address of the migrate-host virtual machine. This should be contained in a text file on your CentOS desktop
     * SSH to the migrate-host virtual machine using the IP address and credentials provided
+
+      ![SSH to migrate-host VM](./images/prephost-1.jpg)
+
     * Determine if the required Hyper-V drivers are already installed on the migrate-host virtual machine
+
+      ![Check for HV Drivers](./images/prephost-2.jpg)
+
     * Edit the /etc/dracut.conf file and force-add the Hyper-V drivers required for operation within Microsoft Azure
+
+      ![Edit Dracut](./images/prephost-3.jpg)
+
     * Re-make the initramfs of the migrate-host
+
+      ![Remake Initramfs](./images/prephost-4.jpg)
+
     * Verify that the Hyper-V drivers are now installed on the migrate-host virtual machine
+
+      ![Check for HV Drivers](./images/prephost-5.jpg)
 
 7. <strong>Deploy the CloudEndure Migration Agent onto the migrate-host virtual machine</strong>
 
