@@ -50,14 +50,14 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
 5. <strong>Define the target Replication Settings and specify an Azure Data Center location</strong>
 
-    * After the Service Principal information is entered and saved, you will need to select the target Azure Data Center location for your CloudEndure migration project.
+    * After the Service Principal information is entered and saved, you will need to select the target Azure Data Center location for your CloudEndure migration project. Select the "Live Migration Target" drop-down and choose the Azure Data Center that is located physically closest to you.
 
       ![Populate Blank Replication Settings](./images/cerepsettings-1.jpg)
 
-    * Select the "Live Migration Target" drop-down and choose the Azure Data Center that is located physically closest to you
+    * In this case, "East US 2" was chosen. After the Azure Data Center is chosen, you may specify which existing virtual network you would like the migrated hosts to be connected to.  In this case, the populated value of <strong>Default</strong> can remain.
 
       ![Populated Replication Settings](./images/cerepsettings-2.jpg)
 
-    * In this case, "East US 2" was chosen. After the Azure Data Center is chosen, you may specify which existing virtual network you would like the migrated hosts to be connected to.  In this case, the populated value of <strong>Default</strong> can remain. 
+    * After the information is saved, you are now ready to configure your host for migration. 
 
       ![Completed Replication Settings](./images/cerepsettings-3.jpg)
