@@ -11,8 +11,7 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
         * ![SignUp](./images/signup.png)
     * Once you select submit, **DO NOT CLOSE THE BROWSER**.
     * On the Lab and Overview page, navigate to the Lab tab and then select Launch Lab
-        * ![Overview](./images/overview.png)
-        * ![Launch Lab](./images/launch.png)
+        * ![Launch Lab](./images/launch2.png)
     * The Lab will begin to deploy. **DO NOT CLOSE THE BROWSER**. This will take some time but the needed credentials will be presented on the page when the provisioning is complete.
         * ![Preparing Lab](./images/preparing.png)
     * Your credentials will be emails to your signup email address as well as presented on the screen
