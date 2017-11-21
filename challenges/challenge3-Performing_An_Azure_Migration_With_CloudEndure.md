@@ -50,7 +50,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
 5. <strong>Define the target Replication Settings and specify an Azure Data Center location</strong>
 
-    * After the Service Principal information is entered and saved, you will need to select the target Azure Data Center location for your CloudEndure migration project. Select the "Live Migration Target" drop-down and choose the Azure Data Center that is located physically closest to you.
+    * After the Service Principal information is entered and saved, you will need to select the target Azure Data Center location for your CloudEndure migration project. Select the "Live Migration Target" drop-down and choose the Azure Data Center "Azure ARM East US 2", "Azure ARM Central US", or "Azure ARM West US 2".
 
       ![Populate Blank Replication Settings](./images/cerepsettings-1.jpg)
 
@@ -77,4 +77,11 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Install CE Agent](./images/ceagentinstall-1.jpg) 
 
-    * 
+    * Download and install the CloudEndure Migration Agent
+
+8. <strong>Execute a test migration</strong>
+
+9. <strong>Verify connectivity to the migrated virtual machine</strong>
+
+10. <strong>Perform a migration cut-over</strong>
+
