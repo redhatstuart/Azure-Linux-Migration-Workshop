@@ -67,7 +67,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
     * Determine the IP address of the migrate-host virtual machine. This should be contained in a text file on your CentOS desktop
     * SSH to the migrate-host virtual machine using the IP address and credentials provided
     * Determine if the required Hyper-V drivers are already installed on the migrate-host virtual machine
-    * Edit the /etc/dracut.conf file and force-add the Hyper-V drivers
+    * Edit the /etc/dracut.conf file and force-add the Hyper-V drivers required for operation within Microsoft Azure
     * Re-make the initramfs of the migrate-host
     * Verify that the Hyper-V drivers are now installed on the migrate-host virtual machine
 
