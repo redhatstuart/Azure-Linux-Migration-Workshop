@@ -106,7 +106,12 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Verify Migrate Host](./images/cetestmigrate-3.jpg)
 
+    * Execute a "test" migration; This will start the migration process.
+
 9. <strong>Verify connectivity to the migrated virtual machine</strong>
+
+    * Determine the IP address of the migrated virtual machine
+    * SSH to the virtual machine
 
 10. <strong>Perform a migration cut-over</strong>
 
