@@ -20,7 +20,9 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 2. <strong>Log in to the CloudEndure Console</strong>
     * Login:  http://www.cloudendure.com
 
-3. <strong>You will be presented with a dashboard which will allow you to select the type of project you wish you control.</strong>
+3. <strong>Set Up CloudEndure</strong>
+
+   * You will be presented with a dashboard which will allow you to select the type of project you wish you control.
 
      ![CloudEndure Dashboard](./images/celogin-1.jpg)
 
@@ -32,16 +34,18 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![CloudEndure Dismiss Alert](./images/celogin-3.jpg)
 
-4. You must now configure CloudEndure to connect to Microsoft Azure. A service principal has been created for you as part of this challenge exercise and will allow CloudEndure to connect to your subscription.
+4. <strong>Populate Service Principal Information to CloudEndure console</strong>
+
+    * You must now configure CloudEndure to connect to Microsoft Azure. A service principal has been created for you as part of this challenge exercise and will allow CloudEndure to connect to your subscription.
 
       ![SP Information Screen](./images/sp-information.jpg)
 
-    * Populate the service principal information into the CloudEndure console
+    * Populate the service principal information into the CloudEndure console; Navigate to the "Setup & Info" tab in CloudEndure and then choose the "ARM Credentials" tab.
 
+      ![Populate Blank Service Principal](./images/sp-setup.jpg)
 
-      ![Populate Service Principal](./images/sp-setup.jpg)
+    * Based on the data in this example, the completed page would appear as follows:
 
+      ![Populated Service Principal](./images/sp-populated.jpg)
 
-
-    * Navigate to the "Setup & Info" tab in CloudEndure and then choose the "ARM Credentials" tab.
-
+5.
