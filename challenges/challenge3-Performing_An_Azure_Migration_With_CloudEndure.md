@@ -24,11 +24,11 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
 &nbsp;      ![CloudEndure Dashboard](./images/celogin-1.jpg)
 
-   <strong>Select "Default Migration Project"</strong>
+   *<strong>Select "Default Migration Project"</strong>
 
 &nbsp;      ![CloudEndure Select Project](./images/celogin-2.jpg)
 
-   <strong>You will then receive an alert message indicating that the CloudEndure console has not yet been configured. You may safely click "Continue" as we will configure the console in the next step.</strong>
+   *<strong>You will then receive an alert message indicating that the CloudEndure console has not yet been configured. You may safely click "Continue" as we will configure the console in the next step.</strong>
 
 &nbsp;      ![CloudEndure Dismiss Alert](./images/celogin-3.jpg)
 
