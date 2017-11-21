@@ -46,8 +46,8 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
     * Create the storage account in the resource group you previously created
     * Create a blob container within this storage account
 
-8. Verify you can now have created the resource group and storage account in the portal
-    * If not done soe already, visit ``https://portal.azure.com``
+8. Verify you have now created the resource group and storage account in the portal
+    * If not done so already, visit ``https://portal.azure.com``
     
 
 
