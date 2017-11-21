@@ -17,8 +17,8 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
     * Your credentials will be emails to your signup email address as well as presented on the screen
         * ![Credentials](./images/creds-email2.png)
 
-2. Launch your RDP client of choice and enter the url of the jump-box provided for you. Use the AdminUsername and AdminPassword provided in your email
-    *  ![Jumpbox Credentials](./images/jumpboxinfo.png)
+2. Launch your your web browser of choice and enter the url for the noVNC server provided for you. Use the password provided to you in email or on the screen to login.
+    *  ![noVNC Server](./images/vncserver.png)
     * It may take a minute or so at first launch to get the desktop to present. This is normal at first log in.
 
 3. Install Azure CLI (AZ CLI) on your workstation
