@@ -91,9 +91,20 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Install CE Agent](./images/ceagentinstall-1.jpg) 
 
-    * Download and install the CloudEndure Migration Agent
+    * Download the CloudEndure Migration Agent
+
+      ![Download CE Agent](./images/cetestmigrate-1.jpg) 
+
+    * Install the CloudEndure Migration Agent -- hit "Enter" when asked for which disks to replicate
+
+      ![Install CE Agent](./images/cetestmigrate-2.jpg)
+
 
 8. <strong>Execute a test migration</strong>
+
+    * Navigate to the "Machines" tab in the CloudEndure console -- You should see your "migrate-host" registered.
+
+      ![Verify Migrate Host](./images/cetestmigrate-3.jpg)
 
 9. <strong>Verify connectivity to the migrated virtual machine</strong>
 
