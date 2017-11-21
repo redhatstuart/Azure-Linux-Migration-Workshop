@@ -14,5 +14,23 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
     * Visit & fill out the registration page located at:  https://azure-register.cloudendure.com/
     * Check the account for the e-mail address which you entered, and open the email from "Jonathan Bloom" at CloudEndure regarding "Confirm your CloudEndure account request"
     * Click on the link in the e-mail to "complete this form"
-      ![SignUp](./images/ceconfirm.jpg)
 
+      ![Register For CE Account](./images/ceconfirm.jpg)
+
+2. Log in to the CloudEndure Console
+    * Login:  http://www.cloudendure.com
+
+3. You will be presented with a dashboard which will allow you to select the type of project you wish you control.
+
+      ![CloudEndure Dashboard](./images/celogin-1.jpg)
+
+   Select "Default Migration Project"
+
+     ![CloudEndure Select Project](./images/celogin-2.jpg)
+
+   You will then receive an alert message indicating that the CloudEndure console has not yet been configured. You may safely click "Continue" as we will configure the console in the next step.
+
+     ![CloudEndure Dismiss Alert](./images/celogin-3.jpg)
+
+
+4. 
