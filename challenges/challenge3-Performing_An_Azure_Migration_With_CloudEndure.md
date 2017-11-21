@@ -21,9 +21,9 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
     * Login:  http://www.cloudendure.com
 
 3. <strong>You will be presented with a dashboard which will allow you to select the type of project you wish you control.</strong>
-
-      <center> ![CloudEndure Dashboard](./images/celogin-1.jpg) </center>
-
+<p align="center">
+     ![CloudEndure Dashboard](./images/celogin-1.jpg)
+</p>
    * <strong>Select "Default Migration Project"</strong>
 
       <center> ![CloudEndure Select Project](./images/celogin-2.jpg) </center>
