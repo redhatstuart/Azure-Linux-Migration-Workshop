@@ -73,7 +73,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Check for HV Drivers](./images/prephost-2.jpg)
 
-    * Edit the /etc/dracut.conf file and force-add the Hyper-V drivers required for operation within Microsoft Azure
+    * Edit the /etc/dracut.conf file and force-add the Hyper-V drivers required for operation within Microsoft Azure. These were not added at the time this host was built since, according to what it could detect, it is running solely inside a KVM hypervisor and as such the Hyper-V drivers are not required. 
 
       ![Edit Dracut](./images/prephost-3.jpg)
 
