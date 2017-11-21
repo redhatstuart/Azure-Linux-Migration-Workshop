@@ -15,7 +15,11 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
     * Check the account for the e-mail address which you entered, and open the email from "Jonathan Bloom" at CloudEndure regarding "Confirm your CloudEndure account request"
     * Click on the link in the e-mail to "complete this form"
 
-      <center>![Register For CE Account](./images/ceconfirm.jpg)</center>
+<p align="center">
+
+      ![Register For CE Account](./images/ceconfirm.jpg)
+
+</p>
 
 2. <strong>Log in to the CloudEndure Console</strong>
     * Login:  http://www.cloudendure.com
@@ -32,4 +36,20 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![CloudEndure Dismiss Alert](./images/celogin-3.jpg)
 
-4. 
+4. You must now configure CloudEndure to connect to Microsoft Azure. A service principal has been created for you as part of this challenge exercise and will allow CloudEndure to connect to your subscription.
+
+<p align="center">
+
+      ![SP Information Screen](./images/sp-information.jpg)
+
+</p>
+
+    * Populate the service principal information into the CloudEndure console
+
+
+      ![Populate Service Principal](./images/sp-setup.jpg)
+
+
+
+    * Navigate to the "Setup & Info" tab in CloudEndure and then choose the "ARM Credentials" tab.
+
