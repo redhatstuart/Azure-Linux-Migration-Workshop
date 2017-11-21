@@ -11,7 +11,7 @@ In this lab, you will get introduced to the new Azure Container Service (AKS). A
     
 2. Now that you have confirmed that you have access to the AKS provider, go ahead and create your first cluster.
     * Use the ``az aks`` command to create your cluster
-    * You only need to provide resource group, name, node count, and what SSH authentication mechanism to use
+    * You will need to provide service principal credentials, resource group, name, node count, and what SSH authentication mechanism to use
     * If you get stuck, check out the Azure CLI reference for AKS commands: [AZ CLI Reference](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
 
 3. Connect to your Kubernetes cluster through the terminal
