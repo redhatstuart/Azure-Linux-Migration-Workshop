@@ -50,6 +50,7 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
     * Attach a 5GB external disk to the new virtual machine
     * Determine the name of the public IP address resource assigned to the new virtual machine
     * Configure a FQDN on the public IP address of the new virtual machine -- use the format "firstname-lastname-azure"
+    * Verify the FQDN has been configured on the new virtual machine's IP address resource
 
 9. Verify your changes
 
