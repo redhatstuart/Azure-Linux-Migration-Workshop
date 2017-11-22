@@ -2,7 +2,7 @@
 
 ## Expected outcome
 
-In this lab, you will prepare your workstation VM for using the Azure CLI, sign in, and utilize the Azure CLI to deploy basic Azure resources. You will need to have an RDP client on your local PC and access to the web to launch our Hackfest Workstation VM.
+In this lab, you will prepare your workstation VM for using the Azure CLI, sign in, and utilize the Azure CLI to deploy basic Azure resources. You will need to have a browser client on your local PC and access to the web to launch our Hackfest Workstation VM.
 
 ## How to 
 
