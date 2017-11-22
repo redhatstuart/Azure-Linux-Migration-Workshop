@@ -11,8 +11,8 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 ![SignUp](./images/signup.png)
 
-    * Once you select submit, **DO NOT CLOSE THE BROWSER**.
-    * On the Lab and Overview page, navigate to the Lab tab and then select Launch Lab
+ * Once you select submit, **DO NOT CLOSE THE BROWSER**.
+ * On the Lab and Overview page, navigate to the Lab tab and then select Launch Lab
 
 ![Launch Lab](./images/launch2.png)
 
