@@ -20,6 +20,8 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 2. Launch your your web browser of choice and enter the url for the noVNC server provided for you. Use the password provided to you in email or on the screen to login.
     *  ![noVNC Server](./images/vncserver.png)
     * It may take a minute or so at first launch to get the desktop to present. This is normal at first log in.
+    * Once this is completed, go to the terminal and you should be ready to start with the Azure CLI instructions below.
+    * ![noVNC Terminal](./images/vncterminal.png)
 
 3. Install Azure CLI (AZ CLI) on your workstation
     * Azure CLI is available for Mac, Windows and Linux.
