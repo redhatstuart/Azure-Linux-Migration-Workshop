@@ -46,33 +46,43 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 <hr>
 4. <strong>Log in to your student Azure account via the CLI</strong>
 
- * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. Use the credentials provided in your e-mail/Lab Provisioning page.
+ * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. Use the credentials provided in your e-mail/Lab Provisioning page
 
 ![Azure Credentials](./images/azureinfo2.png)
 
- * The password is a onetime password and must be changed at first signing in.
- * Your terminal windows will update with a JSON output of your subscription confirming the login has worked.
+ * The password is a onetime password and must be changed at first signing in
+ * Your terminal windows will update with a JSON output of your subscription confirming the login has worked
 
 <hr>
-5. <strong>Configure Azure CLI Defaults</strong>
+5. <strong>Navigate the portal and find Azure resources</strong>
+ * Go to ``https://portal.azure.com`` and sign in using your credentials provided
+ * Navigate to resource groups on the left hand side, and locate the resource group previously created for you
+ * Note the region in which the resource group is located
+ 
+ ![Azure Portal](./images/portalrg.png)
 
+<hr>
+6. <strong>Configure Azure CLI Defaults</strong>
+
+ * Run ``az vm list`` to verify that your output is currently using JSON
  * Configure AZ CLI to default to table output
+ * Run ``az vm list`` again to check that the output is now using the table format
  * Configure AZ CLI to use the same default location as your resource groups
 
 <hr>
-6. <strong>Determine the name of your working resource group using the AZ CLI</strong>
+7. <strong>Determine the name of your working resource group using the AZ CLI</strong>
 
  * You already have a resource group in your subscription; Query the AZ CLI to determine the name of it
 
 <hr>
-7. <strong>Log into interactive mode and create a new Azure storage account using the AZ CLI</strong>
+8. <strong>Log into interactive mode and create a new Azure storage account using the AZ CLI</strong>
 
  * Make the storage account use Standard Locally Rundandant Storage
  * Create the storage account in the resource group you previously created
  * Create a blob container within this storage account
 
 <hr>
-8. <strong>Verify you have now created the resource group and storage account in the portal</strong>
+9. <strong>Verify you have now created the resource group and storage account in the portal</strong>
 
  * If not done so already, visit ``https://portal.azure.com``
 
