@@ -2,7 +2,7 @@
 
 ## Expected Outcome
 
-This challenge will serve as an extension to Challenge 1.  As part of this challenge exercise users will understand how to query and deploy virtual machines using the Azure Linux CLI.
+This challenge will serve as an extension to Challenge 1.  As part of this challenge exercise users will understand how to query and deploy virtual machines using the Azure Linux CLI as well as perform basic configuration changes to existing virtual machines.
 
 ## Process
 
