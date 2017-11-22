@@ -73,9 +73,12 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
       ![Default Location](./images/defaultloc.png)
 
 <hr>
-7. <strong>Determine the name of your working resource group using the AZ CLI</strong>
+7. <strong>Determine the commands for creating storage accounts using the AZ CLI find command</strong>
 
- * You already have a resource group in your subscription; Query the AZ CLI to determine the name of it
+ * Use the ``az find`` command along with the necessary options to understand how to create a az storage command
+ * Use the --search-query option to help in your search
+ 
+ ![azfind](./images/azfind.png)
 
 <hr>
 8. <strong>Log into interactive mode and create a new Azure storage account using the AZ CLI</strong>
@@ -83,6 +86,8 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
  * Make the storage account use Standard Locally Rundandant Storage
  * Create the storage account in the resource group you previously created
  * Create a blob container within this storage account
+ 
+ ![azinteractive](./images/azinteractive.png)
 
 <hr>
 9. <strong>Verify you have now created the resource group and storage account in the portal</strong>
