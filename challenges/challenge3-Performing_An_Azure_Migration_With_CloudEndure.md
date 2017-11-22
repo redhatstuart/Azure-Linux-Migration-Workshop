@@ -11,18 +11,18 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 ## Process
 
 1. <strong>Register for a CloudEndure account</strong>
-    * Visit & fill out the registration page located at:  https://azure-register.cloudendure.com/
+    * Visit & fill out the registration page located on the white-board at the front of the classroom.
     * Check the account for the e-mail address which you entered, and open the email from "Jonathan Bloom" at CloudEndure regarding "Confirm your CloudEndure account request"
     * Click on the link in the e-mail to "complete this form"
 
       ![Register For CE Account](./images/ceconfirm.jpg)
 
-<br><hr><br>
+<hr>
 
 2. <strong>Log in to the CloudEndure Console</strong>
     * Login:  http://www.cloudendure.com
 
-<br><hr><br>
+<hr>
 
 3. <strong>Set Up CloudEndure</strong>
 
@@ -38,7 +38,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![CloudEndure Dismiss Alert](./images/celogin-3.jpg)
 
-<br><hr><br>
+<hr>
 
 4. <strong>Populate Service Principal Information to CloudEndure console</strong>
 
@@ -54,7 +54,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Populated Service Principal](./images/sp-populated.jpg)
 
-<br><hr><br>
+<hr>
 
 5. <strong>Define the target Replication Settings and specify an Azure Data Center location</strong>
 
@@ -70,7 +70,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Completed Replication Settings](./images/cerepsettings-3.jpg)
 
-<br><hr><br>
+<hr>
 
 6. <strong>Verify SSH access to the migrate-host virtual machine and prepare it for migration to Microsoft Azure</strong>
 
@@ -95,7 +95,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Check for HV Drivers](./images/prephost-5.jpg)
 
-<br><hr><br>
+<hr>
 
 7. <strong>Deploy the CloudEndure Migration Agent onto the migrate-host virtual machine</strong>
 
@@ -121,7 +121,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Initial Sync 2](./images/ceagentinstall-4.jpg)
 
-<br><hr><br>
+<hr>
 
 8. <strong>Execute a test migration</strong>
 
@@ -139,7 +139,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Verify Test Complete](./images/ceagentinstall-7.jpg)
 
-<br><hr><br>
+<hr>
 
 9. <strong>Verify connectivity to the migrated virtual machine</strong>
 
@@ -151,7 +151,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Verify SSH Connectivity](./images/ceagentinstall-9.jpg)
 
-<br><hr><br>
+<hr>
 
 10. <strong>Perform a migration cut-over</strong>
 
