@@ -10,4 +10,4 @@
 9f) az vm list -d
 
 10a) az vm list-vm-resize-options -g <YOUR_RG_NAME> --name <YOUR_VM_NAME>
-10b) az vm resize -g <YOUR_RD_NAME> --name <YOUR_VM_NAME> --size Basic_A1
+10b) az vm resize -g <YOUR_RG_NAME> --name <YOUR_VM_NAME> --size Basic_A1
