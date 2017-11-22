@@ -55,7 +55,7 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
 10. <strong>Re-size the virtual machine</strong>
 
     * Determine the available resize options for the virtual machine
-    * Resize the new virtual machine to a Basic_A1 size
+    * Resize the new virtual machine to a Basic_A2 size
 
 11. <strong>Verify your changes</strong>
 
