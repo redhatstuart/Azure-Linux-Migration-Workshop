@@ -17,8 +17,12 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Register For CE Account](./images/ceconfirm.jpg)
 
+<br><hr><br>
+
 2. <strong>Log in to the CloudEndure Console</strong>
     * Login:  http://www.cloudendure.com
+
+<br><hr><br>
 
 3. <strong>Set Up CloudEndure</strong>
 
@@ -34,6 +38,8 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![CloudEndure Dismiss Alert](./images/celogin-3.jpg)
 
+<br><hr><br>
+
 4. <strong>Populate Service Principal Information to CloudEndure console</strong>
 
     * You must now configure CloudEndure to connect to Microsoft Azure. A service principal has been created for you as part of this challenge exercise and will allow CloudEndure to connect to your subscription.
@@ -48,6 +54,8 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Populated Service Principal](./images/sp-populated.jpg)
 
+<br><hr><br>
+
 5. <strong>Define the target Replication Settings and specify an Azure Data Center location</strong>
 
     * After the Service Principal information is entered and saved, you will need to select the target Azure Data Center location for your CloudEndure migration project. Select the "Live Migration Target" drop-down and choose the Azure Data Center "Azure ARM East US 2", "Azure ARM Central US", or "Azure ARM West US 2".
@@ -61,6 +69,8 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
     * After the information is saved, you are now ready to configure your host for migration. Click on "Show Me How"
 
       ![Completed Replication Settings](./images/cerepsettings-3.jpg)
+
+<br><hr><br>
 
 6. <strong>Verify SSH access to the migrate-host virtual machine and prepare it for migration to Microsoft Azure</strong>
 
@@ -84,6 +94,8 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
     * Verify that the Hyper-V drivers are now installed on the migrate-host virtual machine
 
       ![Check for HV Drivers](./images/prephost-5.jpg)
+
+<br><hr><br>
 
 7. <strong>Deploy the CloudEndure Migration Agent onto the migrate-host virtual machine</strong>
 
@@ -109,6 +121,8 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Initial Sync 2](./images/ceagentinstall-4.jpg)
 
+<br><hr><br>
+
 8. <strong>Execute a test migration</strong>
 
     * On the "Setup & Info" tab, wait for the initial sync to be completed from Step 7
@@ -125,6 +139,8 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Verify Test Complete](./images/ceagentinstall-7.jpg)
 
+<br><hr><br>
+
 9. <strong>Verify connectivity to the migrated virtual machine</strong>
 
     * Determine the IP address of the migrated virtual machine; Double-click on "migrate-host" and explore the newly created "Target" tab
@@ -134,6 +150,8 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
     * SSH to the virtual machine at the IP address provided by CloudEndure; This is your new IP address in Microsoft Azure.
 
       ![Verify SSH Connectivity](./images/ceagentinstall-9.jpg)
+
+<br><hr><br>
 
 10. <strong>Perform a migration cut-over</strong>
 
