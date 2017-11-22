@@ -70,6 +70,8 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
  * Run ``az vm list`` again to check that the output is now using the table format
  * Configure AZ CLI to use the same default location as your resource groups
 
+      ![Default Location](./images/defaultloc.png)
+
 <hr>
 7. <strong>Determine the name of your working resource group using the AZ CLI</strong>
 
