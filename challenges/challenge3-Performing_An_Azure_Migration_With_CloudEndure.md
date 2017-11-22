@@ -111,10 +111,6 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
 8. <strong>Execute a test migration</strong>
 
-    * Navigate to the "Machines" tab in the CloudEndure console -- You should see your "migrate-host" registered.
-
-      ![Verify Migrate Host](./images/cetestmigrate-3.jpg)
-
     * On the "Setup & Info" tab, wait for the initial sync to be completed from Step 7
 
       ![Verify Sync Complete](./images/ceagentinstall-5.jpg)
