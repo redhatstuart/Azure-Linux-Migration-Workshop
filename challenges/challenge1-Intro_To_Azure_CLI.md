@@ -84,13 +84,13 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 8. <strong>Log into interactive mode and create a new Azure storage account using the AZ CLI</strong>
 
  * Make the storage account use Standard Locally Rundandant Storage
- * Create the storage account in the resource group you previously created
+ * Create the storage account in the resource group you previously identified
  * Create a blob container within this storage account
  
  ![azinteractive](./images/azinteractive.png)
 
 <hr>
-9. <strong>Verify you have now created the resource group and storage account in the portal</strong>
+9. <strong>Verify you have now created the storage account in the portal</strong>
 
  * If not done so already, visit ``https://portal.azure.com``
 
