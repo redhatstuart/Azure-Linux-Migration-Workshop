@@ -48,6 +48,7 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
     * Exit the SSH session to the new virtual machine returning back to the "liftshift-source-vm" host
     * Determine the public IP address of the new virtual machine
     * Attach a 5GB external disk to the new virtual machine
+    * Determine the name of the public IP address resource assigned to the new virtual machine
     * Configure a FQDN on the public IP address of the new virtual machine -- use the format "firstname-lastname-azure"
 
 9. Verify your changes

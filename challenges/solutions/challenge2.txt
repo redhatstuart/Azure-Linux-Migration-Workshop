@@ -1,0 +1,9 @@
+7a) ssh username@ipaddress
+7b) cat /proc/cpuinfo
+7c) cat /proc/meminfo
+
+8a) exit
+8b) az vm list -d
+8c) az vm disk attach -g <YOUR_RG_NAME> --vm-name <YOUR_VM_NAME> --disk myDataDisk --new --size-gb 5
+8d) az network public-ip list -g <YOUR_RG_NAME>
+8e) az network public-ip update --dns-name <A_RECORD> --name <PUBLIC_IP_RESOURCE_NAME> -g <YOUR_RG_NAME>
