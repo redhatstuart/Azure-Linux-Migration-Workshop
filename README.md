@@ -61,6 +61,20 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>TBD</td>
     <td>Registration open soon!</td>
   </tr>
+  <tr>
+    <td>Seattle, WA</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/seattle.aspx" target="_blank">MTC - Seattle/Bellevue</a></td>
+    <td>Friday 1/19/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</td>
+  </tr>
+  <tr>
+    <td>Phoenix, AZ</td>
+    <td>Microsoft Corporation - 60 E Rio, Tempe, AZ</a></td>
+    <td>Tuesday 2/20/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</td>
+  </tr>
 </table>
 
 Cities to be added and unconfirmed target dates:
@@ -77,14 +91,12 @@ Cities to be added and unconfirmed target dates:
 <li>Minneapolis - 2/7/2018</li>
 <li>Nashville - 3/22/2018</li>
 <li>Philadelphia - 1/18/2018</li>
-<li>Phoenix - 2/20/2018</li>
 <li>Rochester - 3/5/2018</li>
 <li>San Francisco Downtown - 1/15/2018</li>
 <li>San Francisco Mountain View - 1/17/2018</li>
-<li>Seattle - 1/19/2018</li>
 <li>St. Louis - 3/15/2018</li>
 <li>Tampa - 2/26/2018</li>
 </ul>
 
-<strong>Updated 11/16/2017</strong>
+<strong>Updated 11/21/2017</strong>
 
