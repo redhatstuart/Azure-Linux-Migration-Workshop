@@ -59,10 +59,9 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
  * Configure AZ CLI to use the same default location as your resource groups
 
 <hr>
-6. <strong>Create a new Azure Resource Group using the AZ CLI</strong>
+6. <strong>Determine the name of your working resource group using the AZ CLI</strong>
 
- * You already have a resource group in your subscription. Create the new resource group using the same location as your existing resource group.
- * Name the resource group "MyRG_" followed by your initials
+ * You already have a resource group in your subscription; Query the AZ CLI to determine the name of it
 
 <hr>
 7. <strong>Log into interactive mode and create a new Azure storage account using the AZ CLI</strong>
