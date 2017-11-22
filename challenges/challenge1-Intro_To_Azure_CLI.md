@@ -30,7 +30,7 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 4. Log in to your student Azure account via the CLI
     * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. Use the credentials provided in your e-mail/Lab Provisioning page.
-        *    ![Azure Credentials](./images/azureinfo.png)
+        * ![Azure Credentials](./images/azureinfo2.png)
     * The password is a onetime password and must be changed at first signing in.
     * Your terminal windows will update with a JSON output of your subscription confirming the login has worked.
 
