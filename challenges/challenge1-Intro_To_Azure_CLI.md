@@ -37,6 +37,7 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 <hr>
 3. <strong>Install Azure CLI (AZ CLI) on your workstation</strong>
+
  * Azure CLI is available for Mac, Windows and Linux.
  * You will need administrator access to install Azure CLI. You can switch user to root with ``su root``. The password is the same as you used to login to the noVNC environment.
  * You can find installation instructions here: [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-yum?view=azure-cli-latest)
