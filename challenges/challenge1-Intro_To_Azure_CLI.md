@@ -6,7 +6,7 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 ## How to 
 
-1. Using your browser go to the Registration Site listed in your classroom.
+1. <strong>Using your browser go to the Registration Site listed in your classroom.</strong>
     * Please make sure you use a valid work email as it will not allow for commercial e-mail domains.
 
          ![SignUp](./images/signup.png)
@@ -26,7 +26,7 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 <br><hr><br>
 
-2. Launch your your web browser of choice and enter the url for the noVNC server provided for you. Use the password provided to you in email or on the screen to login.
+2. <strong>Launch your your web browser of choice and enter the url for the noVNC server provided for you. Use the password provided to you in email or on the screen to login.</strong>
 
       ![noVNC Server](./images/vncserver.png)
 
@@ -38,14 +38,14 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 <br><hr><br>
 
-3. Install Azure CLI (AZ CLI) on your workstation
+3. <strong>Install Azure CLI (AZ CLI) on your workstation</strong>
     * Azure CLI is available for Mac, Windows and Linux.
     * You will need administrator access to install Azure CLI. You can switch user to root with ``su root``. The password is the same as you used to login to the noVNC environment.
     * You can find installation instructions here: [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-yum?view=azure-cli-latest)
 
 <br><hr><br>
 
-4. Log in to your student Azure account via the CLI
+4. <strong>Log in to your student Azure account via the CLI</strong>
     * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. Use the credentials provided in your e-mail/Lab Provisioning page.
 
          ![Azure Credentials](./images/azureinfo2.png)
@@ -55,26 +55,26 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 <br><hr><br>
 
-5. Create a new Azure Resource Group using the AZ CLI
+5. <strong>Create a new Azure Resource Group using the AZ CLI</strong>
     * You already have a resource group in your subscription. Create the new resource group using the same location as your existing resource group.
     * Name the resource group "MyRG_" followed by your initials
 
 <br><hr><br>
 
-6. Configure Azure CLI Defaults
+6. <strong>Configure Azure CLI Defaults</strong>
     * Configure AZ CLI to default to table output
     * Configure AZ CLI to use the same default location as your resource groups
 
 <br><hr><br>
 
-7. Log into interactive mode and create a new Azure storage account using the AZ CLI
+7. <strong>Log into interactive mode and create a new Azure storage account using the AZ CLI</strong>
     * Make the storage account use Standard Locally Rundandant Storage
     * Create the storage account in the resource group you previously created
     * Create a blob container within this storage account
 
 <br><hr><br>
 
-8. Verify you have now created the resource group and storage account in the portal
+8. <strong>Verify you have now created the resource group and storage account in the portal</strong>
     * If not done so already, visit ``https://portal.azure.com``
 
 ## Advanced areas to explore
