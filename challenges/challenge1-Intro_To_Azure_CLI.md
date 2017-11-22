@@ -25,8 +25,7 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 3. Install Azure CLI (AZ CLI) on your workstation
     * Azure CLI is available for Mac, Windows and Linux.
-    * You can find installation instructions here: [Install Azure CLI](http://aka.ms/azure-cli-2 
-)
+    * You can find installation instructions here: [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 
 4. Log in to your student Azure account via the CLI
     * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. Use the credentials provided in your e-mail/Lab Provisioning page.
