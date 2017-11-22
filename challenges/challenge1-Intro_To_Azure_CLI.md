@@ -24,7 +24,7 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 ![Credentials](./images/creds-email2.png)
 
-<br><hr><br>
+<br><hr>
 2. <strong>Launch your your web browser of choice and enter the url for the noVNC server provided for you. Use the password provided to you in email or on the screen to login.</strong>
 
 ![noVNC Server](./images/vncserver.png)
@@ -35,12 +35,13 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 ![noVNC Terminal](./images/vncterminal.png)
 
-<br><hr><br>
+<br><hr>
 3. <strong>Install Azure CLI (AZ CLI) on your workstation</strong>
  * Azure CLI is available for Mac, Windows and Linux.
  * You will need administrator access to install Azure CLI. You can switch user to root with ``su root``. The password is the same as you used to login to the noVNC environment.
  * You can find installation instructions here: [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-yum?view=azure-cli-latest)
-<br><hr><br>
+
+<br><hr>
 4. <strong>Log in to your student Azure account via the CLI</strong>
  * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. Use the credentials provided in your e-mail/Lab Provisioning page.
 
@@ -48,20 +49,20 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
  * The password is a onetime password and must be changed at first signing in.
  * Your terminal windows will update with a JSON output of your subscription confirming the login has worked.
-<br><hr><br>
+<br><hr>
 5. <strong>Create a new Azure Resource Group using the AZ CLI</strong>
  * You already have a resource group in your subscription. Create the new resource group using the same location as your existing resource group.
  * Name the resource group "MyRG_" followed by your initials
-<br><hr><br>
+<br><hr>
 6. <strong>Configure Azure CLI Defaults</strong>
  * Configure AZ CLI to default to table output
  * Configure AZ CLI to use the same default location as your resource groups
-<br><hr><br>
+<br><hr>
 7. <strong>Log into interactive mode and create a new Azure storage account using the AZ CLI</strong>
  * Make the storage account use Standard Locally Rundandant Storage
  * Create the storage account in the resource group you previously created
  * Create a blob container within this storage account
-<br><hr><br>
+<br><hr>
 8. <strong>Verify you have now created the resource group and storage account in the portal</strong>
  * If not done so already, visit ``https://portal.azure.com``
 
