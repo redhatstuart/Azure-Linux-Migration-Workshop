@@ -25,7 +25,7 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 ![Credentials](./images/creds-email2.png)
 
 <hr>
-2. <strong>Launch your your web browser of choice and enter the url for the noVNC server provided for you. Use the password provided to you in email or on the screen to login.</strong>
+2. <strong>Launch your web browser of choice and enter the url for the noVNC server provided for you. Use the password provided to you in email or on the screen to login.</strong>
 
 ![noVNC Server](./images/vncserver.png)
 
