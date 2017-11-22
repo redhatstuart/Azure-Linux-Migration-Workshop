@@ -61,5 +61,7 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
 
     * SSH to the new virtual machine using the new FQDN; Login using the username and password credentials you specified earlier
     * Verify that the additional 5GB disk is attached and is visible as /dev/sdc
+    * Verify the new CPU core count of the virtual machine and compare to the output of step 8
+    * Verify the new memory capacity of the virtual machine and compare to the output of step 8
 
 
