@@ -8,3 +8,6 @@
 9d) az network public-ip list -g <YOUR_RG_NAME>
 9e) az network public-ip update --dns-name <A_RECORD> --name <PUBLIC_IP_RESOURCE_NAME> -g <YOUR_RG_NAME>
 9f) az vm list -d
+
+10a) az vm list-vm-resize-options -g <YOUR_RG_NAME> --name <YOUR_VM_NAME>
+10b) az vm resize -g <YOUR_RD_NAME> --name <YOUR_VM_NAME> --size Basic_A1

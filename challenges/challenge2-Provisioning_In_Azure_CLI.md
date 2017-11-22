@@ -39,9 +39,9 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
 8. <strong>Verify connectivity to the new virtual machine</strong>
 
     * SSH to the new virtual machine IP address; Login using the username and password credentials you specified in the previous step
-    * Determine the quantity and type of CPUs assigned to your host
-    * Determine the amount of memory assigned to your host
-    * View all of the disk that has been presented to this host
+    * Determine the quantity and type of CPUs assigned to your host (Make note of this!)
+    * Determine the amount of memory assigned to your host (Make note of this!)
+    * View all of the disk that has been presented to this host (Make note of this!)
 
 9. <strong>Modify the new virtual machine</strong>
 
@@ -52,7 +52,12 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
     * Configure a FQDN on the public IP address of the new virtual machine -- use the format "firstname-lastname-azure"
     * Verify the FQDN has been configured on the new virtual machine's IP address resource
 
-10. <strong>Verify your changes</strong>
+10. <strong>Re-size the virtual machine</strong>
+
+    * Determine the available resize options for the virtual machine
+    * Resize the new virtual machine to a Basic_A1 size
+
+11. <strong>Verify your changes</strong>
 
     * SSH to the new virtual machine using the new FQDN; Login using the username and password credentials you specified earlier
     * Verify that the additional 5GB disk is attached and is visible as /dev/sdc
