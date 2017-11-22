@@ -8,22 +8,32 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 1. Using your browser go to the Registration Site listed in your classroom.
     * Please make sure you use a valid work email as it will not allow for commercial e-mail domains.
+
          ![SignUp](./images/signup.png)
+
     * Once you select submit, **DO NOT CLOSE THE BROWSER**.
     * On the Lab and Overview page, navigate to the Lab tab and then select Launch Lab
+
          ![Launch Lab](./images/launch2.png)
+
     * The Lab will begin to deploy. **DO NOT CLOSE THE BROWSER**. This will take some time but the needed credentials will be presented on the page when the provisioning is complete.
+
          ![Preparing Lab](./images/preparing.png)
+
     * Your credentials will be emails to your signup email address as well as presented on the screen
+
          ![Credentials](./images/creds-email2.png)
 
 <br><hr><br>
 
 2. Launch your your web browser of choice and enter the url for the noVNC server provided for you. Use the password provided to you in email or on the screen to login.
+
       ![noVNC Server](./images/vncserver.png)
+
     * It may take a minute or so at first launch to get the desktop to present. This is normal at first log in.
     * Mozilla Firefox, Edge, and Internet Explorer have all been tested; Google Chrome has been tested but is buggy.
     * Once this is completed, go to the terminal and you should be ready to start with the Azure CLI instructions below.
+
      ![noVNC Terminal](./images/vncterminal.png)
 
 <br><hr><br>
@@ -37,7 +47,9 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 4. Log in to your student Azure account via the CLI
     * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. Use the credentials provided in your e-mail/Lab Provisioning page.
+
          ![Azure Credentials](./images/azureinfo2.png)
+
     * The password is a onetime password and must be changed at first signing in.
     * Your terminal windows will update with a JSON output of your subscription confirming the login has worked.
 
