@@ -55,11 +55,11 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
 <hr>
 5. <strong>Navigate the portal and find Azure resources</strong>
- * Go to ``https://portal.azure.com`` and sign in using your credentials provided
- * Navigate to resource groups on the left hand side, and locate the resource group previously created for you
- * Note the region in which the resource group is located
+   * Go to ``https://portal.azure.com`` and sign in using your credentials provided
+   * Navigate to resource groups on the left hand side, and locate the resource group previously created for you
+   * Note the region in which the resource group is located
  
- ![Azure Portal](./images/portalrg.png)
+   ![Azure Portal](./images/portalrg.png)
 
 <hr>
 6. <strong>Configure Azure CLI Defaults</strong>
