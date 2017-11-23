@@ -39,11 +39,18 @@ A number of people have contributed to the development of this migration hackfes
 
 ![Spektra Systems](./challenges/images/spektra-logo.jpg)
 
+<br>
+
 ![CloudEndure](./challenges/images/NewDefaultLogo.png)
+
+<br>
 
 ![StratoZone](./challenges/images/stratozone_logo_tm_png_hi_rez.png)
 
+<br>
+
 ![Docker](./challenges/images/DockerLogo-2.png)
+
 
 </td>
 </tr>
