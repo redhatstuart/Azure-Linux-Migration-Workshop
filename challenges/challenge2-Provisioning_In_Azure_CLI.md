@@ -64,4 +64,8 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
     * Verify the new CPU core count of the virtual machine and compare to the output of step 8
     * Verify the new memory capacity of the virtual machine and compare to the output of step 8
 
+Helpful Links:
 
+* [Azure CLI documentation](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
+* [Azure CLI Network Docs](https://docs.microsoft.com/en-us/cli/azure/network/public-ip?view=azure-cli-latest)
+* [Azure CLI VM Docs](https://docs.microsoft.com/en-us/cli/azure/vm?view=azure-cli-latest)
