@@ -8,16 +8,16 @@ This challenge will provide instructions on extending your existing Ansible CLI 
 
 1. Install the following RPMs on your "linux-source-host" server:
 
->epel-release 
->deltarpm
->policycoreutils-python
->gcc
->gcc-c++
->kernel-devel
->python-devel
->libxslt-devel
->libffi-devel
->openssl-devel
->python2-pip
+* epel-release 
+* deltarpm
+* policycoreutils-python
+* gcc
+* gcc-c++
+* kernel-devel
+* python-devel
+* libxslt-devel
+* libffi-devel
+* openssl-devel
+* python2-pip
 
 2. 
