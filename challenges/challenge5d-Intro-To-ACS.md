@@ -25,6 +25,8 @@ This challenge will showcase Azure Container Service
 
     * az acs kubernetes get-credentials -n myk8SCluster -g <YOUR_RG>
     ![az acs kubernetes get-credentials](./images/az-getcred.png)
+   
+    Note that there now exists a ".kube" directory with the required "config" file in your home directory.
 
 4. <strong> Re-try viewing your cluster with Kubernetes </strong>
 
