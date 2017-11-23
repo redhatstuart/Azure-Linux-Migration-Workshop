@@ -8,7 +8,7 @@ This challenge will showcase Azure Container Service
 
 1. <strong> Create a Kubernetes cluster with ACS </strong>
 
-    * az acs create --orchestrator-type kubernetes --resource-group <YOUR_RG> --name myK8SCluster --generate-ssh-keys --service-principal <Application ID> --client-secret <Application Secret Key>
+    * az acs create --orchestrator-type kubernetes --resource-group <YOUR_RG> --name myK8SCluster --generate-ssh-keys --service-principal <APPLICATION_ID> --client-secret <APPLICATION_SECRET_KEY>
     * az acs kubernetes install-cli 
     * az acs kubernetes get-credentials --resource-group myResourceGroup --name myK8SCluster
 
