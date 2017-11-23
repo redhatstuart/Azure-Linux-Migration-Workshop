@@ -13,13 +13,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Virtual</td>
-    <td>Virtual</a></td>
-    <td>Thursday 11/30/2017</td>
-    <td>Microsoft-led</td>
-    <td>Partner Workshop Readiness Session</td>
-  </tr>
-  <tr>
     <td>Irvine, CA</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/irvine.aspx" target="_blank">MTC - Irvine</a></td>
     <td>Monday 12/4/2017</td>
@@ -55,6 +48,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28540487027" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
+    <td>San Francisco, CA (Downtown)</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/sanfrancisco.aspx" target="_blank">MTC - San Francisco</a></td>
+    <td>Monday 1/15/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</a></td>
+  </tr>
+  <tr>
     <td>Toronto, ON</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/toronto-downtown.aspx" target="_blank">MTC - Toronto Downtown</a></td>
     <td>Tuesday 1/16/2018</td>
@@ -69,20 +69,40 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Registration open soon!</td>
   </tr>
   <tr>
+    <td>Chicago, IL</td>
+    <td><<a href="https://www.microsoft.com/en-us/mtc/locations/chicago.aspx" target="_blank">MTC - Chicago</a></td>
+    <td>Wednesday 1/24/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</td>
+  </tr>
+  <tr>
     <td>Phoenix, AZ</td>
-    <td>Microsoft Corporation - 60 E Rio, Tempe, AZ</a></td>
+    <td>Microsoft - 60 E Rio Salado Pkwy #1200, Tempe, AZ</a></td>
     <td>Tuesday 2/20/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</td>
   </tr>
+  <tr>
+    <td>Rochester, NY</td>
+    <td>Microsoft - 100 Corporate Woods, Rochester, NY</td>
+    <td>Monday 3/5/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</a></td>
+  </tr>
+  <tr>
+    <td>Charlotte, NC</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/charlotte.aspx" target="_blank">MTC - Charlotte</a></td>
+    <td>Thursday 3/29/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</a></td>
+  </tr>
+
 </table>
 
 Cities to be added and unconfirmed target dates:
 
 <ul>
 <li>Atlanta - 3/13/2018</li>
-<li>Charlotte - 3/29/2018</li>
-<li>Chicago - 1/24/2018</li>
 <li>Cincinnati - 3/27/2018</li>
 <li>Denver - 3/1/2018</li>
 <li>Detroit - 2/22/2018</li>
@@ -91,12 +111,10 @@ Cities to be added and unconfirmed target dates:
 <li>Minneapolis - 2/7/2018</li>
 <li>Nashville - 3/22/2018</li>
 <li>Philadelphia - 1/18/2018</li>
-<li>Rochester - 3/5/2018</li>
-<li>San Francisco Downtown - 1/15/2018</li>
 <li>San Francisco Mountain View - 1/17/2018</li>
 <li>St. Louis - 3/15/2018</li>
 <li>Tampa - 2/26/2018</li>
 </ul>
 
-<strong>Updated 11/21/2017</strong>
+<strong>Updated 11/22/2017</strong>
 
