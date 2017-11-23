@@ -2,6 +2,9 @@
 
 A number of people have contributed to the development of this migration hackfest program. We wish to thank them here:
 
+<table>
+<tr>
+<td>
 ### Microsofties
 * Brian Redmond
 * Eddie Villalba
@@ -29,5 +32,10 @@ A number of people have contributed to the development of this migration hackfes
 * Kevin Engman
 * Jenna Preston
 * Kristee Dicicco
-
+</td>
+<td>
+hello
+</td>
+</tr>
+</table>
 
