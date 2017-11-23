@@ -22,8 +22,7 @@ This challenge will showcase Azure Container Service
 3. <strong> View your cluster with Kubernetes </strong>
 
     * kubectl get nodes
-
-    ![kubectl get nodes](./images/k8sgetnodes.png)
+    *[kubectl get nodes](./images/k8sgetnodes.png)
 
 
 Portions of this exercise were taken from the Global Black Belt Kubernetes/Container Hackfest located at ![Container Hackfest](https://github.com/chzbrgr71/container-hackfest) . Thanks to Eddie Villalba and Brian Redmond for their support.
