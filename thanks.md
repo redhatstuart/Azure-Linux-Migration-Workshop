@@ -2,7 +2,7 @@
 
 A number of people have contributed to the development of this migration hackfest program. We wish to thank them here:
 
-<table border="0">
+<table border="0" cellpadding="3" cellspacing="3">
 <tr>
 <td width="50%">
 
