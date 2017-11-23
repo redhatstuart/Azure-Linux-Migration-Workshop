@@ -58,5 +58,5 @@ A number of people have contributed to the development of this migration hackfes
 
 Thank you all for your steadfast support in the coordination, programming and testing of this workshop. 
 
-- Stuart Kirk & Sean Mikha
-- Lead Developers 
+<strong>Stuart Kirk & Sean Mikha
+Lead Developers</strong>
