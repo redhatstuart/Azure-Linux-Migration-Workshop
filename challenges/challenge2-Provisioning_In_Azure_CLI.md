@@ -26,7 +26,7 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
 
     * az vm image list --publisher OpenLogic --all
 
-6. <strong>Provision a new CentOS 7.4 virtual machine using the latest non-LVM-based image</strong>
+6. <strong>Determine the variables required to provision a new CentOS 7.4 virtual machine using the latest non-LVM-based image</strong>
 
     * YOUR_RG_NAME = The name of the resource group you have been assigned
     * YOUR_VM_NAME = The name of your virtual machine - Use any name you wish
