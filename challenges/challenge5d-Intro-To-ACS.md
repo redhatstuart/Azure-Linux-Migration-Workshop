@@ -15,8 +15,11 @@ This challenge will showcase Azure Container Service
 2. <strong> View your ACS cluster and connect it to Kubernetes </strong>
 
     * az acs list
+    ![az acs list](./images/acs-list.png)
     * az acs kubernetes get-credentials -n myk8SCluster -g <YOUR_RG>
+    ![az acs kubernetes get-credentials](./images/az-getcred.png)
 
 3. <strong> View your cluster with Kubernetes </strong>
 
     * kubectl get nodes
+    ![kubectl get nodes](./images/k8sgetnodes.png)
