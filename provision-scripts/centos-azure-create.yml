@@ -12,5 +12,5 @@
             value: ansibleadmin
           sshKeyData:
             value: "YOUR_SSH_PUBKEY"
-        template_link: 'https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/centos7-prem.json'
+        template_link: 'https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/centos7-arm.json'
       register: azure

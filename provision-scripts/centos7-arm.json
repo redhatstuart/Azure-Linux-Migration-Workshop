@@ -26,7 +26,7 @@
 		"publicIPAddressName": "myPublicIP",
 		"sshKeyPath": "[concat('/home/',parameters('adminUserName'),'/.ssh/authorized_keys')]",
 		"storageAccountName": "[concat(uniquestring(resourceGroup().id), 'centos7vm')]",
-		"storageAccountType": "Premium_LRS",
+		"storageAccountType": "Standard_LRS",
 		"subnetName": "myCent7subnet",
 		"subnetPrefix": "10.4.0.0/24","vmName": "myCent7VM",
 		"subnetRef": "[concat(variables('vnetID'),'/subnets/', variables('subnetName'))]",
