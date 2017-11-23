@@ -8,24 +8,24 @@ A number of people have contributed to the development of this migration hackfes
 * Dan Sandlin
 * Todd Hammer
 
-# Spektra Systems Team
+### Spektra Systems Team
 * Manesh Pillai
 
-#CloudEndure Team
+### CloudEndure Team
 * Leonid Feinberg
 * Gonen Stein
 
-#StratoZone Team
+### StratoZone Team
 * Pete Benedetti 
 * Karl Koshy
 
-#Docker Team
+### Docker Team
 * Marc Monplaisir
 * Mike Coleman
 * Betty Junod
 * Morgan Pettis
 
-#Logistics Team
+### Logistics Team
 * Kevin Engman
 * Jenna Preston
 * Kristee Dicicco
