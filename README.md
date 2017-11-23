@@ -70,21 +70,21 @@ This repository contains practical exercises for the Azure Linux Migration Works
   </tr>
   <tr>
     <td>Chicago, IL</td>
-    <td><<a href="https://www.microsoft.com/en-us/mtc/locations/chicago.aspx" target="_blank">MTC - Chicago</a></td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/chicago.aspx" target="_blank">MTC - Chicago</a></td>
     <td>Wednesday 1/24/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</td>
   </tr>
   <tr>
     <td>Phoenix, AZ</td>
-    <td>Microsoft - 60 E Rio Salado Pkwy #1200, Tempe, AZ</a></td>
+    <td>Microsoft<br>60 E Rio Salado Pkwy #1200, Tempe, AZ</a></td>
     <td>Tuesday 2/20/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</td>
   </tr>
   <tr>
     <td>Rochester, NY</td>
-    <td>Microsoft - 100 Corporate Woods, Rochester, NY</td>
+    <td>Microsoft<br>100 Corporate Woods, Rochester, NY</td>
     <td>Monday 3/5/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</a></td>
