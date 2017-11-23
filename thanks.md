@@ -5,6 +5,7 @@ A number of people have contributed to the development of this migration hackfes
 <table>
 <tr>
 <td>
+
 ### Microsofties
 * Brian Redmond
 * Eddie Villalba
@@ -32,9 +33,18 @@ A number of people have contributed to the development of this migration hackfes
 * Kevin Engman
 * Jenna Preston
 * Kristee Dicicco
+
 </td>
 <td>
-hello
+
+![Spektra Systems](./challenges/images/spektra-logo.jpg)
+
+![CloudEndure](./challenges/images/NewDefaultLogo.png)
+
+![StratoZone](./challenges/images/stratozone_logo_tm_png_hi_rez.png)
+
+![Docker](./challenges/images/DockerLogo-2.png)
+
 </td>
 </tr>
 </table>
