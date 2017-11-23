@@ -37,13 +37,13 @@ A number of people have contributed to the development of this migration hackfes
 </td>
 <td>
 
-![Spektra Systems](./challenges/images/spektra-logo.jpg | width=200)
+![Spektra Systems](./challenges/images/spektra-logo.jpg)
 
-![CloudEndure](./challenges/images/NewDefaultLogo.png | width=200)
+![CloudEndure](./challenges/images/NewDefaultLogo.png)
 
-![StratoZone](./challenges/images/stratozone_logo_tm_png_hi_rez.png | width=200)
+![StratoZone](./challenges/images/stratozone_logo_tm_png_hi_rez.png)
 
-![Docker](./challenges/images/DockerLogo-2.png | width=200)
+![Docker](./challenges/images/DockerLogo-2.png)
 
 </td>
 </tr>
