@@ -16,10 +16,17 @@ This challenge will showcase Azure Container Service
 
     * az acs list
     ![az acs list](./images/acs-list.png)
+
+3. <strong> View your cluster with Kubernetes </strong>
+
+    * kubectl get nodes
+
+    The error message you receive occurs because the Kubernetes crendetials that ACS has generated have not been downloaded to your active user account.
+
     * az acs kubernetes get-credentials -n myk8SCluster -g <YOUR_RG>
     ![az acs kubernetes get-credentials](./images/az-getcred.png)
 
-3. <strong> View your cluster with Kubernetes </strong>
+4. <strong> Re-try viewing your cluster with Kubernetes </strong>
 
     * kubectl get nodes (You are now managing your ACS cluster using the stock Kubernetes manager)
     ![kubectl get nodes](./images/k8sgetnodes.png)
