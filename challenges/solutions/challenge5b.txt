@@ -1,0 +1,27 @@
+1) yum -y install epel-release deltarpm ; yum -y install policycoreutils-python gcc gcc-c++ kernel-devel python-devel libxslt-devel libffi-devel openssl-devel python2-pip
+
+2) yum -y install ansible
+
+3a) useradd ansible
+3b) su - ansible
+3c) ssh-keygen -t rsa -q -P "" -f /home/ansible/.ssh/id_rsa
+3d) mkdir $HOME/repo
+3e) cd $HOME/repo
+3f) wget https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/centos-azure-create.yml
+
+4a) pip install --upgrade pip
+4b) pip install ansible[azure]
+
+5a) sed -i "s:YOUR_AZURE_DC:eastus:g" centos-azure-create.yml (Replace "eastus" with the name of the Azure Datacenter you are using
+5b) sed -i "s:YOUR_RG:liftshift-1234:g" centos-azure-create.yml (Replace "liftshift-1234" with the name of the resource group you are using
+5c) sed -i "s:YOUR_SSH_PUBKEY:$(cat $HOME/.ssh/id_rsa.pub):g" centos-azure-create.yml
+
+6a) mkdir $HOME/.azure
+6b) cd $HOME/.azure
+6c) wget https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/credentials
+6d) vi $HOME/.azure/credentials
+
+7) cd $HOME/repo;ansible-playbook centos-azure-create.yml
+
+8a) az vm list -d
+8b) ssh ansibleadmin@<IPADDRESS OF VM>
