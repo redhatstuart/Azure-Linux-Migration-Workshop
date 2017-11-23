@@ -6,23 +6,18 @@ This challenge will provide instructions on extending your existing Ansible CLI 
 
 ## Process
 
-1. <strong>Install the following required RPMs on your "linux-source-host" server:</strong>
+1. <strong>Install the following required RPMs on your "liftshift-source-vm" server:</strong>
 
     * epel-release 
-    * deltarpm
-    * policycoreutils-python
-    * gcc
-    * gcc-c++
-    * kernel-devel
-    * python-devel
-    * libxslt-devel
-    * libffi-devel
-    * openssl-devel
-    * python2-pip
 
 2. <strong>Install the Ansible RPM from EPEL</strong>
 
-3. <strong>Create and provision the Ansible user</strong>
+3. <strong>Install the required Python modules</strong>
+
+    * Upgrade to the latest version of pip
+    * Install the Azure Python SDK Modules
+
+4. <strong>Create and provision the Ansible user</strong>
 
     * Create the Ansible user
     * Switch user to become the Ansible user inheriting its properties
@@ -30,11 +25,6 @@ This challenge will provide instructions on extending your existing Ansible CLI 
     * Create a directory called "repo" off of the Ansible user's home directory
     * Switch into the "repos" directory
     * Download the playbook template located at: https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/centos-azure-create.yml
-
-4. <strong>Install the required Python modules</strong>
-
-    * Upgrade to the latest version of pip
-    * Install the Azure Python SDK Modules
 
 5. <strong>Prepare the Ansible playbook</strong>
 
