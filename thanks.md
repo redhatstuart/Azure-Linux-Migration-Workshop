@@ -4,7 +4,7 @@ A number of people have contributed to the development of this migration hackfes
 
 <table>
 <tr>
-<td>
+<td width="80%">
 
 ### Microsofties
 * Brian Redmond
