@@ -1,0 +1,16 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  tasks:
+    - name: Create Azure Deploy
+      azure_rm_deployment:
+        state: present
+        location: YOUR_AZURE_DC
+        resource_group_name: YOUR_RG
+        parameters:
+          adminUsername:
+            value: ansibleadmin
+          sshKeyData:
+            value: "YOUR_SSH_PUBKEY"
+        template_link: 'https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/centos7-prem.json'
+      register: azure
