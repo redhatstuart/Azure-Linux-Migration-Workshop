@@ -2,13 +2,13 @@
 
 A number of people have contributed to the development of this migration hackfest program. We wish to thank them here:
 
-#Microsofties
+### Microsofties
 * Brian Redmond
 * Eddie Villalba
 * Dan Sandlin
 * Todd Hammer
 
-#Spektra Systems Team
+# Spektra Systems Team
 * Manesh Pillai
 
 #CloudEndure Team
