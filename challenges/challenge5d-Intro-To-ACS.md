@@ -21,7 +21,7 @@ This challenge will showcase Azure Container Service
 
 3. <strong> View your cluster with Kubernetes </strong>
 
-    * kubectl get nodes
+    * kubectl get nodes (You are now managing your ACS cluster using the stock Kubernetes manager)
     ![kubectl get nodes](./images/k8sgetnodes.png)
 
 
