@@ -2,37 +2,36 @@
 
 A number of people have contributed to the development of this migration hackfest program. We wish to thank them here:
 
-<center>
-<table border="0" cellpadding="3" cellspacing="3">
+<table border=0 cellpadding=3 cellspacing=3>
 <tr>
 <td width="50%">
 
 ### Microsofties
 * Brian Redmond
-* Eddie Villalba
 * Dan Sandlin
+* Eddie Villalba
 * Todd Hammer
 
 ### Spektra Systems Team
 * Manesh Pillai
 
 ### CloudEndure Team
-* Leonid Feinberg
 * Gonen Stein
+* Leonid Feinberg
 
 ### StratoZone Team
-* Pete Benedetti 
 * Karl Koshy
+* Pete Benedetti 
 
 ### Docker Team
+* Betty Junod
 * Marc Monplaisir
 * Mike Coleman
-* Betty Junod
 * Morgan Pettis
 
 ### Logistics Team
-* Kevin Engman
 * Jenna Preston
+* Kevin Engman
 * Kristee Dicicco
 
 </td>
@@ -49,4 +48,3 @@ A number of people have contributed to the development of this migration hackfes
 </td>
 </tr>
 </table>
-</center>
