@@ -46,8 +46,7 @@ In this lab, you will get introduced to the new Azure Container Service (AKS). A
 
 * In this section we will create pod.yaml manifest file to deploy to the Kubernetes clouster
 * For creating the manifest file use the following structure to deploy a pod
-``
-apiVersion: v1
+``apiVersion: v1
 kind: Pod
 metadata:
   name: my-pod
