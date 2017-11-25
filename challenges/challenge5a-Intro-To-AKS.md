@@ -42,7 +42,7 @@ In this lab, you will get introduced to the new Azure Container Service (AKS). A
 ![akskubectl](./images/akskubectl.png)
 
 <hr>
-4. <strong>Deploy a manifest file</strong>
+4. <strong>Deploy A Manifest File</strong>
 
 * In this section we will create pod.yaml manifest file to deploy to the Kubernetes cluster
 * If you are new to .yaml files, make sure to use spaces and not tabs (yes, the debate is over)
@@ -65,6 +65,17 @@ spec:
   * The image you want to use is equal to ``evillgenius/kuar:1``
   * You will want to open port ``8080`` for the container
 * Use the ``kubectl create`` command to deploy this .yaml file.
+
+![akskubectlcreate](./images/kubectlcreate.png)
+
+<hr>
+5. <strong>Connect To Your Pod</strong>
+* Now that your pod and app are running, lets connect to it
+* Use the ``kubectl port-forward`` command to forward port ``8080`` on your local machine over to your pod
+* Once this is successfully completed, we can test this by going to your browser and accessing ``http://localhost:8080``
+
+![akskubectlcreate](./images/accessapp.png)
+
 ## Advanced areas to explore
 
 1. 
