@@ -56,9 +56,10 @@ metadata:
 spec:
   containers:
   - name: my-ctr
-  image:
-  ports:
+    image:
+    ports:
 ```
+* <strong>Note: the example above is incomplete, this is just a guide to help you get started</strong>
 * You will need to fill in the labels, image, and port in the correct format.
   * There should be 2 label values, one for zone which is equal to prod and one for version which is equal to v1
   * The image you want to use is equal to ``evillgenius/kuar:1``
