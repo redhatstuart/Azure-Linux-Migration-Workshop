@@ -28,7 +28,7 @@ In this lab, you will get introduced to the new Azure Container Service (AKS). A
  * If you get stuck, check out the Azure CLI reference for AKS commands: [AZ CLI Reference](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
  * It's not uncommon for this step to take 5-10 minutes to complete
 
- ![akscreated](.images/akscreated.png)
+ ![akscreated](./images/akscreated.png)
 
 <hr>
 3. <strong>Connect To Your Cluster</strong>
