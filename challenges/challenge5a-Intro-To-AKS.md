@@ -70,9 +70,10 @@ spec:
 
 <hr>
 5. <strong>Connect To Your Pod</strong>
- * Now that your pod and app are running, lets connect to it
- * Use the ``kubectl port-forward`` command to forward port ``8080`` on your local machine over to your pod
- * Once this is successfully completed, we can test this by going to your browser and accessing ``http://localhost:8080``
+
+  * Now that your pod and app are running, lets connect to it
+  * Use the ``kubectl port-forward`` command to forward port ``8080`` on your local machine over to your pod
+  * Once this is successfully completed, we can test this by going to your browser and accessing ``http://localhost:8080``
 
 ![akskubectlcreate](./images/accessapp.png)
 
