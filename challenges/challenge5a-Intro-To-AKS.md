@@ -34,10 +34,12 @@ In this lab, you will get introduced to the new Azure Container Service (AKS). A
 3. <strong>Connect To Your Cluster</strong>
 
  * Make sure you are logged in as root in the terminal, if not execute the ``su`` command and use the same password that was given to log into your VNC server
+ * Log out of AZ Interactive with ``exit`` if not done so already, we will be installing files in the OS
  * Azure CLI comes with built in commands under the ``az aks`` command sets that allow you to install the Kubernetes CLI (kubectl), run this command in your terminal window
  * Azure CLI also allows you to setup the configuration of kubectl to connect to your cluster, checkout the ``az aks get-credentials`` command after you have installed kubectl
  * Once configuration is complete you should be able to run ``kubectl get nodes`` to see a listing of the nodes available in your cluster
 
+![akskubectl](./images/akskubectl.png)
 
 ## Advanced areas to explore
 
