@@ -42,7 +42,7 @@ In this lab, you will get introduced to the new Azure Container Service (AKS). A
 ![akskubectl](./images/akskubectl.png)
 
 <hr>
-4. <strong>Deploy A Manifest File</strong>
+4. <strong>Create A Manifest File</strong>
 
 * In this section we will create pod.yaml manifest file to deploy to the Kubernetes cluster
 * If you are new to .yaml files, make sure to use spaces and not tabs (yes, the debate is over)
@@ -79,4 +79,4 @@ spec:
 
 ## Advanced areas to explore
 
-1. 
+1. Try creating a new .yaml file which includes a deployment with 3 replicas of your pod
