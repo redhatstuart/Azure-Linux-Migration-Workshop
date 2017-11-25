@@ -13,7 +13,8 @@ In this lab, you will get introduced to the new Azure Container Service (AKS). A
  * Starting from your workstation terminal screen, use Azure CLI to determine if your susbcription has access to the
  Microsoft.ContainerService provider (this is what allows you to submit AKS requests)
  * You will need to use the Azure CLI provider command to determine status: ``az provider`` followed by the necessary options
- * ![aksreg](./images/aksreg.png)
+
+ ![aksreg](./images/aksreg.png)
 
 
 <hr>
@@ -27,6 +28,7 @@ In this lab, you will get introduced to the new Azure Container Service (AKS). A
  * If you get stuck, check out the Azure CLI reference for AKS commands: [AZ CLI Reference](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
  * It's not uncommon for this step to take 5-10 minutes to complete
 
+ ![akscreated](.images/akscreated.png)
 
 <hr>
 3. <strong>Connect To Your Cluster</strong>
