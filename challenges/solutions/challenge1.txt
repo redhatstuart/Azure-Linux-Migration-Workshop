@@ -1,0 +1,24 @@
+3)
+su
+rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sh -c 'echo -e "[azure-cli]\nname=Azure CLI\nbaseurl=https://packages.microsoft.com/yumrepos/azure-cli\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/azure-cli.repo'
+yum check-update
+yum install azure-cli
+
+4)
+az login
+
+6)
+az configure
+<select option 3>
+az configure --defaults location=centralus <or eastus>
+az configure
+
+7)
+az find --search-query storage
+
+8)
+az interactive
+az storage account create -n strgacc1 -g odl_user_4480 --sku StandardLRS
+az storage container create --acount-name strgacc1 -n container1
+
