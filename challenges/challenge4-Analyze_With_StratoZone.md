@@ -30,3 +30,5 @@ This challenge will provide you hands-on access to the StratoZone assessment too
 
     * Click on the "Inventory" tab. This tab will allow you to view the specific inventory sets that have been collected for all of the assessments which have been run. In this example, we have expanded the inventory of the "Chicago" location which shows information on all of the host servers that have been registered.
     ![Inventory Tab](./images/strat-summary-3.jpg)
+
+hello
