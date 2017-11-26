@@ -57,6 +57,10 @@ This challenge will provide you hands-on access to the StratoZone assessment too
 
 3. <strong>Machine shaping and financial modeling</strong>
 
+   * Click on the "Options" icon next to the "Settings" icon in the upper-right corner of the screen; Choose Plan
+   * Click on the "StratoSpec" tab
+   * Drill down to the "dev-jira" host once again to view the hardware profile for this host
+   * On the left side of the page, click on "Customize Sizing Defaults" to view the shaping matrix. On this page you can determine what your target host platform in Microsoft Azure would look like based on the specifications you provide and how much additional overhead you would require per virtual machine for peak workloads. Examine the different options that are available to you and that your enterprise may require.
    * 
 
 
