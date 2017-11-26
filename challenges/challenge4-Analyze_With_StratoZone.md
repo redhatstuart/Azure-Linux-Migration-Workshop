@@ -24,7 +24,9 @@ This challenge will provide you hands-on access to the StratoZone assessment too
 2. <strong>Review the data to be analyzed</strong>
 
     * After the assessment package has been generated, click "Done" then click on the "Summary" tab. Here can you see an overview of the data that has been collected by the agents which have been deployed.
+
     ![Summary Tab](./images/strat-summary-1.jpg)
+
     * Click on the "Assessments" tab. Multiple on-premise and cloud assessments can be done for all of your locations and will aggregate all of the data into StratoZone
 
     ![Assessments Tab](./images/strat-summary-2.jpg)
