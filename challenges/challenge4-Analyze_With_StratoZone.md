@@ -53,6 +53,11 @@ This challenge will provide you hands-on access to the StratoZone assessment too
     * Since the StratoFit rating is either "Low" or "Medium", a report is automatically generated showing the items that StratoZone has detected which may require remediation prior to migration to Microsoft Azure.
     ![Risk Posture-Dev Jira](./images/strat-summary-8.jpg)
 
+<hr>
+
+3. <strong>Machine shaping and financial modeling</strong>
+
+   * 
 
 
     
