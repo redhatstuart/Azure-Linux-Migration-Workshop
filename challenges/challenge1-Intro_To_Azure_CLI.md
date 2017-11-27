@@ -46,7 +46,7 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 <hr>
 4. <strong>Log in to your student Azure account via the CLI</strong>
 
- * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. In the terminal (within your home directory) run ``cat credentials.txt`` to get a copy of your credentials (or use the credentials provided in your e-mail/Lab Provisioning page)
+ * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. On your desktop, open the credentials.txt file to obtain the list of credentials which have been assigned to you.
 
 ![Azure Credentials](./images/azcred2.png)
 
