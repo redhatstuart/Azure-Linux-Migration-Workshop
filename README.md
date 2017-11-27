@@ -79,7 +79,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Chicago, IL</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/chicago.aspx" target="_blank">MTC - Chicago</a></td>
     <td>Wednesday 1/24/2018</td>
-    <td>TBD</td>
+    <td>10th Magnitude</td>
     <td>Registration open soon!</td>
   </tr>
   <tr>
