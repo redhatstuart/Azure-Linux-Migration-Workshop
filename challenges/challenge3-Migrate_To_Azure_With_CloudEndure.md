@@ -58,7 +58,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
 5. <strong>Define the target Replication Settings and specify an Azure Data Center location</strong>
 
-    * After the Service Principal information is entered and saved, you will need to select the target Azure Data Center location for your CloudEndure migration project. Select the "Live Migration Target" drop-down and choose the Azure Data Center "Azure ARM East US 2", "Azure ARM Central US", or "Azure ARM West US 2".
+    * After the Service Principal information is entered and saved, you will need to select the target Azure Data Center location for your CloudEndure migration project. Select the "Live Migration Target" drop-down and choose the Azure Data Center which your resource group has been created in.  For example, "eastus2" would select "Azure ARM East US 2", centralus would select "Azure ARM Central US", and westus2 would select "Azure ARM West US 2".
 
       ![Populate Blank Replication Settings](./images/cerepsettings-1.jpg)
 
