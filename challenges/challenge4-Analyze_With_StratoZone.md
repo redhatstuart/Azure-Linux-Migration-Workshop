@@ -58,11 +58,40 @@ This challenge will provide you hands-on access to the StratoZone assessment too
 3. <strong>Machine shaping and financial modeling</strong>
 
    * Click on the "Options" icon next to the "Settings" icon in the upper-right corner of the screen; Choose Plan
-   * Click on the "StratoSpec" tab
-   * Drill down to the "dev-jira" host once again to view the hardware profile for this host
-   * On the left side of the page, click on "Customize Sizing Defaults" to view the shaping matrix. On this page you can determine what your target host platform in Microsoft Azure would look like based on the specifications you provide and how much additional overhead you would require per virtual machine for peak workloads. Examine the different options that are available to you and that your enterprise may require.
-   * 
 
+   ![Switch to Plan](./images/strat-shaping-1.jpg)
 
-    
+   * Click on the "StratoSpec" tab and drill down to the "dev-jira" host to view its VM resource profile
+
+   ![Plan-Find Server](./images/strat-shaping-2.jpg)
+
+   * On the left side of the page, click on "Customize Sizing Defaults" to view the shaping matrix. On this page you can determine what your target host platform in Microsoft Azure would look like based on the specifications you provide and how much additional overhead you would require per virtual machine for peak workloads. Examine the different options that are available to you and that your enterprise may require. The target Azure platform which is recommended will be determined based on the answers here in terms of CPU, memory, and even OS licensing requirements (if any).
+
+   ![Plan-Customize Sizing](./images/strat-shaping-3.jpg)
+
+   * After you have finished shaping your environment on the "Customize Sizing Defaults" screen, click the "StratoMatch" tab at the top of the screen.  When the new screen appears, click the "Chicago" Collector to view the StratoMatch results for the Chicago data center.
+
+   ![Plan-Stratomatch Select](./images/strat-shaping-4.jpg)
+
+   * The overview that is provided below shows the monthly and three year cost estimates for all of the hosts in a given data center. The default option of Microsoft Azure is selected and gives retail price estimates for a target Azure footprint based on the sizing parameters you have specified. The other two options include "Microsoft Azure -- managed by Rackspace" and "Private Data Center".  Explore and compare the cost of each footprint.
+
+   ![Plan-Stratomatch DC Compare](./images/strat-shaping-5.jpg)
+
+   * Expand the "dev-jira" server and you will see the different costs associated with that specific server, depending on the type of IaaS virtual machine you select for your Azure deployment. Clicking through the different virtual machines will show that each virtual machine presented will meet the resource requirements of the host allowing for various amounts of extra capacity. You can also click on the "scales" icon to show the cost comparison for that specific host.
+
+   ![Plan-Select VM type](./images/strat-shaping-6.jpg)
+
+   * To generate a true TCO, a number of other values must be inserted into StratoZone. Click on the "+" symbol next to "Other Provider Costs" and "Add New Ohter Costs Center"
+
+   ![Plan-Stratomatch DC Compare](./images/strat-shaping-5.jpg)
+
+   * On this screen you will see additional options for services that should be included as part of the migration comparison estimates. The more data that is input into StratoZone, the more precise the TCO estimate will be.
+
+   ![Plan-Stratomatch DC Compare](./images/strat-shaping-8.jpg)
+
+   * Click on the "Reports" tab and select the "StratoMatch Comparison" report.  Expand the Chicago data center and you will see the monthly infrastructure costs populate in this report and the savings that can be expected by migrating. Examine this and the other reports that are availabale to you in particular the "Cloud Fit Analysis - PaaS" report which shows applications that have been detected which could be replaced by Azure PaaS services.
+
+   ![Plan-Report](./images/strat-shaping-7.jpg)
+
+<hr>
 
