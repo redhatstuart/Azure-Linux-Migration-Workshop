@@ -67,8 +67,6 @@ We would also like to thank our valued SI partners that will be co-presenting th
 ![Scalar](./challenges/images/logo-scalar.jpg)
 ![SNP](./challenges/images/logo-snp.png)
 
-
-
 Thank you all for your steadfast support in the coordination, programming and testing of this workshop. 
 
 ### Stuart Kirk & Sean Mikha<br>Lead Developers
