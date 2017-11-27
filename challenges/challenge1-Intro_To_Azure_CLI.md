@@ -65,9 +65,9 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 <hr>
 6. <strong>Configure Azure CLI Defaults</strong>
 
- * Run ``az vm list`` to verify that your output is currently using JSON
+ * Run ``az vm list -d`` to verify that your output is currently using JSON
  * Configure AZ CLI to default to table output
- * Run ``az vm list`` again to check that the output is now using the table format
+ * Run ``az vm list -d`` again to check that the output is now using the table format
  * Configure AZ CLI to use the same default location as your resource groups and verify
 
       ![Default Location](./images/defaultloc.png)
