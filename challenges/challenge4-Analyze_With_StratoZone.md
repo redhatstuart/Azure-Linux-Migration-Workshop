@@ -95,3 +95,23 @@ This challenge will provide you hands-on access to the StratoZone assessment too
 
 <hr>
 
+4. <strong>Create a Move Group and schedule a migration</strong>
+
+   * Click on the "Options" icon next to the "Settings" icon in the upper-right corner of the screen; Choose Migrate
+
+   ![Switch to Migrate](./images/strat-shaping-1.jpg)
+
+   * Choose the "Move Groups" tab
+
+   ![Migrate-Move Groups](./images/strat-migrate-1.jpg)
+
+   * Click the "Edit Move Group Settings" icon in the first row that is present.  You will see the following information as well as many other options. StratoZone can seamlessly interact with CloudEndure or Azure Site Recovery to schedule and initiate a host/group migration.
+      * Group Vendor: Azure
+      * Vendor Region: East US 2
+      * Move Type: CloudEndure
+   ![Migrate-Move Groups](./images/strat-migrate-2.jpg)
+
+   * Ensure that the "dev-jira" host is present in one of the "Move Groups".  If it is not, add it.
+   * Click on the "Migrate" tab and expand the move group that contains the "dev-jira" server. Clicking on the "thumbs up" icon will allow you to approve and schedule the migration. <strong>Do NOT schedule the migration.</strong>
+
+   ![Migrate-Move Groups](./images/strat-migrate-3.jpg)
