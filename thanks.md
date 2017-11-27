@@ -57,6 +57,18 @@ A number of people have contributed to the development of this migration hackfes
 </tr>
 </table>
 
+We would also like to thank our valued SI partners that will be co-presenting this series with us:
+
+![10th](./challenges/images/logo-10th.png)
+![Cardinal](./challenges/images/logo-cardinal.png)
+![Concurrency](./challenges/images/logo-concurrency.jpg)
+![Neudesic](./challenges/images/logo-neudesic.jpg)
+![Rackspace](./challenges/images/logo-rackspace.jpg)
+![Scalar](./challenges/images/logo-scalar.jpg)
+![SNP](./challenges/images/logo-snp.png)
+
+
+
 Thank you all for your steadfast support in the coordination, programming and testing of this workshop. 
 
 ### Stuart Kirk & Sean Mikha<br>Lead Developers
