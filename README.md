@@ -62,6 +62,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Registration open soon!</td>
   </tr>
   <tr>
+    <td>Philadelphia, PA</td>
+    <td>Microsoft<br>45 Liberty Boulevard (30th St Mtg Rm), Philadelphia, PA</td>
+    <td>Thursday 1/18/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</td>
+  </tr>
+  <tr>
     <td>Seattle, WA</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/seattle.aspx" target="_blank">MTC - Seattle/Bellevue</a></td>
     <td>Friday 1/19/2018</td>
@@ -81,6 +88,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tuesday 2/20/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</td>
+  </tr>
+  <tr>
+    <td>Denver, CO</td>
+    <td>Microsoft<br>7595 Technology Way # 400, Denver, CO</td>
+    <td>Thursday 3/1/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</a></td>
   </tr>
   <tr>
     <td>Rochester, NY</td>
@@ -104,17 +118,15 @@ Cities to be added and unconfirmed target dates:
 <ul>
 <li>Atlanta - 3/13/2018</li>
 <li>Cincinnati - 3/27/2018</li>
-<li>Denver - 3/1/2018</li>
 <li>Detroit - 2/22/2018</li>
 <li>Ft. Lauderdale - 2/28/2018</li>
 <li>Houston - 2/15/2018</li>
 <li>Minneapolis - 2/7/2018</li>
 <li>Nashville - 3/22/2018</li>
-<li>Philadelphia - 1/18/2018</li>
-<li>San Francisco Mountain View - 1/17/2018</li>
+<li>San Francisco Sunnyvale - 2/27/2018</li>
 <li>St. Louis - 3/15/2018</li>
 <li>Tampa - 2/26/2018</li>
 </ul>
 
-<strong>Updated 11/22/2017</strong>
+<strong>Updated 11/27/2017</strong>
 
