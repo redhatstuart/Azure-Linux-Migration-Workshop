@@ -104,6 +104,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Registration open soon!</a></td>
   </tr>
   <tr>
+    <td>St. Louis, MO</td>
+    <td>Microsoft<br>4240 Duncan Avenue #101, St. Louis, MO</td>
+    <td>Monday 3/12/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</a></td>
+  </tr>
+  <tr>
     <td>Charlotte, NC</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/charlotte.aspx" target="_blank">MTC - Charlotte</a></td>
     <td>Thursday 3/29/2018</td>
@@ -124,9 +131,8 @@ Cities to be added and unconfirmed target dates:
 <li>Minneapolis - 2/7/2018</li>
 <li>Nashville - 3/22/2018</li>
 <li>San Francisco Sunnyvale - 2/23/2018</li>
-<li>St. Louis - 3/12/2018</li>
 <li>Tampa - 2/26/2018</li>
 </ul>
 
-<strong>Updated 11/27/2017</strong>
+<strong>Schedule Updated 11/28/2017</strong>
 
