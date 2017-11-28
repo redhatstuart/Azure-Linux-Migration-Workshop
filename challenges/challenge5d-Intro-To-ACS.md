@@ -20,8 +20,9 @@ This challenge will showcase Azure Container Service
 
     * kubectl get nodes
 
-    The error message you receive occurs because the Kubernetes crendetials that ACS has generated have not been downloaded to your active user account.
+    The error message you receive occurs because the Kubernetes crendetials that ACS has generated have not been downloaded to your active user account. Delete your existing ".kube" directory (if it exists) and then query the Azure CLI for the credentials required to access your cluster.
 
+    * rm -rf $HOME/.kube
     * az acs kubernetes get-credentials -n myk8SCluster -g <YOUR_RG>
     ![az acs kubernetes get-credentials](./images/az-getcred.png)
    

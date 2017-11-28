@@ -2,30 +2,15 @@
 az provider list
 
 2)
-az aks create -g odl-liftshift-4847 -n myK8sCluster --node-count 1 --generate-ssh-keys --service-principal 9c9b3671-3030-42e2-9474-c122b07
-4c480 --client-secret tcnt73WRK*Pz
+az aks create --resource-group <YOUR_RG> --name myAKSCluster --generate-ssh-keys --node-count 1 --service-principal <APPLICATION_ID> --client-secret <APPLICATION_SECRET_KEY>
 
 3)
 az aks install-cli
-az aks get-credentials -n myK8sCluster -g odl-liftshift-4886
+rm -rf $HOME/.kube
+az aks get-credentials -n myAKSCluster -g <YOUR_RG>
 kubectl get nodes
 
 4)
-<pod.yaml file, between --->
----
-apiVersion: v1
-kind: Pod
-metadata:
-  name: my-pod
-  labels:
-    zone: prod
-    version: v1
-spec:
-  containers:
-    - name: my-ctr
-      image: evillgenius/kuar:1
-      ports:
-        - containerPort: 8080
----
+wget https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/pod.yml
 kubectl create -f pod.yaml
 kubectl port-forward my-pod 8080:8080
