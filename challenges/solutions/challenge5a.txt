@@ -11,6 +11,6 @@ az aks get-credentials -n myAKSCluster -g <YOUR_RG>
 kubectl get nodes
 
 4)
-wget https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/pod.yml
+wget https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/pod.yaml
 kubectl create -f pod.yaml
 kubectl port-forward my-pod 8080:8080
