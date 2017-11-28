@@ -35,8 +35,9 @@ In this lab, you will get introduced to the new Azure Container Service (AKS). A
 
  * Make sure you are logged in as root in the terminal, if not execute the ``su`` command and use the same password that was given to log into your VNC server
  * Log out of AZ Interactive with ``exit`` if not done so already, we will be installing files in the OS
- * Azure CLI comes with built in commands under the ``az aks`` command sets that allow you to install the Kubernetes CLI (kubectl), run this command in your terminal window
- * Azure CLI also allows you to setup the configuration of kubectl to connect to your cluster, checkout the ``az aks get-credentials`` command after you have installed kubectl
+ * The Azure CLI comes with built in commands under the ``az aks`` command sets that allow you to install the Kubernetes CLI (kubectl), run this command in your terminal window
+ * Delete your existing ".kube" directory (if it exists) and then query the Azure CLI for the credentials required to access your cluster.
+ * The Azure CLI also allows you to setup the configuration of kubectl to connect to your cluster, checkout the ``az aks get-credentials`` command after you have installed kubectl
  * Once configuration is complete you should be able to run ``kubectl get nodes`` to see a listing of the nodes available in your cluster
 
 ![akskubectl](./images/akskubectl.png)
@@ -73,6 +74,7 @@ spec:
 
   * Now that your pod and app are running, lets connect to it
   * Use the ``kubectl port-forward`` command to forward port ``8080`` on your local machine over to your pod
+  * You may wish to use "nohup" and "&" to send the kubectl port-forward command to the background in order to release kubectl's control of the shell
   * Once this is successfully completed, we can test this by going to your browser and accessing ``http://localhost:8080``
 
 ![akskubectlcreate](./images/accessapp.png)
