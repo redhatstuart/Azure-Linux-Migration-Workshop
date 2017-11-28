@@ -123,7 +123,7 @@ Cities to be added and unconfirmed target dates:
 <li>Houston - 2/15/2018</li>
 <li>Minneapolis - 2/7/2018</li>
 <li>Nashville - 3/22/2018</li>
-<li>San Francisco Sunnyvale - 2/22/2018</li>
+<li>San Francisco Sunnyvale - 2/23/2018</li>
 <li>St. Louis - 3/12/2018</li>
 <li>Tampa - 2/26/2018</li>
 </ul>
