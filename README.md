@@ -105,7 +105,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
   </tr>
   <tr>
     <td>St. Louis, MO</td>
-    <td>Microsoft<br>4240 Duncan Avenue #101, St. Louis, MO</td>
+    <td>Microsoft<br>4240 Duncan Avenue Ste #101, St. Louis, MO</td>
     <td>Monday 3/12/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</a></td>
