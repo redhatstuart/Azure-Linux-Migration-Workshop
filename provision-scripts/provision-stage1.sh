@@ -48,6 +48,10 @@ echo "**************************************************************************
 	systemctl enable libvirtd
 	systemctl start libvirtd
 echo "********************************************************************************************"
+        echo "`date` -- Copying the VM rebuild script to the host" >> /root/lsprovision.log
+        wget --quiet -P /var/lib/libvirt/images https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/rebuild-migrate-host.sh
+        chmod 755 /var/lib/libvirt/images/rebuild-migrate-host.sh
+echo "********************************************************************************************"
 	echo "`date` -- Installing noVNC environment" >>/root/lsprovision.log
 	yum -y install novnc python-websockify numpy tigervnc-server
         wget --quiet -P /etc/systemd/system https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/websockify.service
