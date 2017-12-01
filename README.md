@@ -143,7 +143,6 @@ Cities to be added and unconfirmed target dates:
 <li>Ft. Lauderdale - 2/28/2018</li>
 <li>Houston - 2/15/2018</li>
 <li>Minneapolis - 2/7/2018</li>
-<li>San Francisco Sunnyvale - 2/23/2018</li>
 <li>Tampa - 2/26/2018</li>
 </ul>
 
