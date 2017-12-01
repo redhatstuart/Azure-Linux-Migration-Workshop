@@ -16,7 +16,7 @@ This challenge will provide you hands-on access to the StratoZone assessment too
     ![Details](./images/strat-create-new-assessment-3.jpg) 
 
     * Do not change any of the details on Run Schedule or Data Security (can be changed by your administrators later) -- Just click "Save & Next"
-    * The system will email the assessment package as shown on the Downloads tab.  Normally, you would deploy the agent(s) emailed to you onto the hosts in your data center, however for the purposes of this lab, the e-mail does not need to be used; We will use the sample data that already been pre-loaded into the StratoZone portal.
+    * The system will email the assessment package as shown on the Downloads tab.  Normally, you would deploy the agentless collector emailed to you onto the host that will be running the tests in your data center, however for the purposes of this lab, the e-mail does not need to be used; We will use the sample data that already been pre-loaded into the StratoZone portal.
     ![Assessment Complete](./images/strat-create-new-assessment-4.jpg)
 
 <hr>
