@@ -8,6 +8,9 @@ echo "**************************************************************************
 	echo "`date` -- Setting Student User password to 'Microsoft'" >>/root/lsprovision.log
 	echo "Microsoft" | passwd --stdin student
 echo "********************************************************************************************"
+	echo "`date` -- Adding student to wheel group for sudo access'" >>/root/lsprovision.log
+	usermod -G wheel student
+echo "********************************************************************************************"
 	echo "`date` -- Setting Root Password to 'Microsoft'" >>/root/lsprovision.log
 	echo "Microsoft" | passwd --stdin root
 echo "********************************************************************************************"
