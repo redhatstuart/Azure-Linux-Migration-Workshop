@@ -83,6 +83,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Registration open soon!</td>
   </tr>
   <tr>
+    <td>San Francisco, CA (Sunnyvale)</td>
+    <td>Microsoft<br>1020 Enterprise Way, Sunnyvale, CA</TD>
+    <td>Tuesday 2/13/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</a></td>
+  </tr>
+  <tr>
     <td>Phoenix, AZ</td>
     <td>Microsoft<br>60 E Rio Salado Pkwy #1200, Tempe, AZ</a></td>
     <td>Tuesday 2/20/2018</td>
@@ -140,5 +147,5 @@ Cities to be added and unconfirmed target dates:
 <li>Tampa - 2/26/2018</li>
 </ul>
 
-<strong>Schedule Updated 11/28/2017</strong>
+<strong>Schedule Updated 12/1/2017</strong>
 
