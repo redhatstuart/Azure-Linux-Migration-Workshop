@@ -1,6 +1,7 @@
 8a) ssh username@ipaddress
 8b) cat /proc/cpuinfo
 8c) cat /proc/meminfo
+8d) fdisk -l
 
 9a) exit
 9b) az vm list -d
