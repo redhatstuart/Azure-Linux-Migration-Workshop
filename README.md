@@ -112,7 +112,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
   </tr>
   <tr>
     <td>Ft. Lauderdale, FL</td>
-    <td>Microsoft<br>6750 N. Andrews Ave Ste #400, Ft. Lauderdale, FL</td>
+    <td>Microsoft<br>6750 N. Andrews Avenue Ste #400, Ft. Lauderdale, FL</td>
     <td>Wednesday 2/28/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</td>
