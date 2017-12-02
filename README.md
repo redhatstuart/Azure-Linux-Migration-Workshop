@@ -90,9 +90,30 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Registration open soon!</a></td>
   </tr>
   <tr>
+    <td>Houston, TX</td>
+    <td>Microsoft<br>750 Town and Country Blvd, Suite # 1000, Houston, TX</td>
+    <td>Thursday 2/15/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</a></td>
+  </tr>
+  <tr>
     <td>Phoenix, AZ</td>
-    <td>Microsoft<br>60 E Rio Salado Pkwy #1200, Tempe, AZ</a></td>
+    <td>Microsoft<br>60 E Rio Salado Pkwy #1200, Tempe, AZ</td>
     <td>Tuesday 2/20/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</td>
+  </tr>
+  <tr>
+    <td>Tampa, FL</td>
+    <td>Microsoft<br>5426 Bay Center Dr Ste #700, Tampa, FL</td>
+    <td>Monday 2/26/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</td>
+  </tr>
+  <tr>
+    <td>Ft. Lauderdale, FL</td>
+    <td>Microsoft<br>6750 N. Andrews Ave Ste #400, Ft. Lauderdale, FL</td>
+    <td>Wednesday 2/28/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</td>
   </tr>
@@ -125,6 +146,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Registration open soon!</a></td>
   </tr>
   <tr>
+    <td>Cincinnati, OH</td>
+    <td>Microsoft<br>4445 W. Lake Forest Dr, Suite #100, Cincinnati, OH</td>
+    <td>Tuesday 3/27/2018</td>
+    <td>TBD</td>
+    <td>Registration open soon!</a></td>
+  </tr>
+  <tr>
     <td>Charlotte, NC</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/charlotte.aspx" target="_blank">MTC - Charlotte</a></td>
     <td>Thursday 3/29/2018</td>
@@ -138,12 +166,8 @@ Cities to be added and unconfirmed target dates:
 
 <ul>
 <li>Atlanta - 3/13/2018</li>
-<li>Cincinnati - 3/27/2018</li>
 <li>Detroit - 2/22/2018</li>
-<li>Ft. Lauderdale - 2/28/2018</li>
-<li>Houston - 2/15/2018</li>
 <li>Minneapolis - 2/7/2018</li>
-<li>Tampa - 2/26/2018</li>
 </ul>
 
 <strong>Schedule Updated 12/1/2017</strong>
