@@ -166,7 +166,7 @@ Cities to be added and unconfirmed target dates:
 
 <ul>
 <li>Atlanta - 3/13/2018</li>
-<li>Detroit - 2/22/2018</li>
+<li>Detroit - 3/8/2018</li>
 <li>Minneapolis - 2/7/2018</li>
 </ul>
 
