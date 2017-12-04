@@ -13,13 +13,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Irvine, CA</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/irvine.aspx" target="_blank">MTC - Irvine</a></td>
-    <td>Monday 12/4/2017</td>
-    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x2874891a7b6" target="_blank">Available for Registration!</a></td>
-  </tr>
-  <tr>
     <td>New York City, NY</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/new-york.aspx" target="_blank">MTC - New York City</a></td>
     <td>Tuesday 12/5/2017</td>
@@ -170,5 +163,11 @@ Cities to be added and unconfirmed target dates:
 <li>Minneapolis - 2/7/2018</li>
 </ul>
 
-<strong>Schedule Updated 12/1/2017</strong>
+Past dates:
+
+<ul>
+<li>Irvine, CA - 12/4/2018
+</ul>
+
+<strong>Schedule Updated 12/4/2017</strong>
 
