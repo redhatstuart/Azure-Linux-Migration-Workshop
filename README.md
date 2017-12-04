@@ -44,7 +44,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>San Francisco, CA (Downtown)</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/sanfrancisco.aspx" target="_blank">MTC - San Francisco</a></td>
     <td>Monday 1/15/2018</td>
-    <td>TBD</td>
+    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
     <td>Registration open soon!</a></td>
   </tr>
   <tr>
@@ -72,7 +72,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Chicago, IL</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/chicago.aspx" target="_blank">MTC - Chicago</a></td>
     <td>Wednesday 1/24/2018</td>
-    <td><a href="https://www.10thmagnitude.com"i target="_blank">10th Magnitude</a></td>
+    <td><a href="https://www.10thmagnitude.com" target="_blank">10th Magnitude</a></td>
     <td>Registration open soon!</td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tampa, FL</td>
     <td>Microsoft<br>5426 Bay Center Dr Ste #700, Tampa, FL</td>
     <td>Monday 2/26/2018</td>
-    <td>TBD</td>
+    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td>Registration open soon!</td>
   </tr>
   <tr>
@@ -128,28 +128,28 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>St. Louis, MO</td>
     <td>Microsoft<br>4240 Duncan Avenue Ste #101, St. Louis, MO</td>
     <td>Monday 3/12/2018</td>
-    <td>TBD</td>
+    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td>Registration open soon!</a></td>
   </tr>
   <tr>
     <td>Nashville, TN</td>
     <td>Microsoft<br>8 City Blvd, Suite #403, Nashville, TN</td>
     <td>Thursday 3/22/2018</td>
-    <td>TBD</td>
+    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td>Registration open soon!</a></td>
   </tr>
   <tr>
     <td>Cincinnati, OH</td>
     <td>Microsoft<br>4445 W. Lake Forest Dr, Suite #100, Cincinnati, OH</td>
     <td>Tuesday 3/27/2018</td>
-    <td>TBD</td>
+    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td>Registration open soon!</a></td>
   </tr>
   <tr>
     <td>Charlotte, NC</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/charlotte.aspx" target="_blank">MTC - Charlotte</a></td>
     <td>Thursday 3/29/2018</td>
-    <td>TBD</td>
+    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td>Registration open soon!</a></td>
   </tr>
 
