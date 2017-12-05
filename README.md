@@ -56,7 +56,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
   </tr>
   <tr>
     <td>Philadelphia, PA</td>
-    <td>Microsoft<br>45 Liberty Boulevard, Philadelphia, PA</td>
+    <td>Microsoft<br>45 Liberty Boulevard, Malvern, PA</td>
     <td>Thursday 1/18/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</td>
