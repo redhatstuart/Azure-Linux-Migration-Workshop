@@ -169,5 +169,5 @@ Past dates:
 <li>New York, NY - 12/5/2018
 </ul>
 
-<strong>Schedule Updated 12/5/2017</strong>
+<strong>Schedule Updated 12/7/2017</strong>
 
