@@ -134,7 +134,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
   <tr>
     <td>Atlanta, GA</td>
     <td>Microsoft<br>8000 Avalon Blvd, Alpharetta, GA</td>
-    <td>Tuesday 3/132018</td>
+    <td>Tuesday 3/13/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td>Registration open soon!</td>
   </tr>
