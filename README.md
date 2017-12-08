@@ -51,7 +51,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Philadelphia, PA</td>
     <td>Microsoft<br>45 Liberty Boulevard, Malvern, PA</td>
     <td>Thursday 1/18/2018</td>
-    <td>TBD</td>
+    <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
     <td>Registration open soon!</td>
   </tr>
   <tr>
