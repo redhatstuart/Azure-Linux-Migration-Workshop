@@ -118,6 +118,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Registration open soon!</a></td>
   </tr>
   <tr>
+    <td>Detroit, MI</td>
+    <td>Microsoft<br>One Campus Martius, Suite 500, Detroit, MI</td>
+    <td>Monday 3/5/2018</td>
+    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
+    <td>Registration open soon!</a></td>
+  </tr>
+  <tr>
     <td>St. Louis, MO</td>
     <td>Microsoft<br>4240 Duncan Avenue Ste #101, St. Louis, MO</td>
     <td>Monday 3/12/2018</td>
@@ -158,7 +165,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
 Cities to be added and unconfirmed target dates:
 
 <ul>
-<li>Detroit - 3/8/2018</li>
 <li>Minneapolis - 2/7/2018</li>
 </ul>
 
@@ -169,5 +175,5 @@ Past dates:
 <li>New York, NY - 12/5/2018
 </ul>
 
-<strong>Schedule Updated 12/7/2017</strong>
+<strong>Schedule Updated 12/8/2017</strong>
 
