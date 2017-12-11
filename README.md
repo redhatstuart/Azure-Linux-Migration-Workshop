@@ -34,13 +34,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28540487027" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
-    <td>San Francisco, CA (Downtown)</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/sanfrancisco.aspx" target="_blank">MTC - San Francisco</a></td>
-    <td>Monday 1/15/2018</td>
-    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
-    <td>Registration open soon!</a></td>
-  </tr>
-  <tr>
     <td>Toronto, ON</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/toronto-downtown.aspx" target="_blank">MTC - Toronto Downtown</a></td>
     <td>Tuesday 1/16/2018</td>
@@ -118,13 +111,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Registration open soon!</a></td>
   </tr>
   <tr>
-    <td>Detroit, MI</td>
-    <td>Microsoft<br>One Campus Martius, Suite 500, Detroit, MI</td>
-    <td>Thursday 3/8/2018</td>
-    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
-    <td>Registration open soon!</a></td>
-  </tr>
-  <tr>
     <td>St. Louis, MO</td>
     <td>Microsoft<br>4240 Duncan Avenue Ste #101, St. Louis, MO</td>
     <td>Monday 3/12/2018</td>
@@ -165,7 +151,9 @@ This repository contains practical exercises for the Azure Linux Migration Works
 Cities to be added and unconfirmed target dates:
 
 <ul>
+<li>Detroit - 3/14/2018 or 3/15/2018</li>
 <li>Minneapolis - 2/7/2018</li>
+<li>San Francisco (Downtown) - 1/17/2018</li>
 </ul>
 
 Past dates:
