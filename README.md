@@ -105,7 +105,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
   </tr>
   <tr>
     <td>Rochester, NY</td>
-    <td>Microsoft<br>100 Corporate Woods, Rochester, NY</td>
+    <td>Microsoft<br>375 Woodcliff Drive,Fairport, NY</td>
     <td>Monday 3/5/2018</td>
     <td>TBD</td>
     <td>Registration open soon!</a></td>
