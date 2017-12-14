@@ -13,13 +13,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Washington, DC (Reston)</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/reston.aspx" target="_blank">MTC - Reston</a></td>
-    <td>Wednesday 12/13/2017</td>
-    <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28756702757" target="_blank">Available for Registration!</a></td>
-  </tr>
-  <tr>
     <td>Dallas, TX</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">MTC - Las Colinas</a></td>
     <td>Monday 12/18/2017</td>
@@ -59,6 +52,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/chicago.aspx" target="_blank">MTC - Chicago</a></td>
     <td>Wednesday 1/24/2018</td>
     <td><a href="https://www.10thmagnitude.com" target="_blank">10th Magnitude</a></td>
+    <td>Registration open soon!</td>
+  </tr>
+  <tr>
+    <td>San Francisco, CA (Downtown)</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/sanfrancisco.aspx" target="_blank">MTC - San Francisco Downtown</a></td>
+    <td>Friday 1/26/2018</td>
+    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
     <td>Registration open soon!</td>
   </tr>
   <tr>
@@ -159,15 +159,15 @@ Cities to be added and unconfirmed target dates:
 
 <ul>
 <li>Minneapolis - 2/7/2018</li>
-<li>San Francisco (Downtown) - 1/17/2018</li>
 </ul>
 
 Past dates:
 
 <ul>
-<li>Irvine, CA - 12/4/2018
-<li>New York, NY - 12/5/2018
+<li>Irvine, CA - 12/4/2017
+<li>New York, NY - 12/5/2017
+<li>Reston, VA - 12/13/2017
 </ul>
 
-<strong>Schedule Updated 12/11/2017</strong>
+<strong>Schedule Updated 12/13/2017</strong>
 
