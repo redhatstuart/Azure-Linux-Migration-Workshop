@@ -13,13 +13,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Dallas, TX</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/dallas.aspx" target="_blank">MTC - Las Colinas</a></td>
-    <td>Monday 12/18/2017</td>
-    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x2875746f50c" target="_blank">Available for Registration!</a></td>
-  </tr>
-  <tr>
     <td>Boston, MA</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/boston.aspx" target="_blank">MTC - Boston</a></td>
     <td>Tuesday 12/19/2017</td>
@@ -60,6 +53,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Friday 1/26/2018</td>
     <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
     <td>Registration open soon!</td>
+  </tr>
+  <tr>
+    <td>Minneapolis, MN (Edina)</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/minneapolis.aspx" target="_blank">MTC - Minneapolis</a></TD>
+    <td>Tuesday 2/13/2018</td>
+    <td><a href="https://concurrency.com" target="_blank">Concurrency</a></td>
+    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3202888abcd" target="_blank">Available for Registration!</a></td>
   </tr>
   <tr>
     <td>San Francisco, CA (Sunnyvale)</td>
@@ -155,18 +155,13 @@ This repository contains practical exercises for the Azure Linux Migration Works
 
 </table>
 
-Cities to be added and unconfirmed target dates:
-
-<ul>
-<li>Minneapolis - 2/7/2018</li>
-</ul>
-
 Past dates:
 
 <ul>
 <li>Irvine, CA - 12/4/2017
 <li>New York, NY - 12/5/2017
 <li>Reston, VA - 12/13/2017
+<li>Dallas, TX - 12/18/2017
 </ul>
 
 <strong>Schedule Updated 12/18/2017</strong>
