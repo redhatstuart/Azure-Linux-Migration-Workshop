@@ -13,13 +13,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Boston, MA</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/boston.aspx" target="_blank">MTC - Boston</a></td>
-    <td>Tuesday 12/19/2017</td>
-    <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x28540487027" target="_blank">Available for Registration!</a></td>
-  </tr>
-  <tr>
     <td>Toronto, ON</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/toronto-downtown.aspx" target="_blank">MTC - Toronto Downtown</a></td>
     <td>Tuesday 1/16/2018</td>
@@ -162,7 +155,8 @@ Past dates:
 <li>New York, NY - 12/5/2017
 <li>Reston, VA - 12/13/2017
 <li>Dallas, TX - 12/18/2017
+<li>Boston, MA - 12/19/2017
 </ul>
 
-<strong>Schedule Updated 12/18/2017</strong>
+<strong>Schedule Updated 1/12/2018</strong>
 
