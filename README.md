@@ -13,13 +13,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Toronto, ON</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/toronto-downtown.aspx" target="_blank">MTC - Toronto Downtown</a></td>
-    <td>Tuesday 1/16/2018</td>
-    <td><a href="https://www.scalar.ca/en" target="_blank">Scalar</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/3166826" target="_blank">Available for Registration!</a></td>
-  </tr>
-  <tr>
     <td>Philadelphia, PA</td>
     <td>Microsoft<br>45 Liberty Boulevard, Malvern, PA</td>
     <td>Thursday 1/18/2018</td>
@@ -31,7 +24,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/seattle.aspx" target="_blank">MTC - Seattle/Bellevue</a></td>
     <td>Friday 1/19/2018</td>
     <td>TBD</td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3185921abcd" target="_blank">Available for Registration!</a></td>
+    <td><strong>POSTPONED</strong></td>
   </tr>
   <tr>
     <td>Chicago, IL</td>
@@ -156,6 +149,7 @@ Past dates:
 <li>Reston, VA - 12/13/2017
 <li>Dallas, TX - 12/18/2017
 <li>Boston, MA - 12/19/2017
+<li>Toronto, ON - 1/16/2018
 </ul>
 
 <strong>Schedule Updated 1/12/2018</strong>
