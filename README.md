@@ -146,5 +146,5 @@ Past dates:
 <li>Philadelphia, PA - 1/18/2018
 </ul>
 
-<strong>Schedule Updated 1/12/2018</strong>
+<strong>Schedule Updated 1/18/2018</strong>
 
