@@ -13,16 +13,9 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Philadelphia, PA</td>
-    <td>Microsoft<br>45 Liberty Boulevard, Malvern, PA</td>
-    <td>Thursday 1/18/2018</td>
-    <td><a href="https://www.snp.com/" target="_blank">SNP Technologies</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3186073abcd" target="_blank">Available for Registration!</a></td>
-  </tr>
-  <tr>
     <td>Seattle, WA</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/seattle.aspx" target="_blank">MTC - Seattle/Bellevue</a></td>
-    <td>Friday 1/19/2018</td>
+    <td><strong>POSTPONED</strong></td>
     <td>TBD</td>
     <td><strong>POSTPONED</strong></td>
   </tr>
@@ -36,9 +29,9 @@ This repository contains practical exercises for the Azure Linux Migration Works
   <tr>
     <td>San Francisco, CA (Downtown)</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/sanfrancisco.aspx" target="_blank">MTC - San Francisco Downtown</a></td>
-    <td>Friday 1/26/2018</td>
+    <td><strong>POSTPONED</strong></td>
     <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
-    <td>Registration open soon!</td>
+    <td><strong>POSTPONED</strong></td>
   </tr>
   <tr>
     <td>Minneapolis, MN (Edina)</td>
@@ -150,6 +143,7 @@ Past dates:
 <li>Dallas, TX - 12/18/2017
 <li>Boston, MA - 12/19/2017
 <li>Toronto, ON - 1/16/2018
+<li>Philadelphia, PA - 1/18/2018
 </ul>
 
 <strong>Schedule Updated 1/12/2018</strong>
