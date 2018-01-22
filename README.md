@@ -13,25 +13,11 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Seattle, WA</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/seattle.aspx" target="_blank">MTC - Seattle/Bellevue</a></td>
-    <td><strong>POSTPONED</strong></td>
-    <td>TBD</td>
-    <td><strong>POSTPONED</strong></td>
-  </tr>
-  <tr>
     <td>Chicago, IL</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/chicago.aspx" target="_blank">MTC - Chicago</a></td>
     <td>Wednesday 1/24/2018</td>
-    <td><a href="https://www.10thmagnitude.com" target="_blank">10th Magnitude</a></td>
+    <td><a href="https://concurrency.com" target="_blank">Concurrency</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3201482abcd" target="_blank">Available for Registration!</a></td>
-  </tr>
-  <tr>
-    <td>San Francisco, CA (Downtown)</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/sanfrancisco.aspx" target="_blank">MTC - San Francisco Downtown</a></td>
-    <td><strong>POSTPONED</strong></td>
-    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
-    <td><strong>POSTPONED</strong></td>
   </tr>
   <tr>
     <td>Minneapolis, MN (Edina)</td>
@@ -131,6 +117,22 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3191811abcd" target="_blank">Available for Registration!</a></td>
   </tr>
+  <tr>
+    <td>Seattle, WA</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/seattle.aspx" target="_blank">MTC - Seattle/Bellevue</a></td>
+    <td><strong>POSTPONED</strong></td>
+    <td>TBD</td>
+    <td><strong>POSTPONED</strong></td>
+  </tr>
+  <tr>
+    <td>San Francisco, CA (Downtown)</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/sanfrancisco.aspx" target="_blank">MTC - San Francisco Downtown</a></td>
+    <td><strong>POSTPONED</strong></td>
+    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
+    <td><strong>POSTPONED</strong></td>
+  </tr>
+
+
 
 </table>
 
@@ -146,5 +148,5 @@ Past dates:
 <li>Philadelphia, PA - 1/18/2018
 </ul>
 
-<strong>Schedule Updated 1/18/2018</strong>
+<strong>Schedule Updated 1/22/2018</strong>
 
