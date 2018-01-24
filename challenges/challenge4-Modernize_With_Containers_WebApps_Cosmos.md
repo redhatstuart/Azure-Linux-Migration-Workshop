@@ -18,7 +18,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
     * Open a new FireFox web browser from within the Linux Desktop
 
-    * Access the NodeJS application by visiting http://&lt;SOURCE-VM-IP-ADDRESS&gt:8080
+    * Access the NodeJS application by visiting http://&lt;SOURCE-VM-IP-ADDRESS&gt;:8080
 
       ![Access Blank NodeJS MongoDB](./images/app-front-end-blank.png)
 
@@ -54,7 +54,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 5. <strong>Verify that the NodeJS application is running in the Azure VM</strong>
 
-   * Verify that the NodeJS application is still available on the migrated host.  Visit http://&ltMIGRATED-IP-ADDRESS&gt:8080
+   * Verify that the NodeJS application is still available on the migrated host.  Visit http://&lt;MIGRATED-IP-ADDRESS&gt;:8080
 
       ![Populate Migrated NodeJS MongoDB](./images/app-front-end-migrated.png)
 
