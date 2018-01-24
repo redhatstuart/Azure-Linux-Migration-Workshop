@@ -151,24 +151,4 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Verify SSH Connectivity](./images/ceagentinstall-9.jpg)
 
-<hr>
-
-10. <strong>Perform a migration cut-over</strong>
-
-    * As a final step, return back to the "Machines" tab and perform a formal cutover of the migrate-host virtual machine
-    * Select the checkbox next to the "migrate-host" virtual machine, Click "Launch Target Machines" and select "Cutover"
-
-      ![Perform Cutover](./images/ceagentinstall-10.jpg)
-
-    * After the cutover is completed, this should reflect in the "Machines" tab
-
-      ![Verify Cutover Complete](./images/ceagentinstall-11.jpg)
-
-    * Determine the new IP address of the migrated virtual machine; Double-click on "migrate-host" and explore the "Target" tab; Note that the IP address has changed
-
-      ![Verify New IP](./images/ceagentinstall-12.jpg)
-
-    * SSH to the virtual machine at the IP address provided by CloudEndure; This is your new IP address in Microsoft Azure.
-
-      ![Verify SSH Connectivity](./images/ceagentinstall-13.jpg)
 
