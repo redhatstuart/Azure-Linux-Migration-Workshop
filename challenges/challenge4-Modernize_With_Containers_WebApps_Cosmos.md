@@ -38,7 +38,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
     * Return back to the CloudEndure Console
 
-    * Select the checkbox next to the "migrate-host" virtual machine, Click "Launch Target Machines" and select "Test"
+    * Select the checkbox next to the "migrate-host" virtual machine, Click "Launch Target Machines" and select "Test".  This will cause a new VM instance to be created within Azure based on the current status of your source VM.  Since you have "updated" it by providing data to the NodeJS application / MongoDB environment, this should now also migrate to Microsoft Azure.
 
     * After the test is completed, this should reflect in the "Machines" tab
 
