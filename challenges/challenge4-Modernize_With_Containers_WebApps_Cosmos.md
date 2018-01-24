@@ -67,7 +67,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Be sure to perform this action on the <strong>NEWLY MIGRATED VM</strong> which you just viewed and <STRONG>NOT</STRONG> the source VM
 
-      ![Populate Source NodeJS MongoDB](./images/app-front-end-populated-extra.png)
+      ![Populate Source NodeJS MongoDB](./images/app-front-end-migrated-extra.png)
 
 <hr>
 
