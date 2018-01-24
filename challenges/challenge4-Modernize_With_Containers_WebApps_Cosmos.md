@@ -12,7 +12,41 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 ## Process
 
-1. <strong>x</strong>
+1. <strong>Access the running NodeJS applicatoon on the source "migrate-host" VM</strong>
 
 <hr>
+
+2. <strong>Populate the local MongoDB with data using the NodeJS application</strong>
+
+<hr>
+
+3. <strong>Perform another VM test with CloudEndure</strong>
+
+<hr>
+
+4. <strong>Verify connectivity to the newly tested VM</strong>
+
+<hr>
+
+5. <strong>Verify that the NodeJS application is running in the Azure VM</strong>
+
+<hr>
+
+6. <strong>Add additional content to the MongoDB using the NodsJS application</strong>
+
+<hr>
+
+7. <strong>Containerize the NodeJS Application</strong>
+
+<hr>
+
+8. <strong>Create and Utilize Azure Container Registry</strong>
+
+<hr>
+
+9. <strong>Create a CosmosDB and Perform a MongoDB Migration</strong>
+
+<hr>
+
+10. <strong>Deploy the containerized NodeJS application as an Azure Web App</strong>
 
