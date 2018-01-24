@@ -46,19 +46,28 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 <hr>
 
-4. <strong>Verify connectivity to the newly tested VM</strong>
+4. <strong>Wait for the VM test to complete</strong>
 
    * Ensure that the VM test migration has completed from Step 3
-
-   * 
 
 <hr>
 
 5. <strong>Verify that the NodeJS application is running in the Azure VM</strong>
 
+   * Verify that the NodeJS application is still available on the migrated host.  Visit http://<MIGRATED-IP-ADDRESS>:8080
+
+      ![Populate Migrated NodeJS MongoDB](./images/app-front-end-migrated.png)
+
 <hr>
 
 6. <strong>Add additional content to the MongoDB using the NodsJS application</strong>
+
+
+   * Add some additional content to the MongoDB using the NodeJS application by entering information in the submit box and clicking the "Add" button
+
+   * Be sure to perform this action on the <strong>NEWLY MIGRATED VM</strong> which you just viewed and <STRONG>NOT</STRONG> the source VM
+
+      ![Populate Source NodeJS MongoDB](./images/app-front-end-populated-extra.png)
 
 <hr>
 
