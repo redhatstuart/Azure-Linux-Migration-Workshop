@@ -23,7 +23,7 @@ This challenge will provide instructions on extending your existing Ansible CLI 
     * Switch user to become the Ansible user inheriting its properties
     * Generate an SSH keypair for the ansible user
     * Create a directory called "repo" off of the Ansible user's home directory
-    * Switch into the "repos" directory
+    * Switch into the "repo" directory
     * Download the playbook template located at: https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/provision-scripts/centos-azure-create.yml
 
 5. <strong>Prepare the Ansible playbook</strong>

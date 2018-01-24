@@ -13,13 +13,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Notes</font></strong></td>
   </tr>
   <tr>
-    <td>Chicago, IL</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/chicago.aspx" target="_blank">MTC - Chicago</a></td>
-    <td>Wednesday 1/24/2018</td>
-    <td><a href="https://concurrency.com" target="_blank">Concurrency</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3201482abcd" target="_blank">Available for Registration!</a></td>
-  </tr>
-  <tr>
     <td>Minneapolis, MN (Edina)</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/minneapolis.aspx" target="_blank">MTC - Minneapolis</a></TD>
     <td>Wednesday 2/7/2018</td>
@@ -146,7 +139,8 @@ Past dates:
 <li>Boston, MA - 12/19/2017
 <li>Toronto, ON - 1/16/2018
 <li>Philadelphia, PA - 1/18/2018
+<li>Chicago, IL - 1/24/2018
 </ul>
 
-<strong>Schedule Updated 1/22/2018</strong>
+<strong>Schedule Updated 1/24/2018</strong>
 
