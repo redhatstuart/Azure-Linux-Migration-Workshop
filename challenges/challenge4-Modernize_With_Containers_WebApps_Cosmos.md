@@ -12,19 +12,45 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 ## Process
 
-1. <strong>Access the running NodeJS applicatoon on the source "migrate-host" VM</strong>
+1. <strong>Access the running NodeJS application on the source "migrate-host" VM</strong>
+
+    * Determine the IP address of the source "migrate-host" virtual machine; This is found in a text file on your Linux desktop.
+
+    * Open a new FireFox web browser from within the Linux Desktop
+
+    * Access the NodeJS application by visiting http://<SOURCE-VM-IP-ADDRESS>:8080
+
+      ![Access Blank NodeJS MongoDB](./images/app-front-end-blank.png)
 
 <hr>
 
 2. <strong>Populate the local MongoDB with data using the NodeJS application</strong>
 
+   * Add some content to the MongoDB using the NodeJS application by entering information in the submit box and clicking the "Add" button
+
+   * Feel free to add as many/few lines of data into the database as you see fit
+
+      ![Populate Source NodeJS MongoDB](./images/app-front-end-populated.png)  
+
 <hr>
 
 3. <strong>Perform another VM test with CloudEndure</strong>
 
+    * Return back to the CloudEndure Console
+
+    * Select the checkbox next to the "migrate-host" virtual machine, Click "Launch Target Machines" and select "Test"
+
+    * After the test is completed, this should reflect in the "Machines" tab
+
+      ![Verify Test Complete](./images/ceagentinstall-7.jpg)
+
 <hr>
 
 4. <strong>Verify connectivity to the newly tested VM</strong>
+
+   * Ensure that the VM test migration has completed from Step 3
+
+   * 
 
 <hr>
 
