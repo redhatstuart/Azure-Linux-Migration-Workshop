@@ -73,6 +73,8 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 7. <strong>Containerize the NodeJS Application</strong>
 
+   * Navigate to the application's root directory: ```cd /source/sample-apps/nodejs-todo/src```
+
 <hr>
 
 8. <strong>Create and Utilize Azure Container Registry</strong>
