@@ -73,7 +73,14 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 7. <strong>Containerize the NodeJS Application</strong>
 
+   * Ensure the "docker" RPM is installed on your migrate-host VM.  If it isn't, install it:  ```yum -y install docker```
+   * Ensure that "docker" is configured to start by systemd and that it is, in fact, started:  ```systemctl enable docker ; systemctl start docker```
    * Navigate to the application's root directory: ```cd /source/sample-apps/nodejs-todo/src```
+   * Edit the "Dockerfile" configuration file and change the port to be exposed from port 8080 to port 80 when the container is executed:  ```vi Dockerfile```
+   * Edit the "server.js" configuration file and change the port which the application should listen on from port 8080 to port 80 when the container is executed:  ```vi server.js```
+   * Edit the "/etc/mongod.conf" configuration file and comment out the "bindIp" directive which will force MongoDB to listen on all interfaces:  ```vi /etc/mongod.conf```
+   * Restart mongod using systemctl:  ```systemctl restart mongod```
+   * Containerize the application:  ```docker build -t ossdemo/nodejs-todo .```
 
 <hr>
 
