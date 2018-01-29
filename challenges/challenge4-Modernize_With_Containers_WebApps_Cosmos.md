@@ -48,7 +48,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 4. <strong>Wait for the virtual machine test migration to complete</strong>
 
-   * Ensure that the virtual machine test migration has completed from Step 3 <strong>IMPORTANT</strong>
+   * Ensure that the virtual machine test migration has completed from Step 3 <strong>&lt;--IMPORTANT</strong>
    * Determine the IP address of the newly tested virtual machine by visiting the "Target" tab in the CloudEndure console
 
 <hr>
