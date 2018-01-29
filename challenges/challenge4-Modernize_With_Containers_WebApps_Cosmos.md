@@ -49,12 +49,13 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 4. <strong>Wait for the VM test to complete</strong>
 
    * Ensure that the VM test migration has completed from Step 3
+   * Determine the IP address of the newly tested virtual machine by visiting the "Target" tab in the CloudEndure console
 
 <hr>
 
 5. <strong>Verify that the NodeJS application is running in the Azure VM</strong>
 
-   * Verify that the NodeJS application is still available on the migrated host.  Visit ```http://<MIGRATED-IP-ADDRESS>:8080```
+   * Verify that the NodeJS application is still available on the migrated host and contains all of the data you've published to it.  Visit ```http://<MIGRATED-IP-ADDRESS>:8080```
 
       ![Populate Migrated NodeJS MongoDB](./images/app-front-end-migrated.png)
 
@@ -65,7 +66,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Add some additional content to the MongoDB using the NodeJS application by entering information in the submit box and clicking the "Add" button
 
-   * Be sure to perform this action on the <strong>NEWLY MIGRATED VM</strong> which you just viewed and <STRONG>NOT</STRONG> the source VM
+   * Be sure to perform this action on the <strong>NEWLY MIGRATED VM</strong> which you just viewed and <STRONG>NOT</STRONG> the source VM. At this point, we will no longer make use of the source "migrate-host" virtual machine running inside your Linux desktop which you just migrated.
 
       ![Populate Source NodeJS MongoDB](./images/app-front-end-migrated-extra.png)
 
