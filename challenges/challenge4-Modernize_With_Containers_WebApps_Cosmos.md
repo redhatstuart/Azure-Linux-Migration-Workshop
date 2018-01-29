@@ -78,7 +78,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Ensure that <strong>"docker"</strong> is configured to start by systemd and that it is, in fact, started:  ```systemctl enable docker ; systemctl start docker```
 
-   * Navigate to the application's root directory: ```cd /source/sample-apps/nodejs-todo/src```
+   * Navigate to the NodeJS application's root directory: ```cd /source/sample-apps/nodejs-todo/src```
 
    * Edit the "<strong>Dockerfile"</strong> configuration file and change the port to be exposed from port 8080 to port 80 when the container is executed:  ```vi Dockerfile```
 
@@ -104,15 +104,52 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Now remove the reference to port 8080 and verify that the newly created and executed container is providing the NodeJS Application at:  ```http://<MIGRATED-IP-ADDRESS>```
 
-   * Feel free to add additional content if you wish.
+   * Verify the data which you just entered (if any) is visible.  Feel free to add additional content if you wish.
 
 <hr>
 
 9. <strong>Create and Utilize Azure Container Registry</strong>
 
+   * Using the Azure Linux CLI, create an Azure Container Registry:
+       * Use the -n switch to give it a unique name, ex: <strong>firstnamelastnamebirthyear</strong>
+       * Use the -g switch to specify the name of the resource group you have been assigned, ex: <STRONG>ODL-LIFTSHIFT-1234</STRONG>
+       * Use the -l switch to specify the name of the Azure data center your resource group is in, ex: <strong>centralus</strong> or <strong>eastus</strong>
+
+   * Create the registry: ```az acr create -n <NAME> -g <YOUR_RG> -l <YOUR_DC> --admin-enabled true --sku Basic
+
+   * Tag the docker image using the name of the <strong>NAME</strong> obtained from the last step:  ```docker tag ossdemo/nodejs-todo <NAME>.azurecr.io/ossdemo/nodejs-todo```
+ 
+   * Determine the password which Azure has assigned to your ACR:  ```az acr credential show -n <NAME> --query passwords[0].value```
+
+   * Use docker to log in to your ACR using the password you just obtained from the previous step:  ```docker login <NAME>.azurecr.io -u <NAME> -p <PASSWORD>
+
+   * Push the container you have built and tested to the ACR:  ```docker push <NAME>.azurecr.io/ossdemo/nodejs-todo```
+
 <hr>
 
 10. <strong>Create a CosmosDB and Perform a MongoDB Migration</strong>
+
+   * Create a MongoDB-based Azure CosmosDB:
+       * Use the -n switch to give it a unique name, ex: <strong>firstnamelastname-cosmos</strong>
+       * Use the --kind switch to specify a MongoDB database
+       * Use the -g switch to specify the name of the resource group you have been assigned, ex: <STRONG>ODL-LIFTSHIFT-1234</STRONG>
+
+   * Create the CosmosDB:  ```az cosmosdb create --name <NAME> --kind MongoDB -g <YOUR_RG>```
+
+   * In order for the to-be-created Azure Web App to connect to this CosmosDB we will need to determine what the connection string variable will be. This will also provide the password we will use to connect to the database. Use the Azure Linux CLI to determine this:  ```az cosmosdb list-connection-strings -g <YOUR_RG> -n <NAME> --query connectionStrings[].connectionString```
+ 
+   ![CosmosDB Password](./images/cosmos-db-password.jpg)
+
+   * Export the data from your existing MongoDB to a JSON flat-file:  ```mongoexport --db nodejs-todo --collection todos --out todos.json``
+
+   * The password you will need to enter was provided to you in the connection string and is underlined.  It is the string which is underlined after the CosmosDB name identifier and the host/connection port.  In this particular example, the password is: <strong>Vx1iXovK6BmllcQ9jG9VdhjOGEaslXsuXCoBcE3tZP4W49FJuQbh8EP3wWVQx2L1QM9ggMGNgzWuLE0Qhd0Zmw==</strong>
+
+   * Import the data from the JSON flat-file to CosmosDB:  ```mongoimport -h <NAME>.documents.azure.com:10255 -u <NAME> -p <PASSWORD> --ssl --sslAllowInvalidCertificates -d nodejs-todo -c todos --file=todos.json --type=json```
+
+   ![CosmosDB Import Success](./images/cosmos-db-import.jpg)
+
+
+
 
 <hr>
 
