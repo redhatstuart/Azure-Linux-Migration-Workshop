@@ -115,7 +115,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
        * Use the -g switch to specify the name of the resource group you have been assigned, ex: <STRONG>ODL-LIFTSHIFT-1234</STRONG>
        * Use the -l switch to specify the name of the Azure data center your resource group is in, ex: <strong>centralus</strong> or <strong>eastus</strong>
 
-   * Create the registry: ```az acr create -n <ACR_NAME> -g <YOUR_RG> -l <YOUR_DC> --admin-enabled true --sku Basic
+   * Create the registry: ```az acr create -n <ACR_NAME> -g <YOUR_RG> -l <YOUR_DC> --admin-enabled true --sku Basic```
 
    * Determine the password which Azure has assigned to your ACR:  ```az acr credential show -n <ACR_NAME> --query passwords[0].value```
 
