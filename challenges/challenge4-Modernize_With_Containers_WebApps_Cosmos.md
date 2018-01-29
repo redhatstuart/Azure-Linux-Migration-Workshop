@@ -48,14 +48,14 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 4. <strong>Wait for the virtual machine test migration to complete</strong>
 
-   * Ensure that the virtual machine test migration has completed from Step 3
+   * Ensure that the virtual machine test migration has completed from Step 3 <strong>IMPORTANT</strong>
    * Determine the IP address of the newly tested virtual machine by visiting the "Target" tab in the CloudEndure console
 
 <hr>
 
 5. <strong>Verify that the NodeJS application is running in the virtual machine you migrated to Azure</strong>
 
-   * Verify that the NodeJS application is still available on the migrated host and contains all of the data you've published to it.  Visit ```http://<MIGRATED-IP-ADDRESS>```
+   * Verify that the NodeJS application is still available on the migrated host which now exists in Azure and contains all of the data you've published to it.  Visit ```http://<MIGRATED-IP-ADDRESS>```
 
       ![Populate Migrated NodeJS MongoDB](./images/app-front-end-migrated.png)
 
@@ -64,15 +64,17 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 6. <strong>Add additional content to the MongoDB using the NodsJS application</strong>
 
 
-   * Add some additional content to the MongoDB using the NodeJS application by entering information in the submit box and clicking the "Add" button
+   * Now that the host has been migrated to Azure, add some additional content to the MongoDB using the NodeJS application by entering information in the submit box and clicking the "Add" button
 
-   * Be sure to perform this action on the <strong>NEWLY MIGRATED VIRTUAL MACHINE</strong> which you just viewed and <STRONG>NOT</STRONG> the source virtual machine. At this point, we will no longer make use of the source "migrate-host" virtual machine running inside your Linux desktop which you just migrated.
+   * Be sure to perform this action on the <strong>NEWLY MIGRATED VIRTUAL MACHINE</strong> which you just viewed and <STRONG>NOT</STRONG> the source virtual machine (192.168.122.x). At this point, we will no longer make use of the <strong>source</strong> "migrate-host" virtual machine running inside your Linux desktop that you just migrated.
 
       ![Populate Source NodeJS MongoDB](./images/app-front-end-migrated-extra.png)
 
 <hr>
 
 7. <strong>Containerize the NodeJS Application</strong>
+
+   * Determine the IP Address of the migrated virtual machine running in Azure and SSH to it:  ```ssh root@your.azure.ip.address```
 
    * Ensure the <strong>"docker"</strong> RPM is installed on your migrate-host virtual machine.  If it isn't, install it:  ```yum -y install docker```
 
@@ -82,7 +84,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Edit the "<strong>Dockerfile"</strong> configuration file and change the port to be exposed from port 8080 to port 80 when the container is executed:  ```vi Dockerfile```
 
-   * Edit the "<strong>/etc/mongod.conf"</strong> configuration file and comment out the "bindIp" directive which will force MongoDB to listen on all interfaces:  ```vi /etc/mongod.conf```
+   * Edit the "<strong>/etc/mongod.conf"</strong> configuration file and comment out the <strong>"bindIp"</strong> directive which will force MongoDB to listen on all interfaces:  ```vi /etc/mongod.conf```
 
    * Restart mongod using systemctl:  ```systemctl restart mongod```
 
@@ -90,13 +92,16 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Verify that the container was indeed created:  ```docker images```
 
-   * Shutdown but do not disable the locally running NodsJS application:  ```systemctl stop pm2-root```
-
-   * Run the newly created container locally to test it:  ```docker run -d -e MONGO_DBCONNECTION=mongodb://172.17.0.1:27017/nodejs-todo -p 80:80 --name=nodejs-todo ossdemo/nodejs-todo```
+   * Shutdown and disable the locally running NodsJS application:  ```systemctl stop pm2-root ; systemctl disable pm2-root```
+ 
+   * Verify in your browser that the NodeJS application in Azure is no longer reachable and produces an error when you try to access it
 
 <hr>
 
 8. <strong>Test the Local Container</strong>
+
+
+   * Run the newly created container locally to test it:  ```docker run -d -e MONGO_DBCONNECTION=mongodb://172.17.0.1:27017/nodejs-todo -p 80:80 --name=nodejs-todo ossdemo/nodejs-todo```
 
    * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATED-IP-ADDRESS>``` to verify the NodeJS application is still running natively on the newly-migrated Azure virtual machine.
 
