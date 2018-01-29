@@ -53,7 +53,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 <hr>
 
-5. <strong>Verify that the NodeJS application is running in the Azure VM</strong>
+5. <strong>Verify that the NodeJS application is running in the VM your migrated to Azure</strong>
 
    * Verify that the NodeJS application is still available on the migrated host and contains all of the data you've published to it.  Visit ```http://<MIGRATED-IP-ADDRESS>:8080```
 
