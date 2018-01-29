@@ -49,11 +49,12 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 4. <strong>Wait for the virtual machine test migration to complete</strong>
 
    * Ensure that the virtual machine test migration has completed from Step 3 <strong>&lt;--IMPORTANT</strong>
-   * Determine the IP address of the newly tested virtual machine by visiting the "Target" tab in the CloudEndure console
 
 <hr>
 
 5. <strong>Verify that the NodeJS application is running in the virtual machine you migrated to Azure</strong>
+
+   * Determine the IP address of the newly tested virtual machine by visiting the "Target" tab in the CloudEndure console
 
    * Verify that the NodeJS application is still available on the migrated host which now exists in Azure and contains all of the data you've published to it.  Visit ```http://<MIGRATED-IP-ADDRESS>```
 
@@ -103,13 +104,9 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Run the newly created container locally to test it:  ```docker run -d -e MONGO_DBCONNECTION=mongodb://172.17.0.1:27017/nodejs-todo -p 80:80 --name=nodejs-todo ossdemo/nodejs-todo```
 
-   * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATED-IP-ADDRESS>``` to verify the NodeJS application is still running natively on the newly-migrated Azure virtual machine.
+   * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATED-IP-ADDRESS>``` to verify the NodeJS application is once again running on the newly-migrated Azure virtual machine.
 
    * Feel free to add additional content if you wish.
-
-   * Now remove the reference to port 8080 and verify that the newly created and executed container is providing the NodeJS Application at:  ```http://<MIGRATED-IP-ADDRESS>```
-
-   * Verify the data which you just entered (if any) is visible.  Feel free to add additional content if you wish.
 
 <hr>
 
