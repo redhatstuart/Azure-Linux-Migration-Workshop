@@ -115,15 +115,15 @@ At the end of the challenge, you should have the front-end NodeJS application ru
        * Use the -g switch to specify the name of the resource group you have been assigned, ex: <STRONG>ODL-LIFTSHIFT-1234</STRONG>
        * Use the -l switch to specify the name of the Azure data center your resource group is in, ex: <strong>centralus</strong> or <strong>eastus</strong>
 
-   * Create the registry: ```az acr create -n <NAME> -g <YOUR_RG> -l <YOUR_DC> --admin-enabled true --sku Basic
+   * Create the registry: ```az acr create -n <ACR_NAME> -g <YOUR_RG> -l <YOUR_DC> --admin-enabled true --sku Basic
 
-   * Tag the docker image using the name of the <strong>NAME</strong> obtained from the last step:  ```docker tag ossdemo/nodejs-todo <NAME>.azurecr.io/ossdemo/nodejs-todo```
+   * Determine the password which Azure has assigned to your ACR:  ```az acr credential show -n <ACR_NAME> --query passwords[0].value```
+
+   * Tag the docker image using the name you set for the ACR:  ```docker tag ossdemo/nodejs-todo <ACR_NAME>.azurecr.io/ossdemo/nodejs-todo```
  
-   * Determine the password which Azure has assigned to your ACR:  ```az acr credential show -n <NAME> --query passwords[0].value```
+   * Use docker to log in to your ACR using the password you just obtained from the previous step:  ```docker login <ACR_NAME>.azurecr.io -u <NAME> -p <PASSWORD>
 
-   * Use docker to log in to your ACR using the password you just obtained from the previous step:  ```docker login <NAME>.azurecr.io -u <NAME> -p <PASSWORD>
-
-   * Push the container you have built and tested to the ACR:  ```docker push <NAME>.azurecr.io/ossdemo/nodejs-todo```
+   * Push the container you have built and tested to the ACR:  ```docker push <ACR_NAME>.azurecr.io/ossdemo/nodejs-todo```
 
 <hr>
 
@@ -134,9 +134,9 @@ At the end of the challenge, you should have the front-end NodeJS application ru
        * Use the --kind switch to specify a MongoDB database
        * Use the -g switch to specify the name of the resource group you have been assigned, ex: <STRONG>ODL-LIFTSHIFT-1234</STRONG>
 
-   * Create the CosmosDB:  ```az cosmosdb create --name <NAME> --kind MongoDB -g <YOUR_RG>```
+   * Create the CosmosDB:  ```az cosmosdb create --name <COSMOS_NAME> --kind MongoDB -g <YOUR_RG>```
 
-   * In order for the to-be-created Azure Web App to connect to this CosmosDB we will need to determine what the connection string variable will be. This will also provide the password we will use to connect to the database. Use the Azure Linux CLI to determine this:  ```az cosmosdb list-connection-strings -g <YOUR_RG> -n <NAME> --query connectionStrings[].connectionString```
+   * In order for the to-be-created Azure Web App to connect to this CosmosDB we will need to determine what the connection string variable will be. This will also provide the password we will use to connect to the database. Use the Azure Linux CLI to determine what this is:  ```az cosmosdb list-connection-strings -g <YOUR_RG> -n <COSMOS_NAME> --query connectionStrings[].connectionString```
  
    ![CosmosDB Password](./images/cosmos-db-password.jpg)
 
@@ -144,7 +144,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 To perform the CosmosDB importy, the password you will need to enter is provided to you in the connection string you just obtained and is underlined in the example above. In this particular example, the password is: <strong>Vx1iXovK6BmllcQ9jG9VdhjOGEaslXsuXCoBcE3tZP4W49FJuQbh8EP3wWVQx2L1QM9ggMGNgzWuLE0Qhd0Zmw==</strong>
 
-   * Import the data from the JSON flat-file to CosmosDB:  ```mongoimport -h <NAME>.documents.azure.com:10255 -u <NAME> -p <PASSWORD> --ssl --sslAllowInvalidCertificates -d nodejs-todo -c todos --file=todos.json --type=json``` and look for output similar to this:
+   * Import the data from the JSON flat-file to CosmosDB:  ```mongoimport -h <COSMOS_NAME>.documents.azure.com:10255 -u <COSMOS_NAME> -p <PASSWORD> --ssl --sslAllowInvalidCertificates -d admin -c todos --file=todos.json --type=json``` and look for output similar to this:
 
    ![CosmosDB Import Success](./images/cosmos-db-import.jpg)
 
@@ -160,4 +160,14 @@ To perform the CosmosDB importy, the password you will need to enter is provided
 
    ![Create App Service Plan](./images/appservice-create-1.jpg)
 
-   * Create the Azure Web Application:  ```az webapp create -g <YOUR_RG> -p webtier-plan -n nodejs-todo```
+   * Create the Azure Web Application:  ```az webapp create -g <YOUR_RG> -p webtier-plan -n nodejs-todo -i ossdemo/nodejs-todo```
+
+   * Remind yourself of your ACR settings:  ```az acr list -g <YOUR_RG>```
+
+   * Remind yourself of your ACR password:  ```az acr credential show -n <ACR_NAME> --query passwords[0].value```
+
+   * Configure the Azure Web Application: ```az webapp config container set -g <YOUR_RG> -n nodejs-todo -p <ACR_PASSWD> -r <ACR_NAME>.azurecr.io -u <ACR_NAME> -i <ACR_NAME>.azurecr.io/ossdemo/nodejs-todo```
+
+   * Remind yourself of the CosmosDB Connection String:  ```az cosmosdb list-connection-strings -g <YOUR_RG> -n <COSMOS_NAME> --query connectionStrings[].connectionString```
+
+   * Update the Azure Web App with the CosmosDB Connection String: ```az webapp config appsettings set -n nodejs-todo -g <YOUR_RG> --settings MONGO_DBCONNECTION=<ENTIRE_OUTPUT_OF_MONGO_CONNECTION_STRING>```
