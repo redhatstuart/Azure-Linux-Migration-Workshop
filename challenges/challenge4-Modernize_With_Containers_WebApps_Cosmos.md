@@ -110,9 +110,9 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATED-IP-ADDRESS>``` to verify the NodeJS application is once again running on the newly-migrated Azure virtual machine. It is now running inside of a Docker container on the virtual machine you've migrated to Azure, however it is still making use of the local MongoDB for its data.
 
-      ![Verify Container](./images/docker-container-verified.png)
-
    * Feel free to add additional content if you wish.
+
+      ![Verify Container](./images/docker-container-verified.png)
 
 <hr>
 
