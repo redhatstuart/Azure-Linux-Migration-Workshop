@@ -27,6 +27,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tuesday 2/13/2018</td>
     <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3203344abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Houston, TX</td>
@@ -42,6 +43,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tuesday 2/20/2018</td>
     <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3186225abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Tampa, FL</td>
@@ -49,6 +51,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Monday 2/26/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3216511abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Ft. Lauderdale, FL</td>
@@ -56,6 +59,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Wednesday 2/28/2018</td>
     <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3216739abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Denver, CO</td>
@@ -71,6 +75,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Monday 3/5/2018</td>
     <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3226904abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>St. Louis, MO</td>
@@ -86,6 +91,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tuesday 3/13/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3215409abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Detroit, MI</td>
@@ -93,6 +99,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tuesday 3/20/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3227132abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Nashville, TN</td>
@@ -100,6 +107,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Thursday 3/22/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3192533abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Cincinnati, OH</td>
@@ -107,6 +115,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tuesday 3/27/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3213908abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Charlotte, NC</td>
@@ -114,6 +123,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Thursday 3/29/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3191811abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Seattle, WA</td>
@@ -121,6 +131,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong>POSTPONED</strong></td>
     <td>TBD</td>
     <td><strong>POSTPONED</strong></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>San Francisco, CA (Downtown)</td>
@@ -128,6 +139,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong>POSTPONED</strong></td>
     <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
     <td><strong>POSTPONED</strong></td>
+    <td>&nbsp;</td>
   </tr>
 
 
