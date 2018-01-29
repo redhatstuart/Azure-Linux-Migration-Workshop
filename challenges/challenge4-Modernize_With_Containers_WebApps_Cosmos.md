@@ -62,7 +62,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 <hr>
 
-6. <strong>Add additional content to the MongoDB using the NodsJS application</strong>
+6. <strong>Add additional content to the MongoDB using the NodeJS application</strong>
 
 
    * Now that the host has been migrated to Azure, add some additional content to the MongoDB using the NodeJS application by entering information in the submit box and clicking the "Add" button
@@ -93,7 +93,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Verify that the container was indeed created:  ```docker images```
 
-   * Shutdown and disable the locally running NodsJS application:  ```systemctl stop pm2-root ; systemctl disable pm2-root```
+   * Shutdown and disable the locally running NodeJS application:  ```systemctl stop pm2-root ; systemctl disable pm2-root```
  
    * Verify in your browser that the NodeJS application in Azure is no longer reachable and produces an error when you try to access it
 
