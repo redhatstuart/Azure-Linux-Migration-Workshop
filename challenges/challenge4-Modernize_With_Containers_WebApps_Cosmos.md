@@ -1,4 +1,4 @@
-# Modernize Your Migrated VM using Azure Web Apps, Azure Container Registry, Azure CosmosDB and Docker
+# Modernize Your Migrated virtual machine using Azure Web Apps, Azure Container Registry, Azure CosmosDB and Docker
 
 ## Expected Outcome
 
@@ -12,7 +12,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 ## Process
 
-1. <strong>Access the running NodeJS application on the source "migrate-host" VM</strong>
+1. <strong>Access the running NodeJS application on the source "migrate-host" virtual machine</strong>
 
     * Determine the IP address of the source "migrate-host" virtual machine; This is found in a text file on your Linux desktop.
 
@@ -34,11 +34,11 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 <hr>
 
-3. <strong>Perform another VM test with CloudEndure</strong>
+3. <strong>Perform another virtual machine test with CloudEndure</strong>
 
     * Return back to the CloudEndure Console
 
-    * Select the checkbox next to the "migrate-host" virtual machine, Click "Launch Target Machines" and select "Test".  This will cause a new VM instance to be created within Azure based on the current status of your source VM.  Since you have "updated" it by providing data to the NodeJS application / MongoDB environment, this should now also migrate to Microsoft Azure.
+    * Select the checkbox next to the "migrate-host" virtual machine, Click "Launch Target Machines" and select "Test".  This will cause a new virtual machine instance to be created within Azure based on the current status of your source virtual machine.  Since you have "updated" it by providing data to the NodeJS application / MongoDB environment, this should now also migrate to Microsoft Azure.
 
     * After the test is completed, this should reflect in the "Machines" tab
 
@@ -46,14 +46,14 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 <hr>
 
-4. <strong>Wait for the VM test to complete</strong>
+4. <strong>Wait for the virtual machine test migration to complete</strong>
 
-   * Ensure that the VM test migration has completed from Step 3
+   * Ensure that the virtual machine test migration has completed from Step 3
    * Determine the IP address of the newly tested virtual machine by visiting the "Target" tab in the CloudEndure console
 
 <hr>
 
-5. <strong>Verify that the NodeJS application is running in the VM your migrated to Azure</strong>
+5. <strong>Verify that the NodeJS application is running in the virtual machine you migrated to Azure</strong>
 
    * Verify that the NodeJS application is still available on the migrated host and contains all of the data you've published to it.  Visit ```http://<MIGRATED-IP-ADDRESS>:8080```
 
@@ -66,7 +66,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Add some additional content to the MongoDB using the NodeJS application by entering information in the submit box and clicking the "Add" button
 
-   * Be sure to perform this action on the <strong>NEWLY MIGRATED VM</strong> which you just viewed and <STRONG>NOT</STRONG> the source VM. At this point, we will no longer make use of the source "migrate-host" virtual machine running inside your Linux desktop which you just migrated.
+   * Be sure to perform this action on the <strong>NEWLY MIGRATED VIRTUAL MACHINE</strong> which you just viewed and <STRONG>NOT</STRONG> the source virtual machine. At this point, we will no longer make use of the source "migrate-host" virtual machine running inside your Linux desktop which you just migrated.
 
       ![Populate Source NodeJS MongoDB](./images/app-front-end-migrated-extra.png)
 
@@ -74,7 +74,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 7. <strong>Containerize the NodeJS Application</strong>
 
-   * Ensure the <strong>"docker"</strong> RPM is installed on your migrate-host VM.  If it isn't, install it:  ```yum -y install docker```
+   * Ensure the <strong>"docker"</strong> RPM is installed on your migrate-host virtual machine.  If it isn't, install it:  ```yum -y install docker```
 
    * Ensure that <strong>"docker"</strong> is configured to start by systemd and that it is, in fact, started:  ```systemctl enable docker ; systemctl start docker```
 
@@ -98,7 +98,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 8. <strong>Test the Local Container</strong>
 
-   * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATED-IP-ADDRESS>:8080``` to verify the NodeJS application is still running natively on the newly-migrated Azure VM.
+   * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATED-IP-ADDRESS>:8080``` to verify the NodeJS application is still running natively on the newly-migrated Azure virtual machine.
 
    * Feel free to add additional content if you wish.
 
