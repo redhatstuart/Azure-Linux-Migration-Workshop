@@ -158,6 +158,6 @@ To perform the CosmosDB importy, the password you will need to enter is provided
 
    * Create the App Service Plan: ```az appservice plan create -g <YOUR_RG> -n webtier-plan --is-linux --number-of-workers 1 --sku S1 -l <YOUR_DC>```
 
-   ![Create App Service Plan](./images/appservice-create.jpg)
+   ![Create App Service Plan](./images/appservice-create-1.jpg)
 
    * Create the Azure Web Application:  ```az webapp create -g <YOUR_RG> -p webtier-plan -n nodejs-todo```
