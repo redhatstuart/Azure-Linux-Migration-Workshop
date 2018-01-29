@@ -97,7 +97,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
  
    * Verify in your browser that the NodeJS application in Azure is no longer reachable and produces an error when you try to access it
 
-      ![Unable To Connect](./images/migrated-node-unable-to-connect.png)
+      ![Unable To Connect](./images/migrated-node-app-unable-to-connect.png)
 
 <hr>
 
