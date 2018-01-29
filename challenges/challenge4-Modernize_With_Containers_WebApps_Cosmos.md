@@ -54,7 +54,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 5. <strong>Verify that the NodeJS application is running in the Azure VM</strong>
 
-   * Verify that the NodeJS application is still available on the migrated host.  Visit ```http://&lt;MIGRATED-IP-ADDRESS&gt;:8080```
+   * Verify that the NodeJS application is still available on the migrated host.  Visit ```http://<MIGRATED-IP-ADDRESS>:8080```
 
       ![Populate Migrated NodeJS MongoDB](./images/app-front-end-migrated.png)
 
@@ -97,11 +97,11 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 8. <strong>Test the Local Container</strong>
 
-   * Using your Firefox browser on your Linux desktop, navigate to ```http://&lt;MIGRATED-IP-ADDRESS&gt;:8080``` to verify the NodeJS application is still running natively on the newly-migrated Azure VM.
+   * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATED-IP-ADDRESS>:8080``` to verify the NodeJS application is still running natively on the newly-migrated Azure VM.
 
    * Feel free to add additional content if you wish.
 
-   * Now remove the reference to port 8080 and verify that the newly created and executed container is providing the NodeJS Application at:  ```http://&lt;MIGRATED-IP-ADDRESS&gt;```
+   * Now remove the reference to port 8080 and verify that the newly created and executed container is providing the NodeJS Application at:  ```http://<MIGRATED-IP-ADDRESS>```
 
    * Feel free to add additional content if you wish.
 
