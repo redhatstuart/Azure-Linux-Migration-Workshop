@@ -19,6 +19,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Wednesday 2/7/2018</td>
     <td><a href="https://concurrency.com" target="_blank">Concurrency</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3202888abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>San Francisco, CA (Sunnyvale)</td>
@@ -62,6 +63,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Thursday 3/1/2018</td>
     <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3201824abcd" target="_blank">Available for Registration!</a></a></td>
+    <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
   </tr>
   <tr>
     <td>Rochester, NY</td>
@@ -76,6 +78,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Monday 3/12/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3192894abcd" target="_blank">Available for Registration!</a></td>
+    <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
   </tr>
   <tr>
     <td>Atlanta, GA</td>
