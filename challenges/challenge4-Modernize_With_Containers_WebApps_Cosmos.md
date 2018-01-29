@@ -195,6 +195,4 @@ To perform the CosmosDB import, the password you will need to enter is provided 
 
 The application will take a few minutes to update and become live.  When it does, you can connect to it at the URL:  [https://<WEBAPP_NAME>.azurewebsites.net](https://<WEBAPP_NAME>.azurewebsites.net).  Verify that the data which was exported from your migrate-host virtual machine is now accessible through the PaaS-based CosmosDB as MongoDB. Verify that you can add additional data to it.
 
-      ![WebApp Deployed](./images/azure-webapp-deployed.png)
-
 You have now modernized the workload which was being served from the migrate-host virtual machine. The virtual machine itself is no longer necessary.  If this had been a production environment, you would now be able to recoup the cost of the OS license, Human capital required to manage/patch the OS, Management server licenses, and the cost of hosting the virtual machine / hypervisor itself. 
