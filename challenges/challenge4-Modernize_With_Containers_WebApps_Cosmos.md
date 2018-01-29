@@ -142,7 +142,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Export the data from your existing MongoDB to a JSON flat-file:  ```mongoexport --db nodejs-todo --collection todos --out todos.json```
 
-   * To perform the CosmosDB importy, the password you will need to enter is provided to you in the connection string you just obtained and is underlined in the example above. In this particular example, the password is: <strong>Vx1iXovK6BmllcQ9jG9VdhjOGEaslXsuXCoBcE3tZP4W49FJuQbh8EP3wWVQx2L1QM9ggMGNgzWuLE0Qhd0Zmw==</strong>
+To perform the CosmosDB importy, the password you will need to enter is provided to you in the connection string you just obtained and is underlined in the example above. In this particular example, the password is: <strong>Vx1iXovK6BmllcQ9jG9VdhjOGEaslXsuXCoBcE3tZP4W49FJuQbh8EP3wWVQx2L1QM9ggMGNgzWuLE0Qhd0Zmw==</strong>
 
    * Import the data from the JSON flat-file to CosmosDB:  ```mongoimport -h <NAME>.documents.azure.com:10255 -u <NAME> -p <PASSWORD> --ssl --sslAllowInvalidCertificates -d nodejs-todo -c todos --file=todos.json --type=json``` and look for output similar to this:
 
@@ -152,3 +152,12 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 11. <strong>Deploy the containerized NodeJS application as an Azure Web App</strong>
 
+   * Create an Azure App Service Plan and associate it to your assigned resource group:
+       * Use the -g switch to specify the name of the resource group you have been assigned, ex: <STRONG>ODL-LIFTSHIFT-1234</STRONG>
+       * Use the -l switch to specify the name of the Azure data center your resource group is in, ex: <strong>centralus</strong> or <strong>eastus</strong>
+
+   * Create the App Service Plan: ```az appservice plan create -g <YOUR_RG> -n webtier-plan --is-linux --number-of-workers 1 --sku S1 -l <YOUR_DC>```
+
+   ![Create App Service Plan](./images/appservice-create.jpg)
+
+   * Create the Azure Web Application:  ```az webapp create -g <YOUR_RG> -p webtier-plan -n nodejs-todo```
