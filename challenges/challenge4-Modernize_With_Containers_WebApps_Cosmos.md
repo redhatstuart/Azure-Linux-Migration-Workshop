@@ -18,7 +18,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
     * Open a new FireFox web browser from within the Linux Desktop
 
-    * Access the NodeJS application by visiting ```http://&lt;SOURCE-VM-IP-ADDRESS&gt;:8080```
+    * Access the NodeJS application by visiting ```http://<SOURCE-VM-IP-ADDRESS>:8080```
 
       ![Access Blank NodeJS MongoDB](./images/app-front-end-blank.png)
 
