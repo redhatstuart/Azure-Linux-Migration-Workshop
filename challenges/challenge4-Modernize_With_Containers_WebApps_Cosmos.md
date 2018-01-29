@@ -155,19 +155,26 @@ To perform the CosmosDB importy, the password you will need to enter is provided
    * Create an Azure App Service Plan and associate it to your assigned resource group:
        * Use the -g switch to specify the name of the resource group you have been assigned, ex: <STRONG>ODL-LIFTSHIFT-1234</STRONG>
        * Use the -l switch to specify the name of the Azure data center your resource group is in, ex: <strong>centralus</strong> or <strong>eastus</strong>
+       * The name of the webapp must be unique across Azure, as the FQDN for it is by default created using the name. When you create the webapp, use a unique name, ex: <strong>firstnamelastnamebirthyear</strong>
 
    * Create the App Service Plan: ```az appservice plan create -g <YOUR_RG> -n webtier-plan --is-linux --number-of-workers 1 --sku S1 -l <YOUR_DC>```
 
    ![Create App Service Plan](./images/appservice-create-1.jpg)
 
-   * Create the Azure Web Application:  ```az webapp create -g <YOUR_RG> -p webtier-plan -n nodejs-todo -i ossdemo/nodejs-todo```
+   * Create the Azure Web Application:  ```az webapp create -g <YOUR_RG> -p webtier-plan -n <WEBAPP_NAME> -i ossdemo/nodejs-todo```
 
    * Remind yourself of your ACR settings:  ```az acr list -g <YOUR_RG>```
 
    * Remind yourself of your ACR password:  ```az acr credential show -n <ACR_NAME> --query passwords[0].value```
 
-   * Configure the Azure Web Application: ```az webapp config container set -g <YOUR_RG> -n nodejs-todo -p <ACR_PASSWD> -r <ACR_NAME>.azurecr.io -u <ACR_NAME> -i <ACR_NAME>.azurecr.io/ossdemo/nodejs-todo```
+   * Configure the Azure Web Application: ```az webapp config container set -g <YOUR_RG> -n <WEBAPP_NAME> -p <ACR_PASSWD> -r <ACR_NAME>.azurecr.io -u <ACR_NAME> -i <ACR_NAME>.azurecr.io/ossdemo/nodejs-todo```
 
    * Remind yourself of the CosmosDB Connection String:  ```az cosmosdb list-connection-strings -g <YOUR_RG> -n <COSMOS_NAME> --query connectionStrings[].connectionString```
 
-   * Update the Azure Web App with the CosmosDB Connection String: ```az webapp config appsettings set -n nodejs-todo -g <YOUR_RG> --settings MONGO_DBCONNECTION=<ENTIRE_OUTPUT_OF_MONGO_CONNECTION_STRING>```
+   * Update the Azure Web App with the CosmosDB Connection String: ```az webapp config appsettings set -n <WEBAPP_NAME> -g <YOUR_RG> --settings MONGO_DBCONNECTION=<ENTIRE_OUTPUT_OF_MONGO_CONNECTION_STRING>```
+
+<hr>
+
+12. <strong>Verify Application</strong>
+
+The application will take a few moments to update and become live.  When it does, you can connect to it at the URL:  [https://<WEBAPP_NAME>.azurewebsites.net](https://<WEBAPP_NAME>.azurewebsites.net).  Verify that the data which was exported from your migrate-host virtual machine is now accessible through the PaaS-based CosmosDB as MongoDB.  You have now modernized the workload which was being served from the migrate-host virtual machine. The virtual machine itself is no longer necessary.  If this had been a production environment, you would now be able to recoup the cost of the OS license, Human capital required to manage/patch the OS, Management server licenses, and the cost of hosting the virtual machine / hypervisor itself. 
