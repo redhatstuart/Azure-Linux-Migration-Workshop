@@ -11,6 +11,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Date</strong></font></td>
     <td><strong><font size="+1">Contributing Partner</font></strong></td>
     <td><strong><font size="+1">Notes</font></strong></td>
+    <td><strong><font size="+1">Will Run</font></strong></td>
   </tr>
   <tr>
     <td>Minneapolis, MN (Edina)</td>
@@ -32,6 +33,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Thursday 2/15/2018</td>
     <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3186301abcd" target="_blank">Available for Registration!</a></td>
+    <td>![Will Run](./challenges/images/checkmark-in-box.png)</td>
   </tr>
   <tr>
     <td>Phoenix, AZ</td>
