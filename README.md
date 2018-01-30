@@ -14,14 +14,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Will Run</font></strong></td>
   </tr>
   <tr>
-    <td>Minneapolis, MN (Edina)</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/minneapolis.aspx" target="_blank">MTC - Minneapolis</a></TD>
-    <td>Wednesday 2/7/2018</td>
-    <td><a href="https://concurrency.com" target="_blank">Concurrency</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3202888abcd" target="_blank">Available for Registration!</a></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
     <td>San Francisco, CA (Sunnyvale)</td>
     <td>Microsoft<br>1020 Enterprise Way, Sunnyvale, CA</TD>
     <td>Tuesday 2/13/2018</td>
@@ -141,8 +133,14 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong>POSTPONED</strong></td>
     <td>&nbsp;</td>
   </tr>
-
-
+  <tr>
+    <td>Minneapolis, MN (Edina)</td>
+    <td><a href="https://www.microsoft.com/en-us/mtc/locations/minneapolis.aspx" target="_blank">MTC - Minneapolis</a></TD>
+    <td>POSTPONED</td>
+    <td><a href="https://concurrency.com" target="_blank">Concurrency</a></td>
+    <td>POSTPONED</td>
+    <td>&nbsp;</td>
+  </tr>
 
 </table>
 
@@ -159,5 +157,5 @@ Past dates:
 <li>Chicago, IL - 1/24/2018
 </ul>
 
-<strong>Schedule Updated 1/29/2018</strong>
+<strong>Schedule Updated 1/30/2018</strong>
 
