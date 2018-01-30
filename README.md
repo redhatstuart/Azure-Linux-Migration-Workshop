@@ -25,7 +25,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Houston, TX</td>
     <td>Microsoft<br>750 Town and Country Blvd, Suite # 1000, Houston, TX</td>
     <td>Thursday 2/15/2018</td>
-    <td>TBD</td>
+    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3186301abcd" target="_blank">Available for Registration!</a></td>
     <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
   </tr>
