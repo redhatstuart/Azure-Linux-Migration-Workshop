@@ -136,9 +136,9 @@ This repository contains practical exercises for the Azure Linux Migration Works
   <tr>
     <td>Minneapolis, MN (Edina)</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/minneapolis.aspx" target="_blank">MTC - Minneapolis</a></TD>
-    <td>POSTPONED</td>
+    <td><strong>POSTPONED</strong></td>
     <td><a href="https://concurrency.com" target="_blank">Concurrency</a></td>
-    <td>POSTPONED</td>
+    <td><strong>POSTPONED</strong></td>
     <td>&nbsp;</td>
   </tr>
 
