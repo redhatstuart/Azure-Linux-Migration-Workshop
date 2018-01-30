@@ -61,7 +61,6 @@ We would also like to thank our valued SI partners that will be co-presenting th
 
 ![Cardinal](./challenges/images/logo-cardinal.png)
 ![Concurrency](./challenges/images/logo-concurrency.jpg)
-
 ![Rackspace](./challenges/images/logo-rackspace.jpg)
 
 ![Scalar](./challenges/images/logo-scalar-ca.jpg)
