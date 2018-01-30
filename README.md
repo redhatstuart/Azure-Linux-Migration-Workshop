@@ -120,7 +120,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
   <tr>
     <td>Charlotte, NC</td>
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/charlotte.aspx" target="_blank">MTC - Charlotte</a></td>
-    <td>Thursday 3/29/2018</td>
+    <td>Tuesday 4/3/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3191811abcd" target="_blank">Available for Registration!</a></td>
     <td>&nbsp;</td>
@@ -159,5 +159,5 @@ Past dates:
 <li>Chicago, IL - 1/24/2018
 </ul>
 
-<strong>Schedule Updated 1/24/2018</strong>
+<strong>Schedule Updated 1/29/2018</strong>
 
