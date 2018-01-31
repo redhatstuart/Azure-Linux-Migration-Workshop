@@ -17,72 +17,54 @@
  </tr>
 <tr>
    <td>9:00 AM</td>
-   <td>9:45 AM</td>
+   <td>9:30 AM</td>
    <td>Overview of Program / Why are we here?</td>
    <td>Powerpoint</td>
  </tr>
 <tr>
-   <td>9:45 AM</td>
-   <td>10:30 AM</td>
+   <td>9:30 AM</td>
+   <td>10:15 AM</td>
    <td>Challenge 1</td>
    <td>Hands-On / Hackathon</td>
  </tr>
 <tr>
-   <td>10:30 AM</td>
-   <td>10:45 AM</td>
-   <td>Break</td>
-   <td>&nbsp;</td>
- </tr>
-<tr>
-   <td>10:45 AM</td>
-   <td>11:30 AM</td>
+   <td>10:15 AM</td>
+   <td>11:15 AM</td>
    <td>Challenge 2</td>
    <td>Hands-On / Hackathon</td>
  </tr>
 <tr>
-   <td>11:30 AM</td>
-   <td>12:00 PM</td>
-   <td>Overview of Cloud Migration Tools</td>
+   <td>11:15 AM</td>
+   <td>11:45 AM</td>
+   <td>Overview of Cloud Migration Tools & Modernization Exercise</td>
    <td>Powerpoint</td>
  </tr>
 <tr>
-   <td>12:00 PM</td>
+   <td>11:45 AM</td>
    <td>12:30 PM</td>
    <td>Challenge 3</td>
    <td>Hands-On / Hackathon</td>
  </tr>
 <tr>
    <td>12:30 PM</td>
-   <td>1:15 PM</td>
+   <td>1:00 PM</td>
    <td>Working Lunch</td>
    <td>&nbsp;</td>
  </tr>
 <tr>
-   <td>1:15 PM</td>
-   <td>1:45 PM</td>
-   <td>Overview of Cloud Analysis Tools</td>
-   <td>Powerpoint</td>
- </tr>
-<tr>
-   <td>1:45 PM</td>
-   <td>3:00 PM</td>
+   <td>1:00 PM</td>
+   <td>2:45 PM</td>
    <td>Challenge 4</td>
    <td>Hands-On / Hackathon</td>
  </tr>
 <tr>
-   <td>3:00 PM</td>
-   <td>3:15 PM</td>
-   <td>Break</td>
-   <td>&nbsp;</td>
+   <td>2:45 PM</td>
+   <td>3:30 PM</td>
+   <td>Challenge 5</td>
+   <td>Hands-On / Hackathon</td>
  </tr>
 <tr>
-   <td>3:15 PM</td>
-   <td>3:45 PM</td>
-   <td>Overview of Modernization Opportunities / Next Steps</td>
-   <td>Powerpoint</td>
- </tr>
-<tr>
-   <td>3:45 PM</td>
+   <td>3:30 PM</td>
    <td>4:45 PM</td>
    <td>Optional Challenges</td>
    <td>Hands-On / Hackathon</td>
