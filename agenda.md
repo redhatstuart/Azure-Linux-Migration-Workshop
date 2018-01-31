@@ -43,7 +43,7 @@
    <td>11:45 AM</td>
    <td>1:00 PM</td>
    <td>Working Lunch / Challenge 3</td>
-   <td>&nbsp;</td>
+   <td>Hands-On / Hackathon</td>
  </tr>
 <tr>
    <td>1:00 PM</td>
