@@ -41,14 +41,8 @@
  </tr>
 <tr>
    <td>11:45 AM</td>
-   <td>12:30 PM</td>
-   <td>Challenge 3</td>
-   <td>Hands-On / Hackathon</td>
- </tr>
-<tr>
-   <td>12:30 PM</td>
    <td>1:00 PM</td>
-   <td>Working Lunch</td>
+   <td>Working Lunch / Challenge 3</td>
    <td>&nbsp;</td>
  </tr>
 <tr>
