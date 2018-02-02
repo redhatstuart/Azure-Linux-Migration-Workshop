@@ -16,7 +16,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
   <tr>
     <td>San Francisco, CA (Sunnyvale)</td>
     <td>Microsoft<br>1020 Enterprise Way, Sunnyvale, CA</TD>
-    <td><strong>POSTPONED</strong></td>
+    <td>Tuesday 2/13/2018</td>
     <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3203344abcd" target="_blank">Available for Registration!</a></td>
     <td>&nbsp;</td>
