@@ -86,14 +86,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td>Detroit, MI</td>
-    <td>Microsoft<br>One Campus Maritus, Detroit, MI</td>
-    <td>Tuesday 3/20/2018</td>
-    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3227132abcd" target="_blank">Available for Registration!</a></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
     <td>Nashville, TN</td>
     <td>Microsoft<br>8 City Blvd, Suite #403, Nashville, TN</td>
     <td>Thursday 3/22/2018</td>
@@ -123,6 +115,14 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tuesday 4/3/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3191811abcd" target="_blank">Available for Registration!</a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Detroit, MI</td>
+    <td>Microsoft<br>One Campus Maritus, Detroit, MI</td>
+    <td>Thursday 4/5/2018</td>
+    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
+    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3227132abcd" target="_blank">Available for Registration!</a></td>
     <td>&nbsp;</td>
   </tr>
   <tr>
