@@ -14,14 +14,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Will Run</font></strong></td>
   </tr>
   <tr>
-    <td>San Francisco, CA (Sunnyvale)</td>
-    <td>Microsoft<br>1020 Enterprise Way, Sunnyvale, CA</TD>
-    <td>Tuesday 2/13/2018</td>
-    <td>TBD</td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3203344abcd" target="_blank">Available for Registration!</a></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
     <td>Houston, TX</td>
     <td>Microsoft<br>750 Town and Country Blvd, Suite # 1000, Houston, TX</td>
     <td>Thursday 2/15/2018</td>
@@ -138,6 +130,14 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><a href="https://www.microsoft.com/en-us/mtc/locations/sanfrancisco.aspx" target="_blank">MTC - San Francisco Downtown</a></td>
     <td><strong>POSTPONED</strong></td>
     <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
+    <td><strong>POSTPONED</strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>San Francisco, CA (Sunnyvale)</td>
+    <td>Microsoft<br>1020 Enterprise Way, Sunnyvale, CA</TD>
+    <td><strong>POSTPONED</strong></td>
+    <td>TBD</td>
     <td><strong>POSTPONED</strong></td>
     <td>&nbsp;</td>
   </tr>
