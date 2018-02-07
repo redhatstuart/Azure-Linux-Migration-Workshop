@@ -78,6 +78,14 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>&nbsp;</td>
   </tr>
   <tr>
+    <td>Cleveland, OH</td>
+    <td>Microsoft<br>6050 Oak Tree Boulevard, Suite 300</td>
+    <td>Tuesday 3/20/2018</td>
+    <td>TBD</td>
+    <td>Registration Open Soon!</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
     <td>Nashville, TN</td>
     <td>Microsoft<br>8 City Blvd, Suite #403, Nashville, TN</td>
     <td>Thursday 3/22/2018</td>
@@ -156,5 +164,5 @@ Past dates:
 <li>Chicago, IL - 1/24/2018
 </ul>
 
-<strong>Schedule Updated 2/2/2018</strong>
+<strong>Schedule Updated 2/7/2018</strong>
 
