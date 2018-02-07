@@ -83,7 +83,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tuesday 3/20/2018</td>
     <td>TBD</td>
     <td>Registration Open Soon!</td>
-    <td>&nbsp;</td>
+    <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
   </tr>
   <tr>
     <td>Nashville, TN</td>
