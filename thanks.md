@@ -59,7 +59,7 @@ A number of people have contributed to the development of this migration hackfes
 
 We would also like to thank our valued SI partners that will be co-presenting this series with us:
 
-![Cardinal](./challenges/images/cardinal-logo.png)
+![Cardinal](./challenges/images/cardinal-logo.jpg)
 ![Concurrency](./challenges/images/logo-concurrency.jpg)
 ![Rackspace](./challenges/images/logo-rackspace.jpg)
 
