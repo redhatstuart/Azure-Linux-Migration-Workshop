@@ -81,7 +81,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Cleveland, OH</td>
     <td>Microsoft<br>6050 Oak Tree Boulevard, Suite 300</td>
     <td>Tuesday 3/20/2018</td>
-    <td>TBD</td>
+    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td>Registration Open Soon!</td>
     <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
   </tr>
