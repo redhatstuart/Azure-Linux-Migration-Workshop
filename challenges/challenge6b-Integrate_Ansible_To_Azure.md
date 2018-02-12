@@ -15,7 +15,7 @@ This challenge will provide instructions on extending your existing Ansible CLI 
 3. <strong>Install the required Python modules</strong>
 
     * Upgrade to the latest version of pip
-    * Install the Azure Python SDK Modules
+    * Install the Azure Python SDK Modules (Install using pip)
 
 4. <strong>Create and provision the Ansible user</strong>
 
