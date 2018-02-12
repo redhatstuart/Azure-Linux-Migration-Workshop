@@ -22,14 +22,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
   </tr>
   <tr>
-    <td>Phoenix, AZ</td>
-    <td>Microsoft<br>60 E Rio Salado Pkwy #1200, Tempe, AZ</td>
-    <td>Tuesday 2/20/2018</td>
-    <td>TBD</td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3186225abcd" target="_blank">Available for Registration!</a></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
     <td>Tampa, FL</td>
     <td>Microsoft<br>5426 Bay Center Dr Ste #700, Tampa, FL</td>
     <td>Monday 2/26/2018</td>
@@ -125,30 +117,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3227132abcd" target="_blank">Available for Registration!</a></td>
     <td>&nbsp;</td>
   </tr>
-  <tr>
-    <td>Seattle, WA</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/seattle.aspx" target="_blank">MTC - Seattle/Bellevue</a></td>
-    <td><strong>POSTPONED</strong></td>
-    <td>TBD</td>
-    <td><strong>POSTPONED</strong></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>San Francisco, CA (Downtown)</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/sanfrancisco.aspx" target="_blank">MTC - San Francisco Downtown</a></td>
-    <td><strong>POSTPONED</strong></td>
-    <td><a href="https://www.rackspace.com/" target="_blank">Rackspace</a></td>
-    <td><strong>POSTPONED</strong></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>San Francisco, CA (Sunnyvale)</td>
-    <td>Microsoft<br>1020 Enterprise Way, Sunnyvale, CA</TD>
-    <td><strong>POSTPONED</strong></td>
-    <td>TBD</td>
-    <td><strong>POSTPONED</strong></td>
-    <td>&nbsp;</td>
-  </tr>
 </table>
 
 Past dates:
@@ -164,5 +132,5 @@ Past dates:
 <li>Chicago, IL - 1/24/2018
 </ul>
 
-<strong>Schedule Updated 2/7/2018</strong>
+<strong>Schedule Updated 2/12/2018</strong>
 
