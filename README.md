@@ -35,7 +35,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Wednesday 2/28/2018</td>
     <td>TBD</td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3216739abcd" target="_blank">Available for Registration!</a></td>
-    <td>&nbsp;</td>
+    <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
   </tr>
   <tr>
     <td>Denver, CO</td>
@@ -132,5 +132,5 @@ Past dates:
 <li>Chicago, IL - 1/24/2018
 </ul>
 
-<strong>Schedule Updated 2/12/2018</strong>
+<strong>Schedule Updated 2/13/2018</strong>
 
