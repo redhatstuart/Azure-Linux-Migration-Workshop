@@ -83,7 +83,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Tuesday 3/27/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3213908abcd" target="_blank">Available for Registration!</a></td>
-    <td>&nbsp;</td>
+    <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
   </tr>
   <tr>
     <td>Minneapolis, MN (Edina)</td>
@@ -91,7 +91,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td>Friday 3/30/2018</td>
     <td><a href="https://concurrency.com" target="_blank">Concurrency</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3202888abcd" target="_blank">Available for Registration!</a></td>
-    <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
+    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Charlotte, NC</td>
