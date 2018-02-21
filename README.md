@@ -125,5 +125,5 @@ Past dates:
 <li>Houston, TX - 2/15/2018
 </ul>
 
-<strong>Schedule Updated 2/15/2018</strong>
+<strong>Schedule Updated 2/21/2018</strong>
 
