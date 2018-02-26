@@ -14,14 +14,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Will Run</font></strong></td>
   </tr>
   <tr>
-    <td>Tampa, FL</td>
-    <td>Microsoft<br>5426 Bay Center Dr Ste #700, Tampa, FL</td>
-    <td>Monday 2/26/2018</td>
-    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3216511abcd" target="_blank">Available for Registration!</a></td>
-    <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
-  </tr>
-  <tr>
     <td>Ft. Lauderdale, FL</td>
     <td>Microsoft<br>6750 N. Andrews Avenue Ste #400, Ft. Lauderdale, FL</td>
     <td>Wednesday 2/28/2018</td>
@@ -123,7 +115,8 @@ Past dates:
 <li>Philadelphia, PA - 1/18/2018
 <li>Chicago, IL - 1/24/2018
 <li>Houston, TX - 2/15/2018
+<li>Tampa, FL - 2/26/2018
 </ul>
 
-<strong>Schedule Updated 2/21/2018</strong>
+<strong>Schedule Updated 2/26/2018</strong>
 
