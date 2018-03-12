@@ -14,14 +14,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><strong><font size="+1">Will Run</font></strong></td>
   </tr>
   <tr>
-    <td>St. Louis, MO</td>
-    <td>Microsoft<br>4240 Duncan Avenue Ste #101, St. Louis, MO</td>
-    <td>Monday 3/12/2018</td>
-    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3192894abcd" target="_blank">Available for Registration!</a></td>
-    <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
-  </tr>
-  <tr>
     <td>Atlanta, GA</td>
     <td>Microsoft<br>8000 Avalon Blvd, Alpharetta, GA</td>
     <td>Tuesday 3/13/2018</td>
@@ -54,22 +46,6 @@ This repository contains practical exercises for the Azure Linux Migration Works
     <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
   </tr>
   <tr>
-    <td>Minneapolis, MN (Edina)</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/minneapolis.aspx" target="_blank">MTC - Minneapolis</a></TD>
-    <td>Friday 3/30/2018</td>
-    <td><a href="https://concurrency.com" target="_blank">Concurrency</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3202888abcd" target="_blank">Available for Registration!</a></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>Charlotte, NC</td>
-    <td><a href="https://www.microsoft.com/en-us/mtc/locations/charlotte.aspx" target="_blank">MTC - Charlotte</a></td>
-    <td>Tuesday 4/3/2018</td>
-    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3191811abcd" target="_blank">Available for Registration!</a></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
     <td>Detroit, MI</td>
     <td>Microsoft<br>One Campus Maritus, Detroit, MI</td>
     <td>Thursday 4/5/2018</td>
@@ -95,7 +71,8 @@ Past dates:
 <li>Ft Lauderdale, FL - 2/28/2018
 <li>Denver, CO - 3/1/2018
 <li>Rochester, NY - 3/5/2018
+<li>St. Louis, MO - 3/12/2018
 </ul>
 
-<strong>Schedule Updated 3/6/2018</strong>
+<strong>Schedule Updated 3/12/2018</strong>
 
