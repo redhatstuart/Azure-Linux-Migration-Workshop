@@ -44,7 +44,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
     * You must now configure CloudEndure to connect to Microsoft Azure. A service principal has been created for you as part of this challenge exercise and will allow CloudEndure to connect to your subscription.
 
-      ![SP Information Screen](./images/sp-information.jpg)
+      ![SP Information Screen](./images/labready.png)
 
     * Populate the service principal information into the CloudEndure console; Navigate to the "Setup & Info" tab in CloudEndure and then choose the "ARM Credentials" tab.
 
