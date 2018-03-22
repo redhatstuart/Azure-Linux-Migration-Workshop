@@ -53,5 +53,5 @@ Past dates:
 <li>Nashville, TN - 3/22/2018
 </ul>
 
-<strong>Schedule Updated 3/20/2018</strong>
+<strong>Schedule Updated 3/22/2018</strong>
 
