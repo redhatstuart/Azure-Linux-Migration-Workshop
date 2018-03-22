@@ -23,7 +23,7 @@ This repository contains practical exercises for the Azure Linux Migration Works
   </tr>
   <tr>
     <td>Detroit, MI</td>
-    <td>Microsoft<br>One Campus Maritus, Detroit, MI</td>
+    <td>Microsoft<br>One Campus Maritus Floor 5, Detroit, MI</td>
     <td>Thursday 4/5/2018</td>
     <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
     <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3227132abcd" target="_blank">Available for Registration!</a></td>
