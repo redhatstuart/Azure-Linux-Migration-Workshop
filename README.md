@@ -2,26 +2,7 @@
 
 This repository contains practical exercises for the Azure Linux Migration Workshop program. Here you will find a copy of the event schedule, challenge exercises, solutions, and presentations.
 
-<strong>Confirmed Locations:</strong>
-
-<table border="3" cellpadding="3" cellspacing="3">
-  <tr>
-    <td><strong><font size="+1">City</font></strong></td>
-    <td><strong><font size="+1">Location</font></strong></td>
-    <td><strong><font size="+1">Date</strong></font></td>
-    <td><strong><font size="+1">Contributing Partner</font></strong></td>
-    <td><strong><font size="+1">Notes</font></strong></td>
-    <td><strong><font size="+1">Will Run</font></strong></td>
-  </tr>
-  <tr>
-    <td>Detroit, MI</td>
-    <td>Microsoft<br>One Campus Maritus Floor 5, Detroit, MI</td>
-    <td>Thursday 4/5/2018</td>
-    <td><a href="https://www.cardinalsolutions.com/" target="_blank">Cardinal Solutions</a></td>
-    <td><a href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x3227132abcd" target="_blank">Available for Registration!</a></td>
-    <td><img src="https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/blob/master/challenges/images/checkmark-in-box.png"></td>
-  </tr>
-</table>
+The content of this program will be re-delivered, on request, to any Microsoft customer seeking to deploy open source workloads on Azure.  Please contact stkirk@microsoft.com for additional details and to coordinate delivery of the program.
 
 Past dates:
 
@@ -44,7 +25,8 @@ Past dates:
 <li>Cleveland, OH - 3/20/2018
 <li>Nashville, TN - 3/22/2018
 <li>Cincinnati, OH - 3/27/2018
+<li>Detroit, MI - 4/5/2018
 </ul>
 
-<strong>Schedule Updated 3/28/2018</strong>
+<strong>Schedule Updated 4/5/2018</strong>
 
