@@ -367,7 +367,7 @@ With the new version staged on the DTR server, it's now time to upgrade the curr
 
 6. Click `Update` on the bottom right
 
-7. Click on teh service and notice on the right side the `Update Status` is set to `updating`. After a few seconds it will change to `completed`.
+7. Click on the service and notice on the right side the `Update Status` is set to `updating`. After a few seconds it will change to `completed`.
 
 8. Click on the link under `Published Endpoints` to see the new version of the web app running. 
 
