@@ -19,19 +19,19 @@ Each entry should look similar to:
 
 ```skirk1975-mm-db.eastus2.cloudapp.azure.com     ansible_connection=ssh        ansible_user=ansibleadmin```
 
+2. <strong>Test connectivity to the virtual machines</strong>
 
+    * ansible -m ping all  (If you do <strong>NOT</strong> receive two "pong" messages, you must address the communication/ssh error which is present)
 
-
-
-2. <strong>Download the MySQL role tarball</strong>
+3. <strong>Download the MySQL role tarball</strong>
 
     * In the ansible user's home directory, download and untar the following file:  ```wget https://github.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/raw/master/challenges/aps/roles.tar.gz```
 
-3. <strong>Download the MySQL deployment playbook</strong>
+4. <strong>Download the MySQL deployment playbook</strong>
 
-    * Download the MySQL playbook to the ansible user's "repo" directory:  ```https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/challenges/aps/mysql.yml```
-
-
-4. <strong>Execute the playbook</strong>
+    * In the ansible user's home director, download the MySQL playbook:  ```https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/challenges/aps/mysql.yml```
 
 
+5. <strong>Execute the playbook</strong>
+
+    * ```ansible-playbook mysql.yml```
