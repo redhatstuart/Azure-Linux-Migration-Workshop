@@ -1,4 +1,4 @@
-# Modernize Your Migrated virtual machine using Azure Web Apps, Azure Container Registry, Azure CosmosDB and Docker
+# Modernize Your Linux Workload using Azure Web Apps, Azure Container Registry, Azure CosmosDB and Docker
 
 ## Expected Outcome
 
