@@ -1,0 +1,86 @@
+- name: Install Mattermost Server
+  hosts: webservers 
+  become: yes
+  connection: local
+
+  tasks:
+
+    - name: Create Mattermost User
+      user:
+        name: mattermost
+        state: present
+        shell: /bin/bash
+        system: yes
+        createhome: yes
+        home: /home/mattermost
+
+    - name: Download and unpack MatterMost tarball from central repository server
+      unarchive:
+        src: "https://wolverine.itscloudy.af/pratt/mattermost-4.7.3-linux-amd64.tar.gz"
+        dest: "/opt"
+        copy: no
+
+    - name: Create Mattermost storage directory
+      file:
+        path: /opt/mattermost/data
+        state: directory
+
+    - name: Ensure Mattermost application is owned by mattermost user
+      file:
+        path: /opt/mattermost
+        owner: mattermost
+        group: mattermost
+        recurse: yes
+
+    - name: Ensure sticky bit is set on Mattermost application directories
+      file:
+        path: /opt/mattermost
+        state: directory
+        recurse: yes
+        mode: "g+w"
+
+    - name: Configure Mattermost Data Source
+      command: "/bin/sed -i s+mostest@tcp(dockerhost:3306)/mattermost_test+mmuser-password@tcp(pratt-mm-db.eastus2.cloudapp.azure.com:3306)/mattermost+g /opt/mattermost/config/config.json"
+
+    - name: Downloading systemd service script for Mattermost
+      get_url:
+        url: https://wolverine.itscloudy.af/pratt/mattermost.service
+        dest: /etc/systemd/system
+        mode: 0664
+
+    - name: Force systemd to re-read configuration
+      systemd: daemon_reload=yes
+
+    - name: Enable Mattermost application within systemd
+      systemd:
+        name: mattermost
+        enabled: yes
+        masked: no
+
+    - name: Start Mattermost application within systemd
+      systemd: state=started name=mattermost
+
+    - name: Ensure firewalld is installed
+      yum: name=firewalld state=installed
+
+    - name: Ensure firewalld is disabled
+      systemd: name=firewalld enabled=no
+
+    - name: Ensure firewalld is stopped
+      systemd: name=firewalld state=stopped
+      ignore_errors: yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

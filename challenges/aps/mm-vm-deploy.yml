@@ -1,0 +1,157 @@
+- name: Deploy Mattermost Infrastructure for PW
+  hosts: localhost
+  connection: local
+
+  vars:
+    appserver: pratt-mm-app
+    appserverdns: pratt-mm-app
+    azuredc: eastus2
+    cloudenv: AzureCloud
+#   cloudenv: AzureUSGovernment
+    dbserver: pratt-mm-db
+    dbserverdns: pratt-mm-db
+    username: prattuser 
+    rgname: pratt-2
+
+  tasks:
+  - name: Create Mattermost RG
+    azure_rm_resourcegroup:
+      cloud_environment: '{{ cloudenv }}'
+      name: '{{ rgname }}'
+      location: '{{ azuredc }}'
+
+  - name: Create Mattermost VNet
+    azure_rm_virtualnetwork:
+      resource_group: '{{ rgname }}'
+      name: MMVNet
+      address_prefixes: "10.10.0.0/16"
+
+  - name: Create Mattermost Subnet
+    azure_rm_subnet:
+      resource_group: '{{ rgname }}'
+      name: MMSubnet
+      address_prefix: "10.10.0.0/24"
+      virtual_network: MMVNet
+
+  - name: Create Mattermost Server & Proxy VM Public IP Address
+    azure_rm_publicipaddress:
+      resource_group: '{{ rgname }}'
+      name: '{{ appserver }}-pip'
+      allocation_method: Static
+      domain_name: '{{ appserverdns }}'
+
+  - name: Create Mattermost Database Server VM Public IP Address
+    azure_rm_publicipaddress:
+      resource_group: '{{ rgname }}'
+      name: '{{ dbserver }}-pip'
+      allocation_method: Static
+      domain_name: '{{ dbserverdns }}'
+
+  - name: Create Mattermost Server & Proxy NSG
+    azure_rm_securitygroup:
+      resource_group: '{{ rgname }}'
+      name: '{{ appserver }}-nsg'
+      rules:
+          - name: 'AllowMatterMost'
+            access: Allow
+            destination_port_range: 8065
+            direction: Inbound
+            priority: 1010
+            protocol: Tcp
+          - name: 'AllowSSH'
+            access: Allow
+            destination_port_range: 22
+            direction: Inbound
+            priority: 1011
+            protocol: Tcp
+
+  - name: Create Database Server NSG
+    azure_rm_securitygroup:
+      resource_group: '{{ rgname }}'
+      name: '{{ dbserver }}-nsg'
+      rules:
+          - name: 'AllowMySQL'
+            access: Allow
+            destination_port_range: 3306
+            direction: Inbound
+            priority: 1010
+            protocol: Tcp
+          - name: 'AllowSSH'
+            access: Allow
+            destination_port_range: 22
+            direction: Inbound
+            priority: 1011
+            protocol: Tcp
+
+  - name: Create Mattermost Server & Proxy VM NIC
+    azure_rm_networkinterface:
+      name: '{{ appserver }}-nic'
+      os_type: Linux
+      public_ip_address_name: '{{ appserver }}-pip'
+      resource_group: '{{ rgname }}'
+      security_group_name: '{{ appserver }}-nsg'
+      subnet_name: MMSubnet
+      virtual_network_name: MMVnet
+
+  - name: Create Mattermost Database Server VM NIC
+    azure_rm_networkinterface:
+      name: '{{ dbserver }}-nic'
+      os_type: Linux
+      public_ip_address_name: '{{ dbserver }}-pip'
+      resource_group: '{{ rgname }}'
+      security_group_name: '{{ dbserver }}-nsg'
+      subnet_name: MMSubnet
+      virtual_network_name: MMVnet
+
+  - name: Create Mattermost Server & Proxy VM
+    azure_rm_virtualmachine:
+      admin_username: '{{ username }}'
+      cloud_environment: '{{ cloudenv }}'
+      location: '{{ azuredc }}'
+      managed_disk_type: Standard_LRS
+      name: '{{ appserver }}'
+      network_interface_names: '{{ appserver }}-nic'
+      os_type: Linux
+      resource_group: '{{ rgname }}'
+      short_hostname: '{{ appserver }}'
+      vm_size: Standard_DS3_v2
+      ssh_password_enabled: false
+      ssh_public_keys:
+        - path: /home/{{ username }}/.ssh/authorized_keys
+          key_data: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhsL1rNLNRxpHtKjunIthKcNTT2xlJT7Cd87pwJGkAKtkIomJr5dC3PyT83N2C7BVxnfmUOkAYznFNBcISIstcuu93msjE1QbRYC9T3eHeQAGYqUbLEgmbKNoFAGTw5oggVTkl/MARQ52ZkDSu/K/800MVrK3nEJCV9Ujc/gjIDTUOQWiFoEK0vgiDCKT8Vsb4aIDDDuYyncCwDDPmqeKegVLCiExCk1fcy8A8lXl44UcNmb5JRXr6gZPBcroFsj03RWBzxhuDf2dV2EZnQVOCo9lvmSYj+Gi04wKMKukqP1oOsVPsbXEMQVDuxvi88svB8yLwN9P1SfcEYFCM0FnB ansible@wolverine.itscloudy.af"
+      image:
+        offer: RHEL
+        publisher: RedHat
+        sku: '7-LVM'
+        version: 7.4.2018010506
+      data_disks:
+        - lun: 0
+          disk_size_gb: 100
+          managed_disk_type: Premium_LRS
+
+  - name: Create Mattermost Database Server VM
+    azure_rm_virtualmachine:
+      admin_username: '{{ username }}'
+      cloud_environment: '{{ cloudenv }}'
+      location: '{{ azuredc }}'
+      managed_disk_type: Standard_LRS
+      name: '{{ dbserver }}'
+      network_interface_names: '{{ dbserver }}-nic'
+      os_type: Linux
+      resource_group: '{{ rgname }}'
+      short_hostname: '{{ dbserver }}'
+      vm_size: Standard_DS3_v2
+      ssh_password_enabled: false
+      ssh_public_keys:
+        - path: /home/{{ username }}/.ssh/authorized_keys
+          key_data: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhsL1rNLNRxpHtKjunIthKcNTT2xlJT7Cd87pwJGkAKtkIomJr5dC3PyT83N2C7BVxnfmUOkAYznFNBcISIstcuu93msjE1QbRYC9T3eHeQAGYqUbLEgmbKNoFAGTw5oggVTkl/MARQ52ZkDSu/K/800MVrK3nEJCV9Ujc/gjIDTUOQWiFoEK0vgiDCKT8Vsb4aIDDDuYyncCwDDPmqeKegVLCiExCk1fcy8A8lXl44UcNmb5JRXr6gZPBcroFsj03RWBzxhuDf2dV2EZnQVOCo9lvmSYj+Gi04wKMKukqP1oOsVPsbXEMQVDuxvi88svB8yLwN9P1SfcEYFCM0FnB ansible@wolverine.itscloudy.af"
+      image:
+        offer: RHEL
+        publisher: RedHat
+        sku: '7-LVM'
+        version: 7.4.2018010506
+      data_disks:
+        - lun: 0
+          disk_size_gb: 100
+          managed_disk_type: Premium_LRS
+
