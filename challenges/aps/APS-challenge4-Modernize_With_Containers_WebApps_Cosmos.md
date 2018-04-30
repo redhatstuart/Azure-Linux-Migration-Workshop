@@ -34,8 +34,6 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 3. <strong>Containerize the NodeJS Application</strong>
 
-   * Determine the IP Address of the migrated virtual machine running in Azure and SSH to it:  ```ssh root@your.azure.ip.address```
-
    * Ensure the <strong>"docker"</strong> RPM is installed on your migrate-host virtual machine.  If it isn't, install it:  ```yum -y install docker```
 
    * Ensure that <strong>"docker"</strong> is configured to start by systemd and that it is, in fact, started:  ```systemctl enable docker ; systemctl start docker```
@@ -54,7 +52,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Shutdown and disable the locally running NodeJS application:  ```systemctl stop pm2-root ; systemctl disable pm2-root```
  
-   * Verify in your browser that the NodeJS application in Azure is no longer reachable and produces an error when you try to access it
+   * Verify in your browser that the NodeJS application is no longer reachable and produces an error when you try to access it
 
       ![Unable To Connect](../images/migrated-node-app-unable-to-connect.png)
 
@@ -66,7 +64,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
       ![Run Container](../images/docker-container-running.png)
 
-   * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATED-IP-ADDRESS>``` to verify the NodeJS application is once again running on the newly-migrated Azure virtual machine. It is now running inside of a Docker container on the virtual machine you've migrated to Azure, however it is still making use of the local MongoDB for its data.
+   * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATE-HOST-IP-ADDRESS>``` to verify the NodeJS application is once again running on the newly-migrated Azure virtual machine. It is now running inside of a Docker container on the virtual machine you've migrated to Azure, however it is still making use of the local MongoDB for its data.
 
    * Feel free to add additional content if you wish.
 
@@ -76,7 +74,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 5. <strong>Create and Utilize Azure Container Registry</strong>
 
-   * Using the Azure Linux CLI, create an Azure Container Registry:
+   * Using the Azure Linux CLI (in a new shell window), create an Azure Container Registry:
        * Use the -n switch to give it a unique name, ex: <strong>firstnamelastnamebirthyear</strong>
        * Use the -g switch to specify the name of the resource group you have been assigned, ex: <STRONG>ODL-LIFTSHIFT-1234</STRONG>
        * Use the -l switch to specify the name of the Azure data center your resource group is in, ex: <strong>centralus</strong> or <strong>eastus</strong>
@@ -89,7 +87,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
       ![Show ACR Passwd](../images/acr-show-passwd.png)
 
-   * Returning back to the virtual machine which you've migrated to Azure, tag the docker image using the name you set for the ACR:  ```docker tag ossdemo/nodejs-todo <ACR_NAME>.azurecr.io/ossdemo/nodejs-todo```
+   * Returning back to the migrate-host virtual machine, tag the docker image using the name you set for the ACR:  ```docker tag ossdemo/nodejs-todo <ACR_NAME>.azurecr.io/ossdemo/nodejs-todo```
  
    * Use docker to log in to your ACR using the password you just obtained from the previous step:  ```docker login <ACR_NAME>.azurecr.io -u <ACR_NAME> -p <PASSWORD>```
 
@@ -112,7 +110,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
  
    ![CosmosDB Password](../images/cosmos-db-password.jpg)
 
-   * Returning back to the virtual machine which you've migrated to Azure, export the data from your existing MongoDB to a JSON flat-file:  ```mongoexport --db nodejs-todo --collection todos --out todos.json```
+   * Returning back to the migrate-host virtual machine, export the data from your existing MongoDB to a JSON flat-file:  ```mongoexport --db nodejs-todo --collection todos --out todos.json```
 
 To perform the CosmosDB import, the password you will need to enter is provided to you in the connection string you just obtained and is underlined in the example above. In this particular example, the password is: <strong>Vx1iXovK6BmllcQ9jG9VdhjOGEaslXsuXCoBcE3tZP4W49FJuQbh8EP3wWVQx2L1QM9ggMGNgzWuLE0Qhd0Zmw==</strong>
 
