@@ -32,46 +32,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 <hr>
 
-3. <strong>Perform another virtual machine test with CloudEndure</strong>
-
-    * Return back to the CloudEndure Console
-
-    * Select the checkbox next to the "migrate-host" virtual machine, Click "Launch Target Machines" and select "Test".  This will cause a new virtual machine instance to be created within Azure based on the current status of your source virtual machine.  Since you have "updated" it by providing data to the NodeJS application / MongoDB environment, this should now also migrate to Microsoft Azure.
-
-    * After the test is completed, this should reflect in the "Machines" tab
-
-      ![Verify Test Complete](../images/ceagentinstall-7.jpg)
-
-<hr>
-
-4. <strong>Wait for the virtual machine test migration to complete</strong>
-
-   * Ensure that the virtual machine test migration has completed from Step 3 <strong>&lt;--IMPORTANT</strong>
-
-<hr>
-
-5. <strong>Verify that the NodeJS application is running in the virtual machine you migrated to Azure</strong>
-
-   * Determine the IP address of the newly tested virtual machine by visiting the "Target" tab in the CloudEndure console
-
-   * Verify that the NodeJS application is still available on the migrated host which now exists in Azure and contains all of the data you've published to it.  Visit ```http://<MIGRATED-IP-ADDRESS>``` (this may take a few moments to become live after the virtual machine is started)
-
-      ![Populate Migrated NodeJS MongoDB](../images/migrated-node-app-running.png)
-
-<hr>
-
-6. <strong>Add additional content to the MongoDB using the NodeJS application</strong>
-
-
-   * Now that the host has been migrated to Azure, add some additional content to the MongoDB using the NodeJS application by entering information in the submit box and clicking the "Add" button
-
-   * Be sure to perform this action on the <strong>NEWLY MIGRATED VIRTUAL MACHINE</strong> which you just viewed and <STRONG>NOT</STRONG> the source virtual machine (192.168.122.x). At this point, we will no longer make use of the <strong>source</strong> "migrate-host" virtual machine running inside your Linux desktop that you just migrated.
-
-      ![Populate Source NodeJS MongoDB](../images/migrated-node-app-populated.png)
-
-<hr>
-
-7. <strong>Containerize the NodeJS Application</strong>
+3. <strong>Containerize the NodeJS Application</strong>
 
    * Determine the IP Address of the migrated virtual machine running in Azure and SSH to it:  ```ssh root@your.azure.ip.address```
 
@@ -99,8 +60,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 <hr>
 
-8. <strong>Test the Local Container</strong>
-
+4. <strong>Test the Local Container</strong>
 
    * Run the newly created container locally to test it:  ```docker run -d -e MONGO_DBCONNECTION=mongodb://172.17.0.1:27017/nodejs-todo -p 80:80 --name=nodejs-todo ossdemo/nodejs-todo```
 
@@ -114,7 +74,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 <hr>
 
-9. <strong>Create and Utilize Azure Container Registry</strong>
+5. <strong>Create and Utilize Azure Container Registry</strong>
 
    * Using the Azure Linux CLI, create an Azure Container Registry:
        * Use the -n switch to give it a unique name, ex: <strong>firstnamelastnamebirthyear</strong>
@@ -139,7 +99,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
 <hr>
 
-10. <strong>Create a CosmosDB and Perform a MongoDB Migration</strong>
+6. <strong>Create a CosmosDB and Perform a MongoDB Migration</strong>
 
    * Using the Azure Linux CLI, create a MongoDB-based Azure CosmosDB:
        * Use the -n switch to give it a unique name, ex: <strong>firstnamelastname-cosmos</strong>
@@ -162,7 +122,7 @@ To perform the CosmosDB import, the password you will need to enter is provided 
 
 <hr>
 
-11. <strong>Deploy the containerized NodeJS application as an Azure Web App</strong>
+7. <strong>Deploy the containerized NodeJS application as an Azure Web App</strong>
 
    * Using the Azure Linux CLI, create an Azure App Service Plan and associate it to your assigned resource group:
        * Use the -g switch to specify the name of the resource group you have been assigned, ex: <STRONG>ODL-LIFTSHIFT-1234</STRONG>
@@ -189,7 +149,7 @@ To perform the CosmosDB import, the password you will need to enter is provided 
 
 <hr>
 
-12. <strong>Verify Application</strong>
+8. <strong>Verify Application</strong>
 
 The application will take a few minutes to update and become live.  When it does, you can connect to it at the URL:  [https://<WEBAPP_NAME>.azurewebsites.net](https://<WEBAPP_NAME>.azurewebsites.net).  Verify that the data which was exported from your migrate-host virtual machine is now accessible through the PaaS-based CosmosDB as MongoDB. Verify that you can add additional data to it.
 
