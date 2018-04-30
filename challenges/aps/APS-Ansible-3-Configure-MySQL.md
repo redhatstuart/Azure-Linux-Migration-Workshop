@@ -15,11 +15,9 @@ This challenge will make use of one of the virtual machines created during the p
 
 Each entry should look similar to:
 
-```[webservers]
-skirk1975-mm-app.eastus2.cloudapp.azure.com     ansible_connection=ssh        ansible_user=ansibleadmin```
+```skirk1975-mm-app.eastus2.cloudapp.azure.com     ansible_connection=ssh        ansible_user=ansibleadmin```
 
-```[dbservers]
-skirk1975-mm-db.eastus2.cloudapp.azure.com     ansible_connection=ssh        ansible_user=ansibleadmin```
+```skirk1975-mm-db.eastus2.cloudapp.azure.com     ansible_connection=ssh        ansible_user=ansibleadmin```
 
 
 
