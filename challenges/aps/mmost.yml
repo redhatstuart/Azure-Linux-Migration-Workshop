@@ -16,7 +16,7 @@
 
     - name: Download and unpack MatterMost tarball from central repository server
       unarchive:
-        src: "https://wolverine.itscloudy.af/pratt/mattermost-4.7.3-linux-amd64.tar.gz"
+        src: "https://wolverine.itscloudy.af/files/mattermost-4.7.3-linux-amd64.tar.gz"
         dest: "/opt"
         copy: no
 
@@ -40,7 +40,7 @@
         mode: "g+w"
 
     - name: Configure Mattermost Data Source
-      command: "/bin/sed -i s+mostest@tcp(dockerhost:3306)/mattermost_test+mmuser-password@tcp(pratt-mm-db.eastus2.cloudapp.azure.com:3306)/mattermost+g /opt/mattermost/config/config.json"
+      command: "/bin/sed -i s+mostest@tcp(dockerhost:3306)/mattermost_test+mmuser-password@tcp(firstinitiallastnamebirthyear-mm-db.YOUR_DC.cloudapp.azure.com:3306)/mattermost+g /opt/mattermost/config/config.json"
 
     - name: Downloading systemd service script for Mattermost
       get_url:
@@ -69,18 +69,5 @@
     - name: Ensure firewalld is stopped
       systemd: name=firewalld state=stopped
       ignore_errors: yes
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

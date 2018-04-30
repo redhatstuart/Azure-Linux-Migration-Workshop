@@ -1,17 +1,16 @@
-- name: Deploy Mattermost Infrastructure for PW
+- name: Deploy Mattermost Infrastructure virtual machines
   hosts: localhost
   connection: local
 
   vars:
-    appserver: pratt-mm-app
-    appserverdns: pratt-mm-app
-    azuredc: eastus2
+    appserver: firstinitiallastnamebirthyear-mm-app
+    appserverdns: firstinitiallastnamebirthyear-mm-app
+    azuredc: YOUR_DC
     cloudenv: AzureCloud
-#   cloudenv: AzureUSGovernment
-    dbserver: pratt-mm-db
-    dbserverdns: pratt-mm-db
-    username: prattuser 
-    rgname: pratt-2
+    dbserver: firstinitiallastnamebirthyear-mm-db
+    dbserverdns: firstinitiallastnamebirthyear-mm-db
+    username: SSH_USER
+    rgname: YOUR_RG
 
   tasks:
   - name: Create Mattermost RG
@@ -118,7 +117,7 @@
       ssh_password_enabled: false
       ssh_public_keys:
         - path: /home/{{ username }}/.ssh/authorized_keys
-          key_data: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhsL1rNLNRxpHtKjunIthKcNTT2xlJT7Cd87pwJGkAKtkIomJr5dC3PyT83N2C7BVxnfmUOkAYznFNBcISIstcuu93msjE1QbRYC9T3eHeQAGYqUbLEgmbKNoFAGTw5oggVTkl/MARQ52ZkDSu/K/800MVrK3nEJCV9Ujc/gjIDTUOQWiFoEK0vgiDCKT8Vsb4aIDDDuYyncCwDDPmqeKegVLCiExCk1fcy8A8lXl44UcNmb5JRXr6gZPBcroFsj03RWBzxhuDf2dV2EZnQVOCo9lvmSYj+Gi04wKMKukqP1oOsVPsbXEMQVDuxvi88svB8yLwN9P1SfcEYFCM0FnB ansible@wolverine.itscloudy.af"
+          key_data: "YOUR_SSH_PUBLIC_KEY"
       image:
         offer: RHEL
         publisher: RedHat
@@ -144,7 +143,7 @@
       ssh_password_enabled: false
       ssh_public_keys:
         - path: /home/{{ username }}/.ssh/authorized_keys
-          key_data: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhsL1rNLNRxpHtKjunIthKcNTT2xlJT7Cd87pwJGkAKtkIomJr5dC3PyT83N2C7BVxnfmUOkAYznFNBcISIstcuu93msjE1QbRYC9T3eHeQAGYqUbLEgmbKNoFAGTw5oggVTkl/MARQ52ZkDSu/K/800MVrK3nEJCV9Ujc/gjIDTUOQWiFoEK0vgiDCKT8Vsb4aIDDDuYyncCwDDPmqeKegVLCiExCk1fcy8A8lXl44UcNmb5JRXr6gZPBcroFsj03RWBzxhuDf2dV2EZnQVOCo9lvmSYj+Gi04wKMKukqP1oOsVPsbXEMQVDuxvi88svB8yLwN9P1SfcEYFCM0FnB ansible@wolverine.itscloudy.af"
+          key_data: "YOUR_SSH_PUBLIC_KEY"
       image:
         offer: RHEL
         publisher: RedHat
