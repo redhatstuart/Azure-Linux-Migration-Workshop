@@ -40,11 +40,11 @@
         mode: "g+w"
 
     - name: Configure Mattermost Data Source
-      command: "/bin/sed -i s+mostest@tcp(dockerhost:3306)/mattermost_test+mmuser-password@tcp(firstinitiallastnamebirthyear-mm-db.YOUR_DC.cloudapp.azure.com:3306)/mattermost+g /opt/mattermost/config/config.json"
+      command: "/bin/sed -i s+mostest@tcp(dockerhost:3306)/mattermost_test+mmuser-password@tcp(YOUR_ID-mm-db.YOUR_DC.cloudapp.azure.com:3306)/mattermost+g /opt/mattermost/config/config.json"
 
     - name: Downloading systemd service script for Mattermost
       get_url:
-        url: https://wolverine.itscloudy.af/pratt/mattermost.service
+        url: https://wolverine.itscloudy.af/files/mattermost.service
         dest: /etc/systemd/system
         mode: 0664
 
