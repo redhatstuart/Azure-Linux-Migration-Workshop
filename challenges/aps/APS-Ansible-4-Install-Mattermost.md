@@ -22,10 +22,12 @@ View the list of network security groups that have been provisioned in your reso
 
 Ensure that the network interface cards are referencing the correct network security group for the two Mattermost servers. 
 
-For the commands below, "YOUR_RG" will be the name of the resource group to which you have been assigned, for example: ODL-LIFTSHIFT-1234. The variable YOUR_ID is the first-initial-last-name-birth-year reference. For example, Stuart Kirk born in 1975 would be skirk1975, and the NIC and NSG for the application server would be <strong>skirk1975-mm-app-nic</strong> and <strong>skirk1975-mm-app-nsg</strong> respectively.
+For the commands below, "YOUR_RG" will be the name of the resource group to which you have been assigned, for example: ODL-LIFTSHIFT-1234.
 
-    * ```az network nic update -g YOUR_RG -n YOUR_ID-mm-app-nic --network-security-group YOUR_ID-mm-app-nsg```
-    * ```az network nic update -g YOUR_RG -n YOUR_ID-mm-db-nic --network-security-group YOUR_ID-mm-db-nsg```
+The variable YOUR_ID is the first-initial-last-name-birth-year reference. For example, Stuart Kirk born in 1975 would be skirk1975, and the NIC and NSG for the application server would be <strong>skirk1975-mm-app-nic</strong> and <strong>skirk1975-mm-app-nsg</strong> respectively.
+
+    * az network nic update -g YOUR_RG -n YOUR_ID-mm-app-nic --network-security-group YOUR_ID-mm-app-nsg
+    * az network nic update -g YOUR_RG -n YOUR_ID-mm-db-nic --network-security-group YOUR_ID-mm-db-nsg
 
 4. <strong>Download the playbook template</strong>
 
