@@ -17,7 +17,7 @@ View the list of network interface cards that have been provisioned in your reso
 
 View the list of network security groups that have been provisioned in your resource group for the Mattermost application and database servers:
 
-    * ``` az network nsg list | grep mm ```
+* ``` az network nsg list | grep mm ```
 
 3. <strong>Modify NICs to reference correct NSGs</strong>
 
