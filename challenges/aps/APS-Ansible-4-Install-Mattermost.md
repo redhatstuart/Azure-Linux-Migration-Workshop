@@ -23,18 +23,19 @@ View the list of network security groups that have been provisioned in your reso
 Ensure that the network interface cards are referencing the correct network security group for the two Mattermost servers. For the commands below, "YOUR_RG" will be the name of the resource group to which you have been assigned, for example: ODL-LIFTSHIFT-1234. The variable YOUR_ID is the first-initial-last-name-birth-year reference. For example, Stuart Kirk born in 1975 would be skirk1975, and the NIC and NSG for the application server would be <strong>skirk1975-mm-app-nic</strong> and <strong>skirk1975-mm-app-nsg</strong> respectively.
 
 * ```az network nic update -g YOUR_RG -n YOUR_ID-mm-app-nic --network-security-group YOUR_ID-mm-app-nsg```
-* ```az network nic update -g YOUR_RG -n YOUR_ID-mm-db-nic --network-security-group YOUR_ID-mm-db-nsg
+* ```az network nic update -g YOUR_RG -n YOUR_ID-mm-db-nic --network-security-group YOUR_ID-mm-db-nsg```
 
 4. <strong>Download the playbook template</strong>
 
-* Download the playbook template to the ansible user's home directory: ```wget https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/challenges/aps/mmost.yml```
+* Download the playbook template to the ansible user's home directory:
+* ```wget https://raw.githubusercontent.com/stuartatmicrosoft/Azure-Linux-Migration-Workshop/master/challenges/aps/mmost.yml```
 
 5. <strong>Configure database server</strong>
 
 * Edit the template to configure the database server in the playbook.
 * Look for the play "Configure Mattermost Data Source"
 * Edit the data source to reflect the name of your database server
-* The only content which should be changed is ```firstinitiallastnamebirthyear-mm-db.YOUR_DC.cloudapp.azure.com```.  You will insert the name of your database server here, ex:
+* The only content which should be changed is ```YOUR_ID-mm-db.YOUR_DC.cloudapp.azure.com```.  You will insert the name of your database server here, ex:
 * ```skirk1975-mm-db.eastus2.cloudapp.azure.com```
 
 6. <strong>Execute the playbook</strong>
