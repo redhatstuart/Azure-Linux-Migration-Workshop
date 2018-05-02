@@ -10,13 +10,13 @@ This challenge will make use of Ansible Playbooks to download and install the Ma
 
 View the list of network interface cards that have been provisioned in your resource group for the Mattermost application and database servers:
 
-    * ```az network nic list |grep mm``` 
+    * ``` az network nic list | grep mm ``` 
 
 2. <strong>Examine provisioned NSGs</strong>
 
 View the list of network security groups that have been provisioned in your resource group for the Mattermost application and database servers:
 
-    * ```az network nsg list |grep mm```
+    * ``` az network nsg list | grep mm ```
 
 3. <strong>Modify NICs to reference correct NSGs</strong>
 
