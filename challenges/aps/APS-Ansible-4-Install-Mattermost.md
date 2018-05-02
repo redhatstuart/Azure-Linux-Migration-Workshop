@@ -27,8 +27,8 @@ For the commands below, "YOUR_RG" will be the name of the resource group to whic
 
 The variable YOUR_ID is the first-initial-last-name-birth-year reference. For example, Stuart Kirk born in 1975 would be skirk1975, and the NIC and NSG for the application server would be <strong>skirk1975-mm-app-nic</strong> and <strong>skirk1975-mm-app-nsg</strong> respectively.
 
-    * az network nic update -g YOUR_RG -n YOUR_ID-mm-app-nic --network-security-group YOUR_ID-mm-app-nsg
-    * az network nic update -g YOUR_RG -n YOUR_ID-mm-db-nic --network-security-group YOUR_ID-mm-db-nsg
+* ```az network nic update -g YOUR_RG -n YOUR_ID-mm-app-nic --network-security-group YOUR_ID-mm-app-nsg```
+* ```az network nic update -g YOUR_RG -n YOUR_ID-mm-db-nic --network-security-group YOUR_ID-mm-db-nsg```
 
 4. <strong>Download the playbook template</strong>
 
@@ -44,4 +44,4 @@ The variable YOUR_ID is the first-initial-last-name-birth-year reference. For ex
 
 6. <strong>Execute the playbook</strong>
 
-    * ```ansible-playbook mmost.yml```
+* ```ansible-playbook mmost.yml```
