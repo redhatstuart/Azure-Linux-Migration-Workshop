@@ -1,4 +1,4 @@
-# Azure Linux Migration Workshop<hr>Analyzing, Migrating, Deploying and Modernizing Linux workloads in Microsoft Azure
+# AIP-CI312 Migrating Linux workloads to the Cloud<hr> Microsoft Ready - Summer 2018 - Las Vegas
 
 This repository contains practical exercises for the Azure Linux Migration Workshop program. Here you will find a copy of the event schedule, challenge exercises, solutions, and presentations.
 
