@@ -1,6 +1,6 @@
 # AIP-CI312 Migrating Linux workloads to the Cloud<hr> Microsoft Ready - Summer 2018 - Las Vegas
 
-![Welcome to Las Vegas](../images/las-vegas-sign-md.png)This repository contains practical exercises for the Microsoft Ready Workshop, AIP-CI312 - Migrating Linux workloads to the Cloud.  This repository is a subset of the Azure Linux Migration Workshop program which was delivered by the GBB team in FY18.  The intent of this workshop is to provide hands-on experience with:
+<img src="../images/las-vegas-sign-md.png" align="right">This repository contains practical exercises for the Microsoft Ready Workshop, AIP-CI312 - Migrating Linux workloads to the Cloud.  This repository is a subset of the Azure Linux Migration Workshop program which was delivered by the GBB team in FY18.  The intent of this workshop is to provide hands-on experience with:
 
 * Working with the Azure Linux CLI
 * Migrating a virtual machine to Azure using CloudEndure
