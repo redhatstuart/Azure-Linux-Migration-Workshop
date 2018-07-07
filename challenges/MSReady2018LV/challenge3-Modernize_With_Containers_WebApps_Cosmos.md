@@ -20,7 +20,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
     * Access the NodeJS application by visiting ```http://<SOURCE-VM-IP-ADDRESS>```
 
-      ![Access Blank NodeJS MongoDB](./images/source-node-app-blank.png)
+      ![Access Blank NodeJS MongoDB](../images/source-node-app-blank.png)
 
 <hr>
 
@@ -30,7 +30,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Feel free to add as many/few lines of data into the database as you see fit
 
-      ![Populate Source NodeJS MongoDB](./images/source-node-app-populated.png)  
+      ![Populate Source NodeJS MongoDB](../images/source-node-app-populated.png)  
 
 <hr>
 
@@ -42,7 +42,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
     * After the test is completed, this should reflect in the "Machines" tab
 
-      ![Verify Test Complete](./images/ceagentinstall-7.jpg)
+      ![Verify Test Complete](../images/ceagentinstall-7.jpg)
 
 <hr>
 
@@ -58,7 +58,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Verify that the NodeJS application is still available on the migrated host which now exists in Azure and contains all of the data you've published to it.  Visit ```http://<MIGRATED-IP-ADDRESS>``` (this may take a few moments to become live after the virtual machine is started)
 
-      ![Populate Migrated NodeJS MongoDB](./images/migrated-node-app-running.png)
+      ![Populate Migrated NodeJS MongoDB](../images/migrated-node-app-running.png)
 
 <hr>
 
@@ -69,7 +69,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Be sure to perform this action on the <strong>NEWLY MIGRATED VIRTUAL MACHINE</strong> which you just viewed and <STRONG>NOT</STRONG> the source virtual machine (192.168.122.x). At this point, we will no longer make use of the <strong>source</strong> "migrate-host" virtual machine running inside your Linux desktop that you just migrated.
 
-      ![Populate Source NodeJS MongoDB](./images/migrated-node-app-populated.png)
+      ![Populate Source NodeJS MongoDB](../images/migrated-node-app-populated.png)
 
 <hr>
 
@@ -97,7 +97,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
  
    * Verify in your browser that the NodeJS application in Azure is no longer reachable and produces an error when you try to access it
 
-      ![Unable To Connect](./images/migrated-node-app-unable-to-connect.png)
+      ![Unable To Connect](../images/migrated-node-app-unable-to-connect.png)
 
 <hr>
 
@@ -106,13 +106,13 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Run the newly created container locally to test it:  ```docker run -d -e MONGO_DBCONNECTION=mongodb://172.17.0.1:27017/nodejs-todo -p 80:80 --name=nodejs-todo ossdemo/nodejs-todo```
 
-      ![Run Container](./images/docker-container-running.png)
+      ![Run Container](../images/docker-container-running.png)
 
    * Using your Firefox browser on your Linux desktop, navigate to ```http://<MIGRATED-IP-ADDRESS>``` to verify the NodeJS application is once again running on the newly-migrated Azure virtual machine. It is now running inside of a Docker container on the virtual machine you've migrated to Azure, however it is still making use of the local MongoDB for its data.
 
    * Feel free to add additional content if you wish.
 
-      ![Verify Container](./images/docker-container-verified.png)
+      ![Verify Container](../images/docker-container-verified.png)
 
 <hr>
 
@@ -125,11 +125,11 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Create the registry: ```az acr create -n <ACR_NAME> -g <YOUR_RG> -l <YOUR_DC> --admin-enabled true --sku Basic```
 
-      ![Create ACR](./images/acr-created.png)
+      ![Create ACR](../images/acr-created.png)
 
    * Determine the password which Azure has assigned to your ACR:  ```az acr credential show -n <ACR_NAME> --query passwords[0].value```
 
-      ![Show ACR Passwd](./images/acr-show-passwd.png)
+      ![Show ACR Passwd](../images/acr-show-passwd.png)
 
    * Returning back to the virtual machine which you've migrated to Azure, tag the docker image using the name you set for the ACR:  ```docker tag ossdemo/nodejs-todo <ACR_NAME>.azurecr.io/ossdemo/nodejs-todo```
  
@@ -137,7 +137,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * Push the container you have built and tested to the ACR:  ```docker push <ACR_NAME>.azurecr.io/ossdemo/nodejs-todo```
 
-      ![Push Container](./images/acr-container-pushed.png)
+      ![Push Container](../images/acr-container-pushed.png)
 
 <hr>
 
@@ -152,7 +152,7 @@ At the end of the challenge, you should have the front-end NodeJS application ru
 
    * In order for the to-be-created Azure Web App to connect to this CosmosDB we will need to determine what the connection string variable will be. This will also provide the password we will use to connect to the database. Use the Azure Linux CLI to determine what this is:  ```az cosmosdb list-connection-strings -g <YOUR_RG> -n <COSMOS_NAME> --query connectionStrings[].connectionString```
  
-   ![CosmosDB Password](./images/cosmos-db-password.jpg)
+   ![CosmosDB Password](../images/cosmos-db-password.jpg)
 
    * Returning back to the virtual machine which you've migrated to Azure, export the data from your existing MongoDB to a JSON flat-file:  ```mongoexport --db nodejs-todo --collection todos --out todos.json```
 
@@ -160,7 +160,7 @@ To perform the CosmosDB import, the password you will need to enter is provided 
 
    * Import the data from the JSON flat-file to CosmosDB:  ```mongoimport -h <COSMOS_NAME>.documents.azure.com:10255 -u <COSMOS_NAME> -p <PASSWORD> --ssl --sslAllowInvalidCertificates -d admin -c todos --file=todos.json --type=json``` and look for output similar to this:
 
-   ![CosmosDB Import Success](./images/cosmos-db-import.jpg)
+   ![CosmosDB Import Success](../images/cosmos-db-import.jpg)
 
 <hr>
 
@@ -173,7 +173,7 @@ To perform the CosmosDB import, the password you will need to enter is provided 
 
    * Create the App Service Plan: ```az appservice plan create -g <YOUR_RG> -n webtier-plan --is-linux --number-of-workers 1 --sku S1 -l <YOUR_DC>```
 
-   ![Create App Service Plan](./images/appservice-create-1.jpg)
+   ![Create App Service Plan](../images/appservice-create-1.jpg)
 
    * Create the Azure Web Application:  ```az webapp create -g <YOUR_RG> -p webtier-plan -n <WEBAPP_NAME> -i ossdemo/nodejs-todo```
 
@@ -187,7 +187,7 @@ To perform the CosmosDB import, the password you will need to enter is provided 
 
    * Update the Azure Web App with the CosmosDB Connection String: ```az webapp config appsettings set -n <WEBAPP_NAME> -g <YOUR_RG> --settings MONGO_DBCONNECTION=<ENTIRE_OUTPUT_OF_MONGO_CONNECTION_STRING>```
 
-      ![WebApp Configured](./images/azure-webapp-configured.png)
+      ![WebApp Configured](../images/azure-webapp-configured.png)
 
 <hr>
 
@@ -197,4 +197,4 @@ The application will take a few minutes to update and become live.  When it does
 
 You have now modernized the workload which was being served from the migrate-host virtual machine. The virtual machine itself is no longer necessary.  If this had been a production environment, you would now be able to recoup the cost of the OS license, Human capital required to manage/patch the OS, Management server licenses, and the cost of hosting the virtual machine / hypervisor itself. 
 
-![WebApp Deployed](./images/azure-webapp-deployed.png)
+![WebApp Deployed](../images/azure-webapp-deployed.png)
