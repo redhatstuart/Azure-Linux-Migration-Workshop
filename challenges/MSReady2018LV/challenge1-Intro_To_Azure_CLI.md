@@ -2,7 +2,7 @@
 
 ## Expected outcome
 
-In this lab, you will prepare your workstation VM for using the Azure CLI, sign in, and utilize the Azure CLI to deploy basic Azure resources. You will need to have a browser client on your local PC and access to the web to launch our Hackfest Workstation VM.
+In this lab, you will install the Azure Linux CLI on your workstation.  Subsequently, you will sign in and verify access to your Azure subscription.
 
 ## How to 
 
@@ -52,50 +52,5 @@ In this lab, you will prepare your workstation VM for using the Azure CLI, sign 
 
  * The password is a onetime password and must be changed at first signing in
  * Your terminal windows will update with a JSON output of your subscription confirming the login has worked
+ * If you wish, you may use the ``az configure`` command to change your default output to <strong>3 - Table</strong> format
 
-<hr>
-5. <strong>Navigate the portal and find Azure resources</strong>
-
-   * Go to ``https://portal.azure.com`` and sign in using your credentials provided
-   * Navigate to resource groups on the left hand side, and locate the resource group previously created for you or display them through your shell window
-   * Note the region in which the resource group is located
- 
-   ![Azure Portal](../images/portalrg.png)
-
-<hr>
-6. <strong>Configure Azure CLI Defaults</strong>
-
- * Run ``az vm list -d`` to verify that your output is currently using JSON
- * Configure AZ CLI to default to table output
- * Run ``az vm list -d`` again to check that the output is now using the table format
- * Configure AZ CLI to use the same default location as your resource groups and verify
-
-      ![Default Location](../images/defaultloc.png)
-
-<hr>
-7. <strong>Determine the commands for creating storage accounts using the AZ CLI find command</strong>
-
- * Use the ``az find`` command along with the necessary options to understand how to create a az storage command
- * Use the --search-query option to help in your search
- 
- ![azfind](../images/azfind.png)
-
-<hr>
-8. <strong>Log into interactive mode and create a new Azure storage account using the AZ CLI</strong>
-
- * Make the storage account use Standard Locally Rundandant Storage
- * Name the storage account in the following format:   "firstnamelastnamebirthyear", example, "stuartkirk1975"
- * Create the storage account in the resource group you previously identified
- * Create a blob container within this storage account
- 
- ![azinteractive](../images/azinteractive.png)
-
-<hr>
-9. <strong>Verify you have now created the storage account in the portal</strong>
-
- * If not done so already, visit ``https://portal.azure.com``
-
-## Advanced areas to explore
-
-1. If you have time, explore using the Azure Cloud Shell [Azure Portal](https://portal.azure.com). 
-2. Try creating your own Azure virtual network using the Azure CLI Cloud Shell
