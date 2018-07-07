@@ -39,18 +39,17 @@ In this lab, you will install the Azure Linux CLI on your workstation.  Subseque
 3. <strong>Install Azure CLI (AZ CLI) on your workstation</strong>
 
  * Azure CLI is available for Mac, Windows and Linux.
- * You will need administrator access to install Azure CLI. You can switch user to root with ``su``. The password is the same as you used to login to the VNC environment.
+ * You will need administrator access to install Azure CLI. You can switch user to root with ``su - root``. The password is the same as you used to login to the VNC environment.
  * You can find installation instructions here: [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-yum?view=azure-cli-latest)
  * It is recommended you open reference material like the Azure CLI reference within your VNC environment so you can easily copy/paste commands.
 
 <hr>
-4. <strong>Log in to your student Azure account via the CLI</strong>
+4. <strong>Log in to your Azure account via the CLI</strong>
 
- * Use ``az login`` to login to your lab Azure Account. You will be asked to visit ``https://aka.ms/devicelogin`` and use the provided code to authenticate. On your desktop, open the credentials.txt file to obtain the list of credentials which have been assigned to you.
+ * Use ``az login`` to login to your Azure Account. If a new Firefox window does not appear, please visit ``http://microsoft.com/devicelogin`` and use the provided code to authenticate. On your desktop, open the credentials.txt file to obtain the list of credentials which have been assigned to you.
 
 ![Azure Credentials](../images/azcred2.png)
 
- * The password is a onetime password and must be changed at first signing in
- * Your terminal windows will update with a JSON output of your subscription confirming the login has worked
+ * After logging in, your terminal windows will update with a JSON output of your subscription confirming the login has worked
  * If you wish, you may use the ``az configure`` command to change your default output to <strong>3 - Table</strong> format
 
