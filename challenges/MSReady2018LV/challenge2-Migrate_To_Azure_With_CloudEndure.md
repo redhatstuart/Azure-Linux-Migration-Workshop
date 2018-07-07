@@ -153,4 +153,4 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
 <hr>
 
-You have now migrated your "migrate-host" virtual machine to Microsoft Azure and it is now running within Azure environment.  Continue on to Challenge 4 where we will moderize the applications running inside this virtual machine.
+You have now migrated your "migrate-host" virtual machine to Microsoft Azure and it is now running within Azure environment.  Continue on to Challenge 3 where we will moderize the applications running inside this virtual machine.
