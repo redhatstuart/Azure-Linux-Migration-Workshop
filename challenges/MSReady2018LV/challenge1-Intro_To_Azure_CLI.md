@@ -52,6 +52,6 @@ In this lab, you will install the Azure Linux CLI on your workstation.  Subseque
 
 ![Azure Credentials](../images/azcred2.png)
 
- * After logging in, your terminal windows will update with a JSON output of your subscription confirming the login has worked
+ * After logging in, your terminal window will update with the JSON output of your subscription confirming the login was successful
  * If you wish, you may use the ``az configure`` command to change your default output to <strong>3 - Table</strong> format
 
