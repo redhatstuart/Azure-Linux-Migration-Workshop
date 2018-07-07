@@ -6,7 +6,7 @@ In this lab, you will install the Azure Linux CLI on your workstation.  Subseque
 
 ## How to 
 
-1. <strong>Using your browser go to the Registration Site [here](http://bit.ly/2NwOzo3).</strong>
+1. <strong>Using your browser go to the Registration Site [here](http://bit.ly/2NwOZo3).</strong>
     * Please make sure you use a valid work email as it will not allow for commercial e-mail domains.
 
 ![SignUp](../images/signup.png)
