@@ -46,7 +46,9 @@ In this lab, you will install the Azure Linux CLI on your workstation.  Subseque
 <hr>
 4. <strong>Log in to your Azure account via the CLI</strong>
 
- * Use ``az login`` to login to your Azure Account. If a new Firefox window does not appear, please visit ``http://microsoft.com/devicelogin`` and use the provided code to authenticate. On your desktop, open the credentials.txt file to obtain the list of credentials which have been assigned to you.
+ * Use ``az login`` to login to your Azure Account.
+ * If a new Firefox window does not appear, please visit ``http://microsoft.com/devicelogin`` and use the provided code to authenticate.
+ * On your desktop, open the credentials.txt file to obtain the list of credentials which have been assigned to you.
 
 ![Azure Credentials](../images/azcred2.png)
 
