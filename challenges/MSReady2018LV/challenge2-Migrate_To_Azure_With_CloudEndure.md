@@ -66,7 +66,7 @@ The source host to be migrated can be an on-premise physical host, a virtual mac
 
       ![Populate Blank Replication Settings](../images/cerepsettings-1.jpg)
 
-    * In this case, "East US 2" was chosen. After the Azure Data Center is chosen, you may specify which existing virtual network you would like the migrated hosts to be connected to.  In this case, the populated value of <strong>Default</strong> can remain.
+    * In this case, "East US 2" was chosen (however you will choose either "East US" or "Central US"). After the Azure Data Center is chosen, you may specify which existing virtual network you would like the migrated hosts to be connected to.  In this case, the populated value of <strong>Default</strong> can remain.
 
       ![Populated Replication Settings](../images/cerepsettings-2.jpg)
 
