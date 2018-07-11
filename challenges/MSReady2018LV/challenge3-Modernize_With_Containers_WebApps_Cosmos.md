@@ -10,6 +10,16 @@ As part of this challenge, you will take the front-end NodeJS application and co
 
 At the end of the challenge, you should have the front-end NodeJS application running as a container inside Azure Web Apps, and the back-end database running in CosmosDB thus removing the need for the virtual machine to exist. This modernization effort is a valid next step in cloud transformation and adoption as workloads are abstracted and migrated to PaaS offerings.
 
+This challenge will require you to switch between entering commands on three hosts:  
+
+* Your migrate-host VM (192.168.122.x)
+
+* The VM which you've migrated to Azure (Azure IP)
+
+* The Azure Linux CLI (located on your base Linux desktop VM where you installed it)
+
+For ease, it is recommended that you have multiple shell windows open so that you can quickly paste commands into the appropriate shell window when directed to do so.
+
 ## Process
 
 1. <strong>Access the running NodeJS application on the source "migrate-host" virtual machine</strong>
