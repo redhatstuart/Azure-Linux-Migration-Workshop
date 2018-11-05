@@ -26,7 +26,7 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
 
     * az vm image list --publisher OpenLogic --all
 
-6. <strong>Determine the variables required to provision a new CentOS 7.4 virtual machine using the latest non-LVM-based image</strong>
+6. <strong>Determine the variables required to provision a new CentOS 7.5 virtual machine using the latest non-LVM-based image</strong>
 
     * YOUR_RG_NAME = The name of the resource group you have been assigned
     * YOUR_VM_NAME = The name of your virtual machine - Use any name you wish
@@ -34,7 +34,7 @@ This challenge will serve as an extension to Challenge 1.  As part of this chall
 
 7. <strong>Build the VM (You will be prompted for a password to use)</strong>
 
-    * az vm create --resource-group YOUR_RG_NAME --name YOUR_VM_NAME --image OpenLogic:CentOS:7.4:7.4.20171110 --authentication-type password --storage-sku Standard_LRS --size Basic_A0 --admin-username USERNAME
+    * az vm create --resource-group YOUR_RG_NAME --name YOUR_VM_NAME --image OpenLogic:CentOS-LVM:7-LVM:7.5.20180823 --authentication-type password --storage-sku Standard_LRS --size Basic_A0 --admin-username USERNAME
 
 8. <strong>Verify connectivity to the new virtual machine</strong>
 

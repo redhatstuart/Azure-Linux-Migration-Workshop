@@ -2,7 +2,7 @@
 
 ## Expected Outcome
 
-This challenge provides a path to modernize the application running on the virtual machine which was migrated in the "CloudEndure Challenge 2" exercise.
+This challenge provides a path to modernize the application running on the virtual machine which was migrated in the "CloudEndure Challenge 3" exercise.
 
 Inside the "migrate-host" virtual machine on your Linux desktop, there is a NodeJS application running and exposed on port 80. It connects to a locally running instance of MongoDB on "migrate-host" to store its data.
 
