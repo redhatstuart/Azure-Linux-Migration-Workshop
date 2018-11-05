@@ -20,7 +20,7 @@ echo Creating resource group $RG_NAME
 az group create -n $RG_NAME -l $AZURE_DC
 echo "**************************************************************"
 echo "Creating source host #$COUNTER virtual machine in resource group $RG_NAME"
-az vm create --resource-group $RG_NAME --name $NEWHOST --image OpenLogic:CentOS-LVM:7-LVM:7.4.20170925 --public-ip-address-dns-name $NEWHOST --authentication-type password --storage-sku Standard_LRS --size Standard_E4_v3 --admin-username lsadmin --admin-password LiftShift123!
+az vm create --resource-group $RG_NAME --name $NEWHOST --image OpenLogic:CentOS-LVM:7-LVM:7.5.20180823 --public-ip-address-dns-name $NEWHOST --authentication-type password --storage-sku Standard_LRS --size Standard_E4_v3 --admin-username lsadmin --admin-password LiftShift123!
 echo "**************************************************************"
 echo "Creating NSG rule to allow inbound SSH requests on port 2112"
 az network nsg rule create --resource-group $RG_NAME --nsg-name $NSG --name allow-ssh2112 --description "Allow SSH Port 2112" --access Allow --protocol Tcp --direction Inbound --priority 110 --source-address-prefix "*" --source-port-range "*" --destination-address-prefix "*" --destination-port-range "2112"
